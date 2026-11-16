@@ -1,0 +1,58 @@
+{
+  "schema": "chroniken-canon-checkpoint-v2",
+  "source": "Chronologischer Abgleich des Solo-RPG-Spielverlaufs bis 2026-11-15, später als das Archiv vom 13.11.",
+  "as_of": "2026-11-15 10:55 (letzter überprüfbarer Spielcheckpoint)",
+  "campaign": "Johanna Reborn",
+  "location": "Gemeinsamer Hof bei Falkenried",
+  "next_action_status": "Noch keine der drei zuletzt angebotenen Optionen gewählt.",
+  "last_completed": "Für die Beete wurde eine Gießkanne für 7 Silber aus der Hofkasse gekauft.",
+  "open_choices": [
+    "Regentonne und Dachrinne für angebotene 17 Silber anschaffen (noch nicht gekauft).",
+    "Mit Rika einen bezahlten Tagesauftrag suchen und das Geld für den Hof schonen.",
+    "Nachsehen, ob das Badehaus zugänglich ist, und den vereinbarten Inventurauftrag mit Heda beginnen."
+  ],
+  "finances": {
+    "johanna_personal_silver": 217,
+    "hof_fund_silver": 33,
+    "rika_contribution_in_hof_fund": 10,
+    "rika_target_for_fifth_share": 100,
+    "bathhouse_contract_total_silver": 60,
+    "bathhouse_shares_silver": {
+      "Johanna": 20,
+      "Wenke": 20,
+      "Heda": 20
+    },
+    "bathhouse_paid": false,
+    "purchased_watering_can_silver": 7,
+    "offered_rain_barrel_materials_silver": 17,
+    "rain_barrel_purchased": false,
+    "note": "Hofkasse 33 enthält bereits Rikas 10 Silber; weder offene Auftragsvergütung noch Angebote als Einnahmen oder Ausgaben buchen."
+  },
+  "farm": {
+    "ownership": "Hof vollständig abbezahlt; Johanna, Marta, Alva und Wenke sind vier gleichberechtigte Eigentümerinnen.",
+    "rika": "Rika wohnt mit auf dem Hof; sie strebt einen fünften Eigentumsanteil für 100 Silber an. 10 Silber wurden bereits eingezahlt.",
+    "rooms_and_work": "Wohnhaus, Martas Werkbank, Wenkes Schuppenplatz, Rikas Zimmer, Übungsplatz, Hofbank und ein angelegtes Beet.",
+    "garden": "Bohnen sind aufgelaufen; Bewässerung geplant, Gießkanne gekauft. Regentonne/Dachrinne nur angeboten.",
+    "animals": "Kiesel begleitet die Gruppe; Tierfutter für 10 Silber wurde zuvor aufgefüllt.",
+    "alva": "Alvas Musikspielwerk spielt die vier Töne aus dem Andenken an ihre Mutter mit der charakteristischen Pause; bei der Fertigstellung des Gehäuses weichen ältere Beschreibungen ab.",
+    "birdbath": "Spatzen-Tränke am Hof noch nicht abschließend als fertig belegt."
+  },
+  "party": [
+    "Johanna",
+    "Marta Eisenklang",
+    "Alva",
+    "Wenke",
+    "Rika Dorn"
+  ],
+  "companion_notes": {
+    "Johanna": "21, 175 cm, rot, schulterlanges Haar, Gepardenmerkmale, verziertes Messer/Sax und grauer Umhang. Nach vier Wochen Training Rang 2 im Messerkampf; übrige aktuelle Attributwerte unbestätigt.",
+    "Marta": "140 cm, Zwergin, Hammer und Erste Hilfe; Miteigentümerin des Hofs.",
+    "Alva": "110 cm, Goblin-Technikerin; Miteigentümerin; Musikspielwerk ihrer Mutter.",
+    "Wenke": "190 cm, steingrauhaarige Steinmetzin; Miteigentümerin; 20 Silber als Badehausvergütung erst nach Auftragsabschluss.",
+    "Rika": "Blonder Bob, Narbe, hervorragende Schwertkämpferin, Mitbewohnerin und Interessentin an einem fünften Hofanteil.",
+    "Kiesel": "Freiwilliger tierischer Begleiter. Älteres Archiv bezeichnet ihn als Stollenwühler; neuere Bild-/Tierkorrekturen sind nicht abschließend harmonisiert."
+  },
+  "original_archive": "archiv/johanna_2026-11-13_original.json",
+  "archive_status": "Historische Quelle, NICHT gegen neueren Stand austauschen.",
+  "maps": "Vier vorhandene Karten sind ältere Entwürfe. Für den aktuellen Hof bei Falkenried liegt hier keine bestätigte neuere Karte vor; ältere Pläne bleiben als Entwürfe markiert."
+}
