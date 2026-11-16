@@ -18,6 +18,12 @@
 
 
 .map-choice{display:block;width:100%;max-width:420px;padding:.65rem;background:#192230;color:#e8e7dd;border:1px solid #536074;border-radius:7px;margin:.6rem 0 1rem}.archive-section{margin-top:1.25rem}.archive-section details{margin:.45rem 0;border:1px solid #475263;border-radius:7px;padding:.6rem}.archive-section pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.78rem;color:#cbd1d6}.current-map{outline:2px solid #c69f65}.map-pending{padding:2rem;text-align:center;border:1px dashed #88785f;border-radius:8px}.save-warning{border-color:#b18a61}
+
+.ai-panel label{display:block;margin-top:1rem;font-weight:600;color:#e5c592}
+.ai-panel input{width:100%;max-width:640px;background:#131c29;color:#f0ece2;border:1px solid #596779;border-radius:8px;padding:.78rem;margin-top:.45rem;font-size:1rem}
+.ai-panel input:focus{outline:2px solid #c9a56e}
+.ai-panel .button-stack{margin-top:1rem}
+#forceManual{display:block;margin-top:.6rem;font-size:.85rem}
 </style>
   <title>Chroniken · Lebendige Welten</title>
 </head>
@@ -45,14 +51,27 @@
       <section class="tab-content" id="tab-story">
         <div class="panel scene-card"><div class="eyebrow">FALKENRIED · LETZTER BESTÄTIGTER STAND 15.11.2026</div><h2>Ein Morgen auf dem Hof.</h2><p>Johanna, Marta, Alva und Wenke besitzen den vollständig abbezahlten Hof gemeinsam. Rika wohnt bei ihnen. Im Beet sprießen Bohnen. Eine Gießkanne für 7 Silber wurde aus der Hofkasse gekauft. Das Angebot für eine Regentonne ist noch offen.</p><p class="muted small">Keine neue Entscheidung ist erfolgt. Wähle erst, wie Johanna weitermacht. Der ältere Hohenrain-Stand bleibt als historische Quelle erhalten.</p></div>
         <div id="storyEntries" class="story-entries" aria-live="polite"></div>
-        <div class="panel action-panel"><div class="between"><h2>Nächster Zug</h2><span id="playStatus" class="muted small">Kein Spielzug ausgeführt</span></div><div id="choiceList" class="choices"></div><textarea id="freeAction" rows="4" maxlength="2000" placeholder="Was soll Johanna tun? Schreibe deine Handlung frei …" aria-label="Eigene Spielhandlung"></textarea><button id="submitAction" class="primary" type="button">Handlung erzählen lassen</button><div id="manualBridge" class="panel manual-bridge" hidden><h3>KI-Antwort übernehmen</h3><p>Der Text für ChatGPT oder Gemini ist vorbereitet. Kopiere ihn, lass dir die Fortsetzung als JSON erstellen und füge die Antwort hier ein. Erst beim Übernehmen wird dein Spielstand geändert.</p><textarea id="handoffPrompt" rows="5" readonly aria-label="Kopierbarer KI-Kontext"></textarea><div class="button-stack"><button type="button" id="copyPrompt" class="primary">KI-Kontext kopieren</button><div class="handoff-links"><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT öffnen</a><a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer">Google AI Studio öffnen</a></div></div><label class="manual-label" for="handoffResponse">KI-Antwort (JSON)</label><textarea id="handoffResponse" rows="8" placeholder="Hier die JSON-Antwort aus ChatGPT oder Gemini einfügen …"></textarea><button type="button" id="importResponse" class="primary">Erzählung prüfen und übernehmen</button><button type="button" id="cancelHandoff" class="subtle">Abbrechen</button></div><div id="playError" role="alert" class="error" hidden></div></div>
+        <div class="panel action-panel"><div class="between"><h2>Nächster Zug</h2><span id="playStatus" class="muted small">Kein Spielzug ausgeführt</span></div><div id="choiceList" class="choices"></div><textarea id="freeAction" rows="4" maxlength="2000" placeholder="Was soll Johanna tun? Schreibe deine Handlung frei …" aria-label="Eigene Spielhandlung"></textarea><button id="submitAction" class="primary" type="button">Handlung erzählen lassen</button><button id="forceManual" type="button" class="subtle">Alternativ: KI-Text manuell übertragen</button><div id="manualBridge" class="panel manual-bridge" hidden><h3>KI-Antwort übernehmen</h3><p>Der Text für ChatGPT oder Gemini ist vorbereitet. Kopiere ihn, lass dir die Fortsetzung als JSON erstellen und füge die Antwort hier ein. Erst beim Übernehmen wird dein Spielstand geändert.</p><textarea id="handoffPrompt" rows="5" readonly aria-label="Kopierbarer KI-Kontext"></textarea><div class="button-stack"><button type="button" id="copyPrompt" class="primary">KI-Kontext kopieren</button><div class="handoff-links"><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT öffnen</a><a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer">Google AI Studio öffnen</a></div></div><label class="manual-label" for="handoffResponse">KI-Antwort (JSON)</label><textarea id="handoffResponse" rows="8" placeholder="Hier die JSON-Antwort aus ChatGPT oder Gemini einfügen …"></textarea><button type="button" id="importResponse" class="primary">Erzählung prüfen und übernehmen</button><button type="button" id="cancelHandoff" class="subtle">Abbrechen</button></div><div id="playError" role="alert" class="error" hidden></div></div>
         <div class="panel"><h3>Würfelprobe · 2W10</h3><div class="dice-controls"><select id="difficulty" aria-label="Schwierigkeit"><option value="11">Leicht · 11</option><option value="14" selected>Normal · 14</option><option value="17">Schwer · 17</option><option value="20">Sehr schwer · 20</option></select><label><input type="checkbox" id="knife"> Messer/Sax (+2)</label><button id="rollDice" type="button">Würfeln</button></div><p class="small muted">Unbekannte Attributboni werden nicht erfunden, sondern mit 0 als vorläufigem Bonus behandelt.</p><p id="diceResult" class="dice-result"></p></div>
       </section>
       <section class="tab-content" id="tab-characters" hidden><h2>Gefährten und Figuren</h2><div id="characterList" class="entry-grid"></div></section>
       <section class="tab-content" id="tab-world" hidden><h2>Weltgedächtnis</h2><div id="worldList"></div></section>
       <section class="tab-content" id="tab-chronicle" hidden><h2>Die Chronik</h2><p class="muted small">Neuester Stand: Falkenried, 15.11.2026. Die frühere Teilchronik wurde bis zum 14.11.2026 aktualisiert und ist nicht mehr der aktuelle Spielstand.</p><div id="historyList"></div><details class="panel" id="archivedCanon"><summary><strong>Originalarchiv vom 14.11.</strong> · 124 Festlegungsbereiche, 26 Sitzungsnotizen, 52 Änderungen</summary><p class="muted small">Historische Quelle. Spätere Entscheidungen haben Vorrang. Alte offene Punkte können inzwischen geklärt sein.</p><div id="archiveFacts">Zum Laden öffnen.</div><p><a href="./archiv/johanna_2026-11-14_v0_2_2.json" target="_blank" rel="noopener">Vollständiges historisches JSON-Archiv ansehen</a></p></details></section>
       <section class="tab-content" id="tab-gallery" hidden><h2>Referenzbilder und Karten</h2><p class="muted">Die vier enthaltenen Karten sind ältere Entwürfe, nicht der neueste Stand. Für den inzwischen vollständig abbezahlten Hof bei Falkenried liegt kein bestätigter neuer Lageplan vor. Du kannst die aktuelle Fassung einer Karte auf diesem Gerät hinterlegen. Originalentwürfe bleiben erhalten.</p><div class="panel"><label for="mapSlot">Karte, die du aktualisieren willst</label><select id="mapSlot" class="map-choice"><option value="eichenmark">Eichenmark</option><option value="silberklamm">Silberklamm – Stadt</option><option value="umgebung">Umgebung Silberklamm</option><option value="stollen">Alter Minenschacht</option><option value="falkenried-hof">Hof bei Falkenried</option></select><label class="upload">Neue Kartenversion vom Gerät hinzufügen <input id="mapReplace" type="file" accept="image/png,image/jpeg,image/webp" /></label><p class="muted small">Aktuelle Kartenversionen liegen nur im Browser dieses Geräts. Sie sind nicht im JSON-Backup enthalten. Bewahre Originaldateien separat auf.</p></div><div id="mapGallery" class="gallery-grid"></div><h3>Eigene Charakterbilder</h3><label class="upload">Bild vom Gerät hinzufügen <input id="imagePicker" type="file" accept="image/png,image/jpeg,image/webp" /></label><div id="uploadedGallery" class="gallery-grid"></div></section>
-      <section class="tab-content" id="tab-settings" hidden><h2>Datensicherung</h2><p class="muted">Dieses startfähige Paket speichert neue Spielzüge nur in deinem Browser. Es ist absichtlich keine Firebase-Datenbank nötig. Neue Spielzüge bleiben auf diesem Gerät. Exportiere regelmäßig ein JSON-Backup. Für automatische KI braucht die Node-Version einen serverseitigen Gemini-Schlüssel; die kostenlose manuelle Übergabe funktioniert auch ohne Schlüssel.</p><div class="button-stack"><button id="backup" class="primary">Spielstand als JSON exportieren</button><label class="upload">Spielstand als JSON importieren <input type="file" id="restore" accept="application/json,.json" /></label><button id="reset" class="danger">Lokale Fortsetzung zurücksetzen</button></div><div id="settingsError" class="error" role="alert" hidden></div></section>
+      <section class="tab-content" id="tab-settings" hidden>
+  <h2>KI-Spielleiter direkt in der App</h2>
+  <div class="panel ai-panel">
+   <p>Für automatisches Spielen ohne Kopieren ist eine einmalige sichere KI-Verbindung nötig. Die kostenlose Variante verwendet einen Cloudflare Worker als Vermittler zu Gemini. <strong>Den Gemini-API-Schlüssel niemals hier eingeben.</strong></p>
+   <label for="workerUrl">Deine Cloudflare-Worker-Adresse</label>
+   <input id="workerUrl" type="url" inputmode="url" autocomplete="off" placeholder="https://chroniken-ki.DEIN-NAME.workers.dev" />
+   <label for="workerToken">Zugangscode, den du in Cloudflare als Secret gespeichert hast</label>
+   <input id="workerToken" type="password" autocomplete="off" placeholder="Mindestens 20 Zeichen" />
+   <p class="muted small">Adresse und Zugangscode bleiben nur im Browser dieses Gerätes. Der Zugangscode ist nicht dein Google-API-Schlüssel. Beim Spielen gehen der Spielkontext und deine Aktionen an deinen Worker und Gemini.</p>
+   <div class="button-stack"><button id="saveWorker" class="primary" type="button">KI-Verbindung speichern und prüfen</button><button id="clearWorker" class="subtle" type="button">KI-Verbindung entfernen</button></div>
+   <p id="workerStatus" class="muted small" role="status">Noch keine automatische KI-Verbindung gespeichert.</p>
+   <p class="muted small"><a href="https://github.com/andyneuling-rgb/chroniken-rpg/blob/main/server/ANLEITUNG.md" target="_blank" rel="noopener">Schritt-für-Schritt-Anleitung öffnen</a></p>
+  </div>
+  <h2>Datensicherung</h2><p class="muted">Die Geschichte und deine Bilder bleiben lokal auf diesem Gerät. Exportiere regelmäßig ein JSON-Backup, besonders vor einem Gerätewechsel oder dem Löschen von Safari-Daten. Ohne KI-Verbindung kannst du weiterhin die manuelle Übergabe nutzen.</p><div class="button-stack"><button id="backup" class="primary">Spielstand als JSON exportieren</button><label class="upload">Spielstand als JSON importieren <input type="file" id="restore" accept="application/json,.json" /></label><button id="reset" class="danger">Lokale Fortsetzung zurücksetzen</button></div><div id="settingsError" class="error" role="alert" hidden></div></section>
     </section>
   </main>
   <footer>Chroniken · Eigener Spielstand · Keine stillen Änderungen an Silber, Beziehungen oder Aufträgen</footer>
@@ -208,17 +227,73 @@ async function loadArchiveOnDemand(){
   }
  }catch(e){t.textContent="Archiv aktuell nicht abrufbar: "+e.message;}
 }
-async function status(){
- try{
-  const res=await fetch('./api/status',{cache:'no-store'});
-  if(!res.ok)throw new Error('Kein lokaler API-Endpunkt');
-  const s=await res.json();online=Boolean(s.configured);
- }catch{online=false;}
- $('connection').textContent=online?'Gemini-Key hinterlegt (Test steht aus)':'KI per Kopieren / Einfügen';
- $('connection').classList.toggle('good',online);
- if(!online){$('connection').title='Keine Firebase-Datenbank und kein Gemini-Schlüssel nötig: Kopiere den KI-Kontext nach ChatGPT oder AI Studio.';}
+
+const AI_SETTINGS_STORE = "chroniken-ai-worker-v1";
+function readAISettings() {
+ try {
+  const data = JSON.parse(localStorage.getItem(AI_SETTINGS_STORE)||"null");
+  return data && typeof data.url === "string" && typeof data.token === "string" ? data : null;
+ } catch { return null; }
+}
+function currentWorker() {
+ const cfg = readAISettings();
+ if (!cfg || !cfg.url.startsWith("https://") || cfg.token.length < 20) return null;
+ return cfg;
+}
+function showAISettings() {
+ const cfg = readAISettings();
+ $("workerUrl").value = cfg?.url || "";
+ $("workerToken").value = cfg?.token || "";
+}
+async function saveAISettings() {
+ const url = $("workerUrl").value.trim().replace(/\/+$/,"");
+ const token = $("workerToken").value.trim();
+ try {
+  const parsed = new URL(url);
+  if (parsed.protocol !== "https:" || parsed.username || parsed.password || parsed.search || parsed.hash) throw Error("Bitte die HTTPS-Adresse deines eigenen Workers eingeben.");
+  if (token.length < 20 || token.length > 250) throw Error("Der Zugangscode braucht mindestens 20 Zeichen und höchstens 250 Zeichen.");
+  localStorage.setItem(AI_SETTINGS_STORE,JSON.stringify({url,token}));
+  $("workerStatus").textContent="Einstellungen gespeichert. Verbindung wird getestet …";
+  await status();
+ } catch (e) {
+  $("workerStatus").textContent=e.message;
+ }
+}
+async function forgetAISettings() {
+ localStorage.removeItem(AI_SETTINGS_STORE);
+ online=false;
+ showAISettings();
+ $("workerStatus").textContent="KI-Verbindung entfernt. Dein Spielstand bleibt unverändert.";
+ await status();
+}
+
+
+async function status() {
+ const cfg=currentWorker();
+ online=false;
+ if (!cfg) {
+  $("connection").textContent="KI manuell · Einrichtung unter Sichern";
+  $("connection").classList.remove("good");
+  $("workerStatus").textContent="Noch kein KI-Worker eingerichtet. Du kannst über Kopieren/Einfügen weiterspielen.";
+  renderStory();
+  return;
+ }
+ try {
+  const res=await fetch(cfg.url+"/status",{method:"GET",headers:{"X-Chroniken-Token":cfg.token},cache:"no-store",signal:AbortSignal.timeout(10000)});
+  const data=await res.json();
+  if(!res.ok || !data.configured)throw Error(data.error||"Verbindung konnte nicht bestätigt werden.");
+  online=true;
+  $("connection").textContent="KI-Server bereit · erster Erzähltest ausstehend";
+  $("connection").classList.add("good");
+  $("workerStatus").textContent="KI-Server erreichbar. Du kannst nun im Bereich Spielen eine Handlung wählen. Die echte Gemini-Erzählung wird erst mit dem ersten Spielzug getestet.";
+ } catch(e) {
+  $("connection").textContent="KI manuell · Einrichtung prüfen";
+  $("connection").classList.remove("good");
+  $("workerStatus").textContent="Noch nicht verbunden: "+(e.message||"Verbindung nicht erreichbar.")+" Der Spielstand bleibt unverändert.";
+ }
  renderStory();
 }
+
 function commitTurn(action,data){
  if(typeof data.narration!=='string'||data.narration.length<60||!Array.isArray(data.options)||data.options.length<2||data.options.length>4||data.options.some(x=>typeof x!=='string'||x.length>450))throw Error('Antwort braucht narration (min. 60 Zeichen) und 2–4 Optionen als JSON.');
  const sid=uid();
@@ -241,19 +316,32 @@ function importManual(){
  try{let raw=$('handoffResponse').value.trim();raw=raw.replace(/^```(?:json)?\s*/i,'').replace(/\s*```$/,'');const data=JSON.parse(raw);commitTurn(pendingManualAction,data);}
  catch(e){playError('KI-Antwort konnte nicht übernommen werden: '+e.message+'. Dein Spielstand ist unverändert.');}
 }
+
 async function submitTurn(action){
  if(busy)return;
- if(!action||!action.trim()){playError('Bitte eine Handlung eingeben.');return;}
- if(!online){prepareManual(action.trim());return;}
- busy=true;$('playError').hidden=true;
- $('submitAction').disabled=true;$('submitAction').textContent='KI erzählt …';$('playStatus').textContent='Gemini antwortet …';
+ if(!action||!action.trim()){playError("Bitte eine Handlung eingeben.");return;}
+ const cfg=currentWorker();
+ if(!online || !cfg){prepareManual(action.trim());return;}
+ busy=true;$("playError").hidden=true;
+ $("submitAction").disabled=true;$("submitAction").textContent="KI erzählt …";$("playStatus").textContent="Gemini antwortet …";
  try{
-  const res=await fetch('./api/play',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({campaign:'johanna',action:action.trim(),history:gameHistory()})});const data=await res.json();
-  if(!res.ok)throw Error(data.error||'Keine Antwort');
-  commitTurn(action.trim(),data);$('connection').textContent='Gemini-Antwort bestätigt';$('connection').classList.add('good');
- }catch(e){playError(e.message||'Fehler bei der KI. Spielstand unverändert.');}
- finally{busy=false;renderStory();}
+  const prompt=manualPrompt(action.trim());
+  const res=await fetch(cfg.url+"/play",{
+   method:"POST",
+   headers:{"content-type":"application/json","X-Chroniken-Token":cfg.token},
+   body:JSON.stringify({campaign:"johanna",prompt}),
+   signal:AbortSignal.timeout(120000)
+  });
+  const data=await res.json();
+  if(!res.ok)throw Error(data.error||"Keine Antwort vom KI-Server.");
+  commitTurn(action.trim(),data);
+  $("connection").textContent="Gemini-Spielleiter aktiv";$("connection").classList.add("good");
+  $("workerStatus").textContent="Gemini hat erfolgreich eine Geschichte erzeugt. Der Spielzug wurde lokal gesichert.";
+ }catch(e){
+  playError("KI-Erzählung fehlgeschlagen: "+(e.message||"Netzwerkfehler")+". Dein Spielstand wurde nicht geändert. Du kannst später erneut versuchen oder die manuelle Übertragung wählen.");
+ }finally{busy=false;renderStory();}
 }
+
 function rollDice(){const a=new Uint32Array(2);crypto.getRandomValues(a);const d1=a[0]%10+1,d2=a[1]%10+1;const knife=$('knife').checked?2:0;const dc=Number($('difficulty').value);const total=d1+d2+knife;const result=total>=dc?'Erfolg':total>=dc-3?'Teilerfolg':'Fehlschlag';const msg=`${d1} + ${d2} + ${knife} = ${total} gegen ${dc} → ${result} (Attributsbonus vorläufig 0)`;$('diceResult').textContent=msg;state.rolls.push({at:stamp(),rolls:[d1,d2],skill:knife,dc,total,result});persist();}
 function download(name,data,type='application/json'){const blob=new Blob([data],{type});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function exportState(){download('Johanna_Reborn_Spielstand_'+new Date().toISOString().slice(0,10)+'.json',JSON.stringify(state,null,2));}
@@ -261,7 +349,7 @@ async function importState(file){try{const data=JSON.parse(await file.text());if
 function indexed(){return new Promise((ok,fail)=>{const req=indexedDB.open('chroniken-local-images-v1',1);req.onupgradeneeded=()=>{req.result.createObjectStore('images',{keyPath:'id'});};req.onsuccess=()=>ok(req.result);req.onerror=()=>fail(req.error);});}
 async function addImage(file){if(!file.type.startsWith('image/')||file.size>12_000_000)throw Error('Bitte PNG/JPEG/WebP bis 12 MB wählen');const db=await indexed();const item={id:uid(),title:file.name,type:file.type,blob:file,created_at:stamp()};await new Promise((ok,fail)=>{const tx=db.transaction('images','readwrite');tx.objectStore('images').put(item);tx.oncomplete=ok;tx.onerror=()=>fail(tx.error);});db.close();await loadUploadedImages();}
 async function loadUploadedImages(){const t=$('uploadedGallery');t.replaceChildren();try{const db=await indexed();const rows=await new Promise((ok,fail)=>{const req=db.transaction('images').objectStore('images').getAll();req.onsuccess=()=>ok(req.result);req.onerror=()=>fail(req.error)});db.close();for(const row of rows){const fig=document.createElement('figure');fig.className='gallery-item';const img=document.createElement('img');const url=URL.createObjectURL(row.blob);img.src=url;img.alt=row.title;img.onload=()=>{};const cap=document.createElement('figcaption');cap.textContent=row.title+' · Nur lokal gespeichert';fig.append(img,cap);t.appendChild(fig);}}catch{t.textContent='Lokale Bildergalerie auf diesem Browser nicht verfügbar.';}}
-async function boot(){seed=CHRONIKEN_SEED;state=loadState();$('johannaSelect').addEventListener('click',showCampaign);$('back').addEventListener('click',showWorlds);for(const btn of document.querySelectorAll('[data-tab]'))btn.addEventListener('click',()=>{for(const b of document.querySelectorAll('[data-tab]'))b.classList.toggle('active',b===btn);for(const tab of document.querySelectorAll('.tab-content'))tab.hidden=tab.id!==`tab-${btn.dataset.tab}`;});$('submitAction').addEventListener('click',()=>submitTurn($('freeAction').value));$('copyPrompt').addEventListener('click',copyManual);$('importResponse').addEventListener('click',importManual);$('cancelHandoff').addEventListener('click',()=>{$('manualBridge').hidden=true;pendingManualAction=null;});$('rollDice').addEventListener('click',rollDice);$('backup').addEventListener('click',exportState);$('exportButton').addEventListener('click',exportState);$('restore').addEventListener('change',e=>{const f=e.target.files[0];if(f)importState(f);e.target.value='';});$('reset').addEventListener('click',()=>{if(confirm('Nur deine lokal neu erzählten Spielzüge löschen? Das ursprüngliche Johanna-Archiv bleibt erhalten.')){state=initialState();persist();render();}});$('mapReplace').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{await saveLatestMap(f)}catch(ex){alert(ex.message)}e.target.value='';});$('archivedCanon').addEventListener('toggle',e=>{if(e.target.open)loadArchiveOnDemand();});$('imagePicker').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{await addImage(f)}catch(ex){alert(ex.message)}e.target.value='';});render();await status();}
+async function boot(){seed=CHRONIKEN_SEED;state=loadState();$('johannaSelect').addEventListener('click',showCampaign);$('back').addEventListener('click',showWorlds);for(const btn of document.querySelectorAll('[data-tab]'))btn.addEventListener('click',()=>{for(const b of document.querySelectorAll('[data-tab]'))b.classList.toggle('active',b===btn);for(const tab of document.querySelectorAll('.tab-content'))tab.hidden=tab.id!==`tab-${btn.dataset.tab}`;});$('submitAction').addEventListener('click',()=>submitTurn($('freeAction').value));$('forceManual').addEventListener('click',()=>{const action=$('freeAction').value.trim();if(!action)playError('Bitte eine eigene Aktion eingeben oder eine der angebotenen Möglichkeiten wählen.');else prepareManual(action);});$('copyPrompt').addEventListener('click',copyManual);$('importResponse').addEventListener('click',importManual);$('cancelHandoff').addEventListener('click',()=>{$('manualBridge').hidden=true;pendingManualAction=null;});$('rollDice').addEventListener('click',rollDice);$('backup').addEventListener('click',exportState);$('exportButton').addEventListener('click',exportState);$('restore').addEventListener('change',e=>{const f=e.target.files[0];if(f)importState(f);e.target.value='';});$('reset').addEventListener('click',()=>{if(confirm('Nur deine lokal neu erzählten Spielzüge löschen? Das ursprüngliche Johanna-Archiv bleibt erhalten.')){state=initialState();persist();render();}});$('mapReplace').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{await saveLatestMap(f)}catch(ex){alert(ex.message)}e.target.value='';});$('archivedCanon').addEventListener('toggle',e=>{if(e.target.open)loadArchiveOnDemand();});$('imagePicker').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{await addImage(f)}catch(ex){alert(ex.message)}e.target.value='';});showAISettings();$('saveWorker').addEventListener('click',saveAISettings);$('clearWorker').addEventListener('click',forgetAISettings);render();await status();}
 boot().catch(err=>{console.error(err);document.body.insertAdjacentHTML('beforeend','<p class="error">Startdaten konnten nicht geladen werden.</p>');});
 
 </script>
