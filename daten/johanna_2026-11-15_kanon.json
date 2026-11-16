@@ -52,7 +52,20 @@
     "Rika": "Blonder Bob, Narbe, hervorragende Schwertkämpferin, Mitbewohnerin und Interessentin an einem fünften Hofanteil.",
     "Kiesel": "Freiwilliger tierischer Begleiter. Älteres Archiv bezeichnet ihn als Stollenwühler; neuere Bild-/Tierkorrekturen sind nicht abschließend harmonisiert."
   },
-  "original_archive": "archiv/johanna_2026-11-13_original.json",
+  "original_archive": "archiv/johanna_2026-11-14_v0_2_2.json",
   "archive_status": "Historische Quelle, NICHT gegen neueren Stand austauschen.",
-  "maps": "Vier vorhandene Karten sind ältere Entwürfe. Für den aktuellen Hof bei Falkenried liegt hier keine bestätigte neuere Karte vor; ältere Pläne bleiben als Entwürfe markiert."
+  "maps": "Vier vorhandene Karten sind ältere Entwürfe. Für den aktuellen Hof bei Falkenried liegt hier keine bestätigte neuere Karte vor; ältere Pläne bleiben als Entwürfe markiert.",
+  "older_archive_status": "Historisches Archiv v0.2.2 vom 14.11.2026 (124 Festlegungsbereiche, 26 Sitzungsnotizen, 52 Änderungen), in aktuellen Fragen vom 15.11.2026 überstimmt.",
+  "calendar": {
+    "months": 13,
+    "days_each": 28,
+    "special_day": "Neujahr",
+    "current_month": "Hochsonnenmond",
+    "current_month_number": 6,
+    "current_season": "Sonnenzeit",
+    "current_day": "noch nicht bestätigt"
+  },
+  "kiesel_current_form": "Sehr große Katze / große Raubkatze. Frühere Darstellung als Dachs/Stollenwühler überholt.",
+  "relationship_baseline": "Die erwachsenen Gefährtinnen haben laut älterem Spielarchiv gegenseitige Liebe ausgedrückt; aktuelle Einzelbeziehungen nicht erfunden.",
+  "future_plot": "Der bestätigte Dämonenkönig-Handlungsbogen ist noch nicht ausgespielt. Bedrohung ist für die Gruppe derzeit unbekannt und darf nicht verfrüht ausgelöst werden."
 }
