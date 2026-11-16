@@ -1,0 +1,1708 @@
+{
+  "archive_meta": {
+    "title": "Dungeons & Dragons – Welt- und Kampagnenarchiv",
+    "version": "0.1.0",
+    "status": "Vorbereitung",
+    "created": "2026-11-10",
+    "language": "de",
+    "purpose": "Kanonische Referenz für Weltaufbau, Figuren, Regeln, Karten, Spielszenen und Bildprompts.",
+    "canon_policy": {
+      "confirmed_facts": "Nur ausdrücklich bestätigte Festlegungen gelten als Kanon.",
+      "proposals": "Vorschläge bleiben offen, bis der Spieler sie bestätigt.",
+      "continuity": "Nach jeder Spielsitzung werden Ereignisse, Beziehungen, Inventar, offene Fäden und Änderungen aktualisiert.",
+      "corrections": "Bei Widersprüchen gilt die neueste ausdrückliche Entscheidung des Spielers; betroffene Einträge werden vermerkt statt still überschrieben.",
+      "image_reference": "Bildprompts greifen auf die bestätigten Figuren-, Orts-, Ausrüstungs- und Stilreferenzen zurück."
+    }
+  },
+  "project_status": {
+    "phase": "Laufende Kampagne",
+    "play_started": true,
+    "next_steps": [
+      "Laufende Handlung fortsetzen",
+      "Nach jeder Szene Zustand, Beziehungen, Ausrüstung und offene Fäden sichern"
+    ]
+  },
+  "inspiration": {
+    "references_named_by_player": [
+      "Delicious in Dungeon",
+      "Reincarnation as a Farmer of a New World"
+    ],
+    "desired_elements": [
+      "einfache Startfähigkeit mit großem Entwicklungspotenzial",
+      "Aufbau eines kleinen Harems"
+    ],
+    "originality_note": "Eigene Welt, Figuren und Handlung; Inspirationswerke dienen nur als Ton- und Motivhinweise."
+  },
+  "decisions": {
+    "confirmed": {
+      "protagonist": {
+        "name": "Johanna",
+        "age": 21,
+        "gender": "weiblich",
+        "design": "eigenständige Figur",
+        "origin": "Tochter eines Schmiedes"
+      },
+      "reincarnation": "Wiedergeburt nach dem Tod",
+      "core_role": "Mischung aus Farmerin, Abenteurerin und Köchin",
+      "starting_ability": {
+        "concept": "Tiere und Monster beruhigen",
+        "growth": "durch Übung",
+        "limits": "noch festzulegen"
+      },
+      "farm": "Rückzugsort zwischen Abenteuern",
+      "dungeons_and_monsters": "Dungeons und Monsterküche zentral; klassische Kämpfe und Erkundung ebenfalls wichtig",
+      "tone": [
+        "gefährlich",
+        "romantisch",
+        "dramatisch"
+      ],
+      "danger": "gefährlich, aber Hauptfiguren sterben kaum",
+      "party_growth": "wenige feste Begleiter, langsamer Aufbau",
+      "romance": {
+        "structure": "mehrere Figuren entwickeln Gefühle für Johanna",
+        "depiction": "deutlich romantisch, nicht explizit",
+        "romantic_character_age_range": "18 bis 30"
+      },
+      "companion_species": "übliche und exotische Fantasy-Rassen erwünscht",
+      "conflicts": "verschiedene Konfliktarten erwünscht",
+      "combat_style": "noch offen",
+      "rules": "leichte Regeln mit Werten und Proben",
+      "choices": "regelmäßige klare Auswahlmöglichkeiten",
+      "scene_length": "längere Kapitel mit wenigen Unterbrechungen",
+      "personality": {
+        "cautious": "eher vorsichtig",
+        "reaction_to_conflict": "protestiert zurückhaltend",
+        "strengths": [
+          "Einfühlungsvermögen",
+          "Menschenkenntnis"
+        ],
+        "flaw": "konfliktscheu"
+      },
+      "family_and_smithy": "Johanna wuchs in der Schmiede ihres Vaters auf, hat Grundkenntnisse und war eng mit ihrer Familie verbunden. Ihre Familie starb bei einem Überfall.",
+      "goals": [
+        "Abenteuer",
+        "ein sicherer Rückkehrort"
+      ],
+      "past_life_memory": "Bruchstückhaft",
+      "reincarnation_form": "Als Baby in der neuen Welt wiedergeboren",
+      "prior_knowledge": "Nur geringer Vorsprung, vor allem beim Lesen, Schreiben und Rechnen",
+      "smithing_relationship": "Hilft gelegentlich; Schmiedekunst und Schmiede sind emotional wichtig.",
+      "family_and_reincarnation": "Johannas Familie starb bei einem Überfall in ihrem früheren Leben. Danach wurde sie als Baby in der Fantasywelt wiedergeboren.",
+      "ancestry": "Katzenmensch mit Merkmalen einer Raubkatze.",
+      "world_scale": "Ein Kontinent mit vielen Kulturen.",
+      "world_tone": "Klassisches Mittelalter mit Magie; gefährlich, romantisch und dramatisch.",
+      "magic": "Magie ist bekannt, aber nur wenige können sie nutzen.",
+      "intercultural_relations": "Je nach Region unterschiedlich; Konflikte und Vorurteile variieren.",
+      "dungeons": "Alte Ruinen und lebendige beziehungsweise sich verändernde Orte.",
+      "dungeon_motives": [
+        "Geld",
+        "Ruhm",
+        "Zutaten",
+        "Schätze"
+      ],
+      "monster_threat": "Monster drängen aus Dungeons nach außen und können Orte bedrohen.",
+      "monster_cuisine": "Kombination aus Versorgung, zeitweiligen Effekten und regionaler Kultur.",
+      "ability": "Kombination aus beruhigen, Vertrauen aufbauen und Bedürfnisse/Gefühle wahrnehmen; Wirkung anfänglich nur bei harmlosen oder schwachen Monstern; wächst mit Übung.",
+      "ability_limits": [
+        "Keine Gedankenkontrolle.",
+        "Hungrige Monster werden nicht dauerhaft besänftigt."
+      ],
+      "ability_cost": "Gezielte Anwendung erfordert Konzentration; Ablenkung kann die Wirkung unterbrechen.",
+      "ability_progression": "Ja, neue Anwendungen können später entstehen.",
+      "reincarnation_deity": "Eine Gottheit ist beteiligt; ihre Rolle ist für andere zunächst geheim.",
+      "starting_location": "Wird vom Spielleiter passend entworfen.",
+      "future_safe_return_place": "Eine eigene Gemeinschaft mit ihren Begleitern aufbauen.",
+      "appearance": "Rote Haare, sehr weibliche Rundungen, gepardenartiges Mischwesen; weitere Details passend zu entwerfen.",
+      "feline_ancestry": "Gepard; die sichtbaren Mischwesenmerkmale entwickeln sich mit dem Alter.",
+      "self_image": "Johanna schwankt zwischen Stolz und Unsicherheit bezüglich ihrer Mischwesen-Merkmale.",
+      "starting_skills": "Grundfähigkeiten in Kochen, Sammeln, Jagen, Kräuterkunde, Erster Hilfe und Lesen/Schreiben; Grundkenntnisse in der Schmiede.",
+      "combat_training": "Einfache Selbstverteidigung durch ihren Vater.",
+      "weapon": "Messer.",
+      "rules_attributes": [
+        "Kraft",
+        "Geschick",
+        "Verstand",
+        "Wahrnehmung",
+        "Ausstrahlung"
+      ],
+      "dice_visibility": "Würfelwurf und Ergebnis werden mitgeteilt.",
+      "combat_presentation": "Kämpfe meist erzählerisch, wichtige Entscheidungen einzeln.",
+      "romance_count": "Keine feste Zahl; entwickelt sich organisch.",
+      "relationship_dynamics": "Kaum Eifersucht; gegenseitige Unterstützung.",
+      "content_boundaries": "Keine zusätzlichen thematischen Grenzen; Darstellung bleibt innerhalb der zulässigen Grenzen.",
+      "naming_style": "Deutsch und altdeutsch klingende Namen.",
+      "appearance_details": "Gepardenartige Zeichnung könnte sich als Muster in der Haut zeigen.",
+      "farm_timing": "Ein eigener Hof wird erst später wichtig.",
+      "companion_role": "Ein Begleiter soll Johanna unterstützen; konkrete Rolle und Figur werden vom Spielleiter entworfen.",
+      "first_story_encounter": "Überraschungsentscheidung durch den Spielleiter.",
+      "ability_awareness": "Johanna versteht ihre Fähigkeit anfangs selbst nicht; später vermutlich nur Vertraute einweihen.",
+      "map_sequence": [
+        "Kontinentkarte",
+        "Startregion",
+        "erste Stadt"
+      ],
+      "world_name": "Auenwelt",
+      "first_continent": "Eichenmark",
+      "eichenmark_landscape": "Wälder, Berge und weite Ebenen.",
+      "political_structure": "Mehrere Fürstentümer unter einem König.",
+      "local_authority": "In Johannas Gegend herrscht ein Fürst oder eine Fürstin.",
+      "species_status": "Menschen sind vermutlich in der Überzahl; einzelne Völker haben Fähigkeiten, die ihnen regional einen höheren gesellschaftlichen Stellenwert verschaffen. Verteilung und Ausnahmen noch auszuarbeiten.",
+      "road_safety": "Straßen sind meist sicher, solange man auf den Wegen bleibt.",
+      "guilds": "Abenteurergilden vermitteln Aufträge und verwalten Rang und Bezahlung.",
+      "first_city": "Kleine, sehr historische Bergbaustadt.",
+      "starting_danger": "Startregion ist zunächst sicher; Gefahr kommt später näher.",
+      "past_family_memories": "Johanna hat eine neue Familie; die Familie des früheren Lebens taucht in Träumen auf.",
+      "deity_messenger": "Die beteiligte Gottheit nimmt über einen Boten oder Schutzgeist Einfluss.",
+      "start_location": "Überraschung durch den Spielleiter.",
+      "early_story_driver": "Mischung aus Entdeckung der Fähigkeit, Bewährung und ungewöhnlichem Begleiter.",
+      "bordering_countries": "Eichenmark grenzt an andere Länder.",
+      "map_style": "Pergament-Fantasykarte mit handgezeichneten Symbolen und Beschriftung.",
+      "mining_resources": "Eisen und Kohle.",
+      "special_abilities_and_status": "Besondere Fähigkeiten können praktisch nützlich und zugleich gesellschaftlich umstritten sein.",
+      "important_species": "Spielleiter wählt passende Völker und entwickelt ihre Rollen.",
+      "eichenmark_map_status": "Der erste Kontinentkartenentwurf ist als Grundlage angenommen; einzelne Orte und Grenzen sind weiterhin änderbar.",
+      "silberklamm_city_plan": "Stadtplan Entwurf 01 als kanonische Grundlage angenommen.",
+      "silberklamm_location": "Am Ausgang eines Gebirgstals, nahe den Bergen.",
+      "silberklamm_surroundings": "Mischung aus Wald und Bergen; Fluss mit möglichem Seitenarm durch die Stadt.",
+      "nearby_settlement_distance": "Das nächste Dorf ist einige Stunden zu Fuß entfernt.",
+      "nearby_dungeon": "Ein alter Minenschacht als Dungeon.",
+      "regional_map_focus": "Gelände, Wege und Gefahren.",
+      "design_freedom": "Orte, Wege und Details der Umgebung frei passend entwerfen.",
+      "silberklamm_surroundings_map": "Umgebungskarte angenommen: Tal am Gebirgsausgang, Wald und Berge, Fluss, Falkenried in wenigen Stunden Fußweg, alter Minenschacht als Dungeon.",
+      "character_attribute_assignment": "Spielleiter verteilt passend zu Johannas Hintergrund.",
+      "character_development_path": "Offene Mischung; Johanna entwickelt ihre Rolle im Spiel.",
+      "progression_speed": "Langsam und glaubwürdig.",
+      "damage_model": "Gesundheitspunkte plus schwere Wunden bei besonders gefährlichen Treffern.",
+      "starting_armor": "Passend zur Startszene vom Spielleiter zu bestimmen.",
+      "dice_system": "2W10 + Attributsbonus + Fertigkeitsbonus.",
+      "difficulty_targets": {
+        "leicht": 11,
+        "normal": 14,
+        "schwierig": 17,
+        "sehr schwierig": 20
+      },
+      "result_bands": {
+        "voller Erfolg": "Zielwert erreicht oder übertroffen",
+        "Teilerfolg": "1–3 Punkte darunter; Erfolg mit Preis oder Komplikation",
+        "Fehlschlag": "4 oder mehr Punkte darunter"
+      },
+      "starting_character_values": {
+        "attributes_scale": {
+          "range": "1 bis 10",
+          "baseline": "5–6 ist durchschnittlich",
+          "modifier_bands": {
+            "1–2": -2,
+            "3–4": -1,
+            "5–6": 0,
+            "7–8": 1,
+            "9–10": 2
+          }
+        },
+        "attributes": {
+          "Kraft": 5,
+          "Geschick": 6,
+          "Verstand": 6,
+          "Wahrnehmung": 8,
+          "Ausstrahlung": 8
+        },
+        "skills_scale": {
+          "range": "0 bis 5",
+          "ranks": {
+            "0": "ungeübt",
+            "1": "erste Erfahrung",
+            "2": "geübt",
+            "3": "ausgebildet",
+            "4": "erfahren",
+            "5": "meisterhaft"
+          },
+          "value_added_to_roll": "Fertigkeitsrang direkt als Bonus"
+        },
+        "skills": {
+          "Schmiedehandwerk": 1,
+          "Kochen": 1,
+          "Sammeln": 1,
+          "Jagen": 1,
+          "Kräuterkunde": 1,
+          "Erste Hilfe": 1,
+          "Lesen und Schreiben": 1,
+          "Rechnen": 1,
+          "Selbstverteidigung mit Messer": 1,
+          "Tierverständnis": 0
+        },
+        "health_points": 10,
+        "stamina_points": 8,
+        "equipment": [
+          "ein einfaches Messer",
+          "robuste Alltagskleidung",
+          "kleine Tasche mit persönlichen Dingen"
+        ],
+        "armor": "Keine Rüstung zu Beginn; genaue Startausrüstung hängt von der noch geheimen Eröffnungsszene ab.",
+        "latent_ability": {
+          "name": "Ruf des Lebendigen (Arbeitstitel)",
+          "status": "unentdeckt",
+          "initial_effect": "unbewusstes Beruhigen kleiner oder harmloser Tiere und Monster; keine Gedankenkontrolle und kein dauerhafter Effekt gegen Hunger",
+          "growth": "durch Übung und Verständnis"
+        },
+        "derived_values": "Attributswerte sind keine Würfelboni; der Bonus wird aus der Attributstabelle abgeleitet.",
+        "roll_formula": "2W10 + Attributsbonus + Fertigkeitsrang"
+      },
+      "first_companion": "Marta Eisenklang, 28-jährige Zwergin und Bergungshelferin/Ersthelferin, als erster Entwurf. Beziehung und mögliche Romantik entwickeln sich langsam.",
+      "attribute_model": "Fünf Attributswerte von 1 bis 10; 5–6 durchschnittlich. Boni: 1–2 −2, 3–4 −1, 5–6 +0, 7–8 +1, 9–10 +2.",
+      "skill_model": "Fertigkeitsränge 0–5: ungeübt, erste Erfahrung, geübt, ausgebildet, erfahren, meisterhaft. Rang wird direkt als Bonus addiert.",
+      "level_up_system": {
+        "leveling": "Milestone-based, classless advancement.",
+        "advancement_points_per_level": 2,
+        "options": [
+          {
+            "cost": 1,
+            "improvement": "Increase one skill rank by 1, up to rank 5."
+          },
+          {
+            "cost": 2,
+            "improvement": "Learn a talent or a new application of Johanna’s special ability."
+          },
+          {
+            "cost": 2,
+            "improvement": "Increase one attribute score by 1, up to score 10; available at most every second level-up."
+          }
+        ],
+        "automatic_per_level": {
+          "health_points": 1,
+          "stamina_points": 1
+        },
+        "attribute_bonus_thresholds": "Modifier increases only when a score crosses into a new band."
+      },
+      "species_framework": "Völkerentwurf durch den Spielleiter: Menschen, Zwerge, Waldalben, Tierblütige, Drachenblütige, Goblins und Orks. Status und Fähigkeiten wirken regional und geben keine pauschalen Attributsboni.",
+      "monster_cooking_rules": "Monster besitzen Bedürfnisse und Verhalten; Zutaten werden gefunden, bestimmt, zubereitet und genutzt. Mahlzeiten geben bei Bedarf begrenzte, nicht stapelbare Vorteile; Vorräte werden abstrakt verwaltet.",
+      "first_dungeon_concept": "Verlassene Eisenmine nahe Silberklamm mit instabilen Stollen, Wasser, essbaren Leuchtpilzen und einem verletzten territorialen Stollenwühler.",
+      "johanna_visual_design": {
+        "hair": "rot, glatt, schulterlang",
+        "build": "eher klein und zierlich, mit weiblichen Rundungen",
+        "feline_form": "Geparden-Mischwesen",
+        "traits": "Gepardenartige Zeichnung kann sich als Muster in der Haut zeigen; Ausprägung und weitere körperliche Merkmale bleiben offen.",
+        "self_image": "schwankt zwischen Stolz und Unsicherheit",
+        "feline_traits": "Gepardenartige Hautzeichnung; Ohren und Schwanz als erwachsene Mischwesen-Merkmale sichtbar (Entwurf).",
+        "height": "noch offen",
+        "eyes": "katzenartig; Irisfarbe noch nicht einzeln festgelegt",
+        "skin": "hell",
+        "ears": "menschliche Ohren und zusätzlich katzenartige Ohren",
+        "tail": "gefleckt, gepardenartig",
+        "markings": "feine Flecken; an Armen und Beinen stärker ausgeprägt",
+        "clothing": "praktisch und spartanisch",
+        "first_impression": [
+          "liebenswürdig",
+          "wild",
+          "geheimnisvoll"
+        ],
+        "visual_style": "detaillierter Anime-Fantasy-Stil"
+      },
+      "johanna_body_shape": "Kleine, zierliche Statur mit deutlich weiblicher kurviger Silhouette, sehr großer Anime-typisch überzeichneter Oberweite, schmaler Taille sowie vollen Hüften und Oberschenkeln.",
+      "female_character_visual_style": "Weibliche Figuren dürfen ähnlich ausgeprägte, animehaft feminine Proportionen haben; individuelle Variation bleibt erwünscht.",
+      "weapon_style": "Mittelalterlich-deutscher Eindruck, zwischen langem Messer und Sax; nicht sehr lang und mit recht gerader Klinge.",
+      "weapon_origin_and_importance": "Das Messer ist ein Geschenk ihres Vaters zu einem besonderen Anlass und daher schmuckvoller und verzierter als ein schlichtes Gebrauchsmesser.",
+      "weapon_gift_occasion": "Johannas Vater schenkte ihr das verzierte Messer, als ihre Gepardenmerkmale erstmals sichtbar wurden.",
+      "weapon_visual_reference": "Der Spieler hat die isolierte Waffenreferenz als schick bestätigt. Sichtbare Gestaltung: nahezu gerade Sax-/Langmesserform, feine Gravuren, Gepardenflecken am Klingenansatz, dunkler Griff, kleine verzierte Parierstange und passende Lederscheide.",
+      "ability_initial_range": "Nur in unmittelbarer Nähe; genaue Reichweite bleibt offen.",
+      "ability_perception": "Zu Beginn spürt Johanna nur die allgemeine Stimmung, keine Gedanken.",
+      "ability_duration": "Die beruhigende Wirkung hält an, solange Johanna beim Wesen anwesend und nahe ist.",
+      "ability_discovery": "Die Fähigkeit zeigt sich zuerst unbewusst; ein nahes Tier oder harmloses Monster kann in Johannas Gegenwart ruhiger werden.",
+      "ability_companion_evolution": "Bei fortgeschrittener Entwicklung können Tiere oder Monster aus eigenem Vertrauen Johanna begleiten und ihr helfen. Sie behalten ihre Freiheit und können jederzeit gehen.",
+      "ability_progression_outline": [
+        {
+          "stage": 1,
+          "name": "Unbewusster Gleichklang",
+          "description": "Nahe, harmlose oder schwache Wesen werden manchmal ruhiger; Johanna nimmt ihre allgemeine Stimmung wahr."
+        },
+        {
+          "stage": 2,
+          "name": "Bewusste Beruhigung",
+          "description": "Johanna kann sich auf ein einzelnes Wesen konzentrieren und versuchen, es zu beruhigen; Erfolg hängt von Lage, Verhalten und Wurf ab."
+        },
+        {
+          "stage": 3,
+          "name": "Bedürfnisse erkennen",
+          "description": "Durch Übung kann Johanna einfache Bedürfnisse und Absichten besser unterscheiden, ohne Gedanken zu lesen."
+        },
+        {
+          "stage": 4,
+          "name": "Freiwillige Weggefährten",
+          "description": "Einzelne Tiere oder Monster können aus eigenem Vertrauen Johanna begleiten und ihr helfen. Sie werden weder gezähmt noch kontrolliert und dürfen jederzeit gehen."
+        }
+      ],
+      "animal_companion_group": "Mehrere Tiere können Johanna gleichzeitig begleiten, auch natürliche Räuber-Beute-Arten. Solange sie in ihrer Nähe bleiben, greifen sie einander nicht an und können gegen Johannas Feinde kämpfen.",
+      "companion_agency": "Tierische Begleiter folgen freiwillig aus Vertrauen, behalten eigene Bedürfnisse und können gehen; Johanna kontrolliert sie nicht.",
+      "family_in_auenwelt": "Johannas gesamte Familie in der Auenwelt ist tot. Sie wuchs als Tochter eines Schmieds auf; Zeitpunkt und Ursache des Todes der Familie bleiben offen.",
+      "ability_exact_range": "Wenige Schritte, nur in unmittelbarer Nähe.",
+      "ability_resolution": "Unbewusste, passende Beruhigung eines nahen harmlosen oder schwachen Wesens braucht keinen Wurf. Bewusste Anwendung nutzt 2W10 + passendes Attribut + Fertigkeitsrang gegen Zielwert.",
+      "companion_naming_pact": "Variante B: Ein Name ist ein freiwilliges Angebot. Erst wenn der Gefährte ihn annimmt, entsteht eine schwache Bindung; Gedanken- oder Willenskontrolle ist ausgeschlossen. Gedanken- und Gefühlsaustausch kann erst aus langem gegenseitigem Vertrauen wachsen."
+    },
+    "open": {
+      "Johannas Persönlichkeit und Werte": "offen",
+      "genauer Rahmen ihrer Wiedergeburt": "offen",
+      "Fähigkeitsgrenzen und Preis": "offen",
+      "Welt, Magie, Regeln im Detail, Begleiter, Karten und Startort": "offen",
+      "reincarnation cause": "geheimnisvoll; später möglicherweise relevant",
+      "guilt about family death": "möglicher innerer Konflikt, noch auszugestalten",
+      "exact_feline_traits_and_visual_design": "offen",
+      "continent_name_and_regions": "offen",
+      "exact_dungeon_rules_and_origin": "offen",
+      "ability_exact_effects_and_checks": "noch als Regelentwurf auszuarbeiten",
+      "starting_location": "Spielleiter entwirft Vorschlag",
+      "deity_identity_and_motive": "geheim und noch nicht festgelegt",
+      "Johannas exact visual details": "Spielleiter entwirft passend",
+      "first companion": "Spielleiter entwirft",
+      "starting attribute values and dice mechanic": "auszuarbeiten",
+      "fate_of_family_smithy": "Familie in der Auenwelt ist tot; offen ist, wer Schmiede und Besitz übernommen hat.",
+      "whether_feline_ears_and_tail_are_visible_at_birth": "offen",
+      "how_and_when_ability_is_discovered": "zu entwickeln",
+      "exact_first_companion": "Spielleiter entwirft",
+      "farm_form_and_location": "später zu entwickeln",
+      "specific_regions_and_principalities": "zu entwerfen",
+      "important_species_and_their_social_roles": "zu entwerfen",
+      "historic_mining_city_name_and_layout": "zu entwerfen",
+      "messenger_or_guardian_identity": "geheim; später zu entwerfen",
+      "start_scene": "Überraschung, passend zur festgelegten Welt.",
+      "neighboring_country_names_and_relations": "Entwurf zu prüfen",
+      "regions_and_place_names": "vorläufige Karte zur gemeinsamen Prüfung",
+      "historic_mining_city_name": "Silberklamm als Entwurfsname",
+      "species_and_social_roles": "Entwurf zu erstellen",
+      "silberklamm_city_layout": "Entwurf mit Stadtmauer, Marktplatz, Schmiedeviertel, Gildenhaus, Burg, Schmelzhütten, Minenstollen, Flussmühle und Heiligtum zur Prüfung.",
+      "silberklamm_exact_geographic_placement": "Noch festzulegen; derzeit im östlichen Gebirge verortet.",
+      "Marta Eisenklang details": "Erster Entwurf; Aussehen/Rolle können bei Bedarf angepasst werden.",
+      "Johannas exact health/stamina balance": "Startentwurf: 10 Gesundheit, 8 Ausdauer.",
+      "exact start scene": "Vorbereitet, nicht ausgespielt.",
+      "feline_visual_details": "Gepardenzeichnung sowie sichtbare Ohren und Schwanz als Entwurf; Augen- und Haarlänge offen.",
+      "species names and local relations": "Erster Entwurf zur Prüfung; Details zu Nachbarländern folgen.",
+      "specific edible monsters and recipes": "für den ersten Dungeon auszuarbeiten",
+      "species trait numeric handling": "vorläufig +1 oder narrative Handlungsoption; bei Probespiel prüfen",
+      "dungeon_exact_cause_and_history": "Geheimnis; als Spielleiterhintergrund offenhalten.",
+      "Johanna eye color": "Bernstein in der aktuellen Bildreferenz vorgeschlagen, noch nicht ausdrücklich bestätigt.",
+      "Johanna outfit precise details": "Bildreferenz-Entwurf zur Prüfung.",
+      "weapon_dimensions_and_construction": "Vorschlag: 36 cm Gesamtlänge, ca. 24 cm gerade einschneidige Klinge, dunkler Griff, kleine Parierstange und sorgfältige Verzierung; Details noch als Bildreferenz auszuarbeiten.",
+      "weapon_origin": "Noch offen; Vater könnte es für Johanna geschmiedet haben.",
+      "weapon_dimensions": "Ca. 36 cm Gesamtlänge und 24 cm Klinge sind bisher nur Maßvorschlag.",
+      "ability_advancement_pacing": "Stufenfolge steht; konkrete Auslöser und Tempo entwickeln sich im Spiel.",
+      "animal_group_effect_radius": "Die Regel gilt in Johannas Nähe; genaue Reichweite bleibt festzulegen.",
+      "family_death_in_auenwelt": "Todeszeitpunkt und Ursache der Auenwelt-Familie bleiben offen."
+    },
+    "rejected": {}
+  },
+  "world": {
+    "name": "Auenwelt",
+    "genre_and_tone": [
+      "klassisches Mittelalter mit Magie",
+      "gefährlich",
+      "romantisch",
+      "dramatisch"
+    ],
+    "regions": [
+      {
+        "name": "Eichenmark",
+        "type": "Kontinent",
+        "status": "kanonisch"
+      },
+      {
+        "name": "Kronmark",
+        "type": "Königreich im Zentrum der Eichenmark",
+        "status": "vorläufiger Entwurf"
+      },
+      {
+        "name": "Hochforst",
+        "type": "Waldland im Nordwesten",
+        "status": "vorläufiger Entwurf"
+      },
+      {
+        "name": "Gratwacht",
+        "type": "Gebirgsfürstentum im Norden",
+        "status": "vorläufiger Entwurf"
+      },
+      {
+        "name": "Auenbruch",
+        "type": "fruchtbare Flusslande im Süden",
+        "status": "vorläufiger Entwurf"
+      },
+      {
+        "name": "Silberklamm",
+        "type": "historische Bergbaustadt im östlichen Gebirge",
+        "status": "vorläufiger Entwurf"
+      },
+      {
+        "name": "Dornmark",
+        "type": "unabhängiges Grenzland östlich der Kronmark",
+        "status": "vorläufiger Entwurf"
+      },
+      {
+        "name": "Tal von Silberklamm",
+        "type": "Talregion am Ausgang der Berge, mit Wald und Fluss",
+        "status": "Entwurf; vom Spieler vorgegeben sind Talausgang, Bergnähe, Wald-Berg-Mischung und Fluss/Seitenarm in der Stadt."
+      }
+    ],
+    "history": [],
+    "cultures": [
+      "Menschen stellen in den meisten Regionen die größte Bevölkerungsgruppe; ihre Königreiche und Städte bestimmen viele Gesetze.",
+      "Zwerge sind in Eichenmark besonders in Bergbau, Metallhandwerk und Stollenbau angesehen. Ihr Ansehen steigt dort, wo ihre Fähigkeiten gebraucht werden.",
+      "Waldalben verfügen über feine Wahrnehmung für Pflanzen und Magiespuren. Manche Höfe suchen ihren Rat; andere misstrauen ihrem Einfluss und ihrer langen Lebenszeit.",
+      "Tierblütige (Beastfolk) umfassen unter anderem Katzen-, Fuchs-, Wolfs- und Hirschlinien. Ihre Sinne und Körpermerkmale unterscheiden sich; gesellschaftliche Behandlung schwankt stark nach Region.",
+      "Drachenblütige sind selten. Ihre angeborene Nähe zu Elementen oder Magie verschafft ihnen Zugang zu bestimmten Ämtern, löst aber auch Furcht und politische Kontrolle aus.",
+      "Goblins sind geschickte Sammler, Händler und Tüftler. In manchen Orten sind sie geschätzte Fachleute, andernorts werden sie wegen alter Vorurteile ausgeschlossen.",
+      "Orks leben in unterschiedlichen Gemeinschaften und Stadtvierteln. Ihre Gesellschaften sind vielfältig; militärische Stärke prägt manche, aber keineswegs alle Gruppen."
+    ],
+    "factions": [
+      "Mehrere Fürstentümer unter einer Königsherrschaft.",
+      "Abenteurergilden vermitteln Aufträge, verwalten Ränge und Bezahlung.",
+      "Grenzreiche grenzen an Eichenmark; konkrete Staaten und Beziehungen bleiben teilweise offen.",
+      "Menschenreiche stellen die politische Mehrheit, aber besondere Fähigkeiten können lokal Einfluss und Ansehen schaffen.",
+      "Gesellschaftlicher Status ist regional, beruflich und politisch geprägt; keine Volkszugehörigkeit garantiert überall Vorrang."
+    ],
+    "magic_and_cosmology": {
+      "prevalence": "Magie ist bekannt, aber nur wenige können sie nutzen.",
+      "deities": "Eine Gottheit ist mit Johannas Wiedergeburt verbunden; für andere Figuren bleibt dies zunächst geheim."
+    },
+    "economy_and_daily_life": "Bergbau in Silberklamm: Eisen und Kohle. Deutsche und altdeutsche Namensgebung bevorzugt.",
+    "map_reference": "Kontinentkarte und Stadtplan angenommen; Umgebungskarte Silberklamm erstellt als Entwurf 01.",
+    "cities": [
+      {
+        "name": "Silberklamm",
+        "role": "erste wichtige Stadt",
+        "type": "historische Bergbaustadt",
+        "resources": [
+          "Eisen",
+          "Kohle"
+        ],
+        "status": "Entwurfsname und Stadtplan vorläufig; Konzept historische Bergbaustadt bestätigt.",
+        "location": "Ausgang eines Gebirgstals, nahe den Bergen. Fluss und Seitenarm durchziehen die Stadt.",
+        "layout": "Historische Bergbaustadt mit Stadtmauer, Markt, Schmiedeviertel, Gildenhaus, alter Burg, Schmelzhütten, Minenstollen, Flussmühle und Heiligtum."
+      },
+      {
+        "name": "Falkenried",
+        "role": "nahegelegene Ortschaft",
+        "type": "Dorf",
+        "travel_time_from_silberklamm": "einige Stunden zu Fuß",
+        "status": "Entwurfsort"
+      }
+    ],
+    "dungeons": {
+      "types": [
+        "alte Ruinen",
+        "lebendige oder sich verändernde Dungeons"
+      ],
+      "purpose": [
+        "Geld",
+        "Ruhm",
+        "Zutaten",
+        "Schätze"
+      ],
+      "threat": "Monster können Dungeons verlassen und Siedlungen oder andere Orte bedrohen.",
+      "known_sites": [
+        {
+          "id": "DUN-001",
+          "name": "Der Alte Minenschacht",
+          "location": "Gebirgstal nahe Silberklamm",
+          "status": "Erster Dungeonentwurf; noch nicht betreten oder ausgespielt.",
+          "history": "Ehemalige Eisenmine. Ein teilweiser Einsturz und unerklärliche Erschütterungen führten zur Aufgabe. Die genauen Ursachen bleiben geheim.",
+          "zones": [
+            {
+              "id": 1,
+              "name": "Förderhalle",
+              "features": "Alter Förderturm, rostige Winde, Haupteingang.",
+              "hazard": "Absturzgefahr an brüchigen Bohlen."
+            },
+            {
+              "id": 2,
+              "name": "Werkzeugkammer",
+              "features": "Zurückgelassene Werkzeuge und alte Arbeitszeichen.",
+              "finds": [
+                "brauchbares Seil",
+                "Bergmannslaterne"
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Steigerstube",
+              "features": "Verlassener Arbeitsraum mit Schichtbuch und grober Stollenzeichnung.",
+              "clue": "Eintrag über dumpfe Schläge aus tieferen Gängen."
+            },
+            {
+              "id": 4,
+              "name": "Einsturzgang",
+              "features": "Verengter Gang mit losem Gestein.",
+              "hazard": "Lärm oder unvorsichtiges Graben kann Geröll lösen."
+            },
+            {
+              "id": 5,
+              "name": "Nasse Erzader",
+              "features": "Knietiefes Wasser und freiliegende Eisenadern.",
+              "hazard": "Rutschiger Boden und kaltes Wasser."
+            },
+            {
+              "id": 6,
+              "name": "Leuchtpilzhöhle",
+              "features": "Feuchte Höhle mit essbaren, aber roh unverträglichen Leuchtkappen.",
+              "ingredient": "Leuchtkappen sind nach richtiger Zubereitung sättigend; roh verursachen sie Übelkeit."
+            },
+            {
+              "id": 7,
+              "name": "Echohalle",
+              "features": "Große Kammer, in der Geräusche weit tragen.",
+              "hazard": "Laute Geräusche ziehen Kreaturen an und erschweren Orientierung."
+            },
+            {
+              "id": 8,
+              "name": "Tiefnest",
+              "features": "Verborgener Hohlraum als Rückzugsort eines territorialen Stollenwühlers.",
+              "encounter": "Das Wesen ist verletzt und verteidigt sein Nest; es ist nicht böse. Beruhigung oder Futter kann helfen, ist aber nicht garantiert."
+            }
+          ],
+          "creatures": [
+            {
+              "name": "Klappermäuse",
+              "threat": "harmlos",
+              "behavior": "scheu, nagen an Seilen und Säcken",
+              "ingredient": "Mageres Fleisch; nur mit Aufwand lohnend."
+            },
+            {
+              "name": "Erzkrabbler",
+              "threat": "gering bis mäßig",
+              "behavior": "wehrhaft, wenn bedrängt; frisst Pilze und Mineralablagerungen",
+              "ingredient": "Der Panzer enthält salzige Mineralstoffe; vor Verzehr vollständig garen."
+            },
+            {
+              "name": "Stollenwühler",
+              "threat": "gefährlich, besonders auf engem Raum",
+              "behavior": "blind, ortet Erschütterungen; verteidigt Nest und Jungtier",
+              "ingredient": "Würziges Fleisch; Zubereitung braucht Kräuter gegen Bitterkeit."
+            }
+          ],
+          "resolution_notes": "Nicht jede Begegnung muss bekämpft werden. Lärm, Licht, Nahrung, Rückzug und Johannas Fähigkeit bieten Alternativen. Die Fähigkeit ist beim ersten Kontakt noch nicht als solche erkannt.",
+          "map_file": "alter_minenschacht_entwurf_01.png"
+        }
+      ]
+    }
+  },
+  "rules": {
+    "system_basis": "Eigenes erzählerisches Regelsystem mit 2W10.",
+    "resolution_style": {
+      "roll": "2W10 + Attributsbonus (aus Attributswert 1–10 abgeleitet) + Fertigkeitsrang (0–5)",
+      "difficulty_targets": {
+        "leicht": 11,
+        "normal": 14,
+        "schwierig": 17,
+        "sehr_schwierig": 20
+      },
+      "outcomes": {
+        "voller_erfolg": "Zielwert erreicht oder übertroffen",
+        "teilerfolg": "1 bis 3 Punkte unter dem Zielwert; Ziel gelingt mit Preis oder Komplikation",
+        "fehlschlag": "4 oder mehr Punkte unter dem Zielwert"
+      },
+      "critical_rules": "Noch offen.",
+      "modifier_scales": {
+        "attributes": {
+          "score_range": "1–10",
+          "modifier_bands": {
+            "1–2": -2,
+            "3–4": -1,
+            "5–6": 0,
+            "7–8": 1,
+            "9–10": 2
+          }
+        },
+        "skills": {
+          "rank_range": "0–5",
+          "rank_names": [
+            "ungeübt",
+            "erste Erfahrung",
+            "geübt",
+            "ausgebildet",
+            "erfahren",
+            "meisterhaft"
+          ],
+          "bonus": "Fertigkeitsrang wird direkt addiert."
+        }
+      }
+    },
+    "combat_lethality": "Gesundheitspunkte plus schwere Wunden bei besonders gefährlichen Treffern.",
+    "resource_tracking": "Monsterküche und Zutaten sind Teil des Spiels; konkrete Regeln offen.",
+    "romance_handling": "Keine feste Zahl romantischer Partner; geringe Eifersucht, gegenseitige Unterstützung als Grundton.",
+    "house_rules": [
+      "Langsame, glaubwürdige Entwicklung.",
+      "Figurenrolle bleibt offen und entwickelt sich aus den Spielsituationen.",
+      "Johannas außergewöhnliche Fähigkeit beginnt verborgen und entwickelt sich langsam durch Übung; sie kontrolliert keine Gedanken und ersetzt keine Nahrung."
+    ],
+    "advancement": {
+      "leveling": "Milestone-based, classless advancement.",
+      "advancement_points_per_level": 2,
+      "options": [
+        {
+          "cost": 1,
+          "improvement": "Increase one skill rank by 1, up to rank 5."
+        },
+        {
+          "cost": 2,
+          "improvement": "Learn a talent or a new application of Johanna’s special ability."
+        },
+        {
+          "cost": 2,
+          "improvement": "Increase one attribute score by 1, up to score 10; available at most every second level-up."
+        }
+      ],
+      "automatic_per_level": {
+        "health_points": 1,
+        "stamina_points": 1
+      },
+      "attribute_bonus_thresholds": "Modifier increases only when a score crosses into a new band."
+    },
+    "species_and_traits": {
+      "principle": "Völker geben erzählerische Merkmale und passende Gelegenheiten, keine pauschalen Attributsboni.",
+      "mechanical_effect": "Ein passender Volkszugang kann in einer passenden Probe einmalig +1 geben oder eine Handlung ermöglichen, die anderen nicht offensteht. Er ersetzt keine Fertigkeit und stapelt nicht mit sich selbst.",
+      "species": [
+        {
+          "name": "Menschen",
+          "prevalence": "größte Bevölkerungsgruppe",
+          "traits": [
+            "vielseitige Ausbildung",
+            "breite soziale Netzwerke"
+          ],
+          "social_position": "dominant in den meisten Königreichen, aber regional unterschiedlich"
+        },
+        {
+          "name": "Zwerge",
+          "traits": [
+            "Gestein lesen: Risse, Hohlräume oder schlechte Stollen erkennen",
+            "Bergbau- und Metallhandwerk"
+          ],
+          "social_position": "hohes Ansehen in Bergbau- und Handwerksorten; außerhalb davon normales Minderheitenvolk"
+        },
+        {
+          "name": "Waldalben",
+          "traits": [
+            "Pflanzen- und Magiespuren wahrnehmen",
+            "sich lautlos durch Wald bewegen"
+          ],
+          "social_position": "gesucht als Kundige, zugleich teils misstrauisch betrachtet"
+        },
+        {
+          "name": "Tierblütige",
+          "subtypes": [
+            "Katzenlinie",
+            "Fuchslinie",
+            "Wolfs-/Hundelinie",
+            "Hirschlinie",
+            "weitere seltene Linien"
+          ],
+          "traits": [
+            "linienabhängige Sinne und Körpermerkmale"
+          ],
+          "social_position": "regional stark verschieden; nützliche Fähigkeiten können Ansehen schaffen oder Ausgrenzung verstärken"
+        },
+        {
+          "name": "Drachenblütige",
+          "traits": [
+            "begrenzte Affinität zu einem Element oder Magiespur"
+          ],
+          "social_position": "selten; Respekt und Furcht, teils politische Kontrolle"
+        },
+        {
+          "name": "Goblins",
+          "traits": [
+            "Tüfteln",
+            "Sammeln und improvisieren"
+          ],
+          "social_position": "je nach Stadt geschätzte Fachleute oder von Vorurteilen betroffen"
+        },
+        {
+          "name": "Orks",
+          "traits": [
+            "individuell und kulturell verschieden; keine pauschale Kampfrolle"
+          ],
+          "social_position": "vielfältige Gemeinschaften mit regional unterschiedlichem Ansehen"
+        }
+      ]
+    },
+    "monster_and_cooking": {
+      "monster_principles": [
+        "Monster haben Bedürfnisse, Reviere und Verhaltensmuster; nicht alle sind böse.",
+        "Dungeon-Monster können durch Nahrungsknappheit, Wanderung oder Veränderungen im Dungeon nach außen drängen.",
+        "Bedrohungsstufen: harmlos, gefährlich, schwerwiegend; Stärke hängt außerdem von Situation und Verhalten ab."
+      ],
+      "ingredient_loop": [
+        "Beobachten oder sammeln",
+        "Zutat bestimmen und Risiken erkennen",
+        "säubern und passend zubereiten",
+        "Mahlzeit nutzen und Wirkung notieren"
+      ],
+      "checks": "2W10 + passendes Attribut + Fertigkeitsrang; etwa Wahrnehmung/Sammeln zum Finden, Verstand/Kräuterkunde zum Bestimmen, Geschick/Kochen zur Zubereitung.",
+      "meal_effects": [
+        "Essen stellt bei sicherer Rast Ausdauer wieder her.",
+        "Eine besonders gelungene Mahlzeit kann einen klar benannten, begrenzten Vorteil für die nächste passende Szene geben.",
+        "Mahlzeitenboni stapeln nicht; eine neue Mahlzeit ersetzt den bisherigen Essensvorteil."
+      ],
+      "risks": [
+        "verdorbene oder giftige Zutaten",
+        "falsche Zubereitung",
+        "Zeitverlust oder Aufmerksamkeit gefährlicher Kreaturen"
+      ],
+      "failure": "Ein Fehlschlag kann Zutaten verderben, Zeit kosten oder eine Komplikation auslösen; er führt nicht automatisch zu Vergiftung oder schwerem Schaden.",
+      "tracking": "Nur besondere Zutaten und aktive Mahlzeiteneffekte werden genau festgehalten; gewöhnliche Vorräte werden knapp, aber ohne kleinteiliges Zählen verwaltet."
+    },
+    "companion_naming_pact": {
+      "status": "bestätigte Hausregel",
+      "core_rule": "Einen Namen zu geben ist ein Angebot, kein Zwang. Erst wenn das Wesen den Namen freiwillig annimmt, entsteht eine schwache, nicht beherrschende Bindung.",
+      "initial_effect": "Der angenommene Name wird zu einem Erkennungs- und Vertrauenszeichen. In Johannas Nähe kann sie gelegentlich die grobe Stimmung des Gefährten wahrnehmen; keine Gedankenübertragung.",
+      "development": "Mit langem, gegenseitigem Vertrauen können zunächst Gefühle und einfache Eindrücke, später kurze Bilder oder Absichten ausgetauscht werden. Das erfordert Nähe und Konzentration und entwickelt sich langsam.",
+      "limits": [
+        "Keine Gedanken- oder Willenskontrolle.",
+        "Keine erzwungene Annahme eines Namens.",
+        "Keine vollständigen Gespräche, Erinnerungen oder heimliches Gedankenlesen.",
+        "Der Gefährte behält Bedürfnisse, Instinkte und Entscheidungsfreiheit und kann die Bindung ablehnen oder verlassen."
+      ],
+      "kiesel_status": "Der Name Kiesel ist vorgeschlagen; seine freiwillige Annahme ist noch nicht ausgespielt."
+    },
+    "future_class_system": {
+      "status": "Geplante Ausbaustufe; Grundrichtung vom Spieler gewünscht, konkrete Umsetzung noch offen.",
+      "starting_point": "Johanna beginnt zunächst ohne feste Klasse und entwickelt sich frei über Attribute, Fertigkeiten und Talente.",
+      "later_development": "Zu passenden Handlungsmilestones können benannte Klassenpfade oder Spezialisierungen freigeschaltet werden, passend zu den tatsächlich gezeigten Fähigkeiten und Entscheidungen.",
+      "hybrid_paths": "Mischformen sind ausdrücklich vorgesehen. Beispiele: Heiler plus Verteidiger als Paladin-artiger Pfad; Magie plus Schwertkampf als Kampfmagier oder Zauberklinge.",
+      "mechanical_role": "Klassen ergänzen das bestehende 2W10-System durch besondere Talente und Anwendungen. Sie ersetzen Attribute und Fertigkeiten nicht und sollen keine unpassenden Rollen erzwingen.",
+      "open_design": "Freischaltzeitpunkt, Klassenliste, Hybridkosten und konkrete Klassenfähigkeiten werden später festgelegt.",
+      "class_profession_distinction": {
+        "status": "Vom Spieler bestätigt.",
+        "profession": "Beruf beschreibt Arbeit, Ausbildung und praktische Fachkenntnisse im Alltag. Figuren können mehrere Berufe oder Berufsfertigkeiten haben.",
+        "class": "Klasse beschreibt die aventurische beziehungsweise kämpferische Spezialisierung und besondere Abenteuerfähigkeiten.",
+        "independence": "Beruf und Klasse sind getrennte Systeme. Ein Beruf schreibt keine Klasse vor; eine Klasse ersetzt keinen Beruf.",
+        "examples": [
+          "Alva ist Technikerin als Beruf; eine mögliche Abenteurerklasse bleibt davon unabhängig.",
+          "Eine Schmiedin kann Paladin, Kämpferin oder Magierin sein.",
+          "Eine Heilerin kann zusätzlich Verteidigerin oder Magierin werden."
+        ]
+      },
+      "class_catalog_draft": {
+        "status": "Arbeitsentwurf; Aufbauprinzip vom Spieler bestätigt, konkrete Klassenliste noch zu prüfen.",
+        "design_note": "Mit wenigen einfachen Grundklassen beginnen. Mischformen und Spezialisierungen entstehen aus diesen Grundlagen, statt eine lange Liste unabhängiger Klassen anzulegen.",
+        "foundational_classes": [
+          {
+            "name": "Kämpfer",
+            "focus": "Waffenführung und vielseitiger Nahkampf; offensive oder defensive Ausrichtung wird später spezialisiert."
+          },
+          {
+            "name": "Wächter",
+            "focus": "Verbündete schützen, Angriffe abfangen und Positionen sichern."
+          },
+          {
+            "name": "Kundschafter",
+            "focus": "Spuren lesen, Gefahren erkennen, sich tarnen und Wege finden."
+          },
+          {
+            "name": "Schütze",
+            "focus": "Bogen, Armbrust und andere Fernkampftechniken."
+          },
+          {
+            "name": "Magier",
+            "focus": "Arkanes Zaubern, magische Kontrolle und vorbereitete Formeln."
+          },
+          {
+            "name": "Heiler",
+            "focus": "Heilende Magie und Versorgung im Abenteuer; der weltliche Beruf Arzt oder Heilerin bleibt separat."
+          },
+          {
+            "name": "Naturwirker",
+            "focus": "Naturmagie, Pflanzen, Tiere und Kräfte des Geländes."
+          },
+          {
+            "name": "Bindungsrufer",
+            "focus": "Freiwillige magische Verbindungen zu Tieren, Geistern oder anderen Wesen."
+          },
+          {
+            "name": "Inspirator",
+            "focus": "Verbündete durch Führung, Mut, Worte oder Musik stärken."
+          }
+        ],
+        "hybrid_structure": {
+          "status": "Grundprinzip bestätigt.",
+          "rule": "Ein Charakter hat einen aktuellen Klassenpfad. Eine spätere Spezialisierung kann Fähigkeiten aus genau einer weiteren Grundklasse aufnehmen und daraus einen eigenständigen Hybridpfad formen.",
+          "sheet_simplicity": "Der Charakterbogen führt den resultierenden Klassenpfad als eine Identität; er verlangt keine Ansammlung von drei oder mehr Klassenbezeichnungen.",
+          "maximum_sources": "Ein benannter Hybridpfad verbindet höchstens zwei Grundklassen. Ein dritter Themenanteil wird über ein Talent, einen Eid, eine Herkunft oder einen Beruf dargestellt, nicht als dritte Klasse.",
+          "examples": [
+            {
+              "name": "Paladin",
+              "basis": [
+                "Wächter",
+                "Heiler"
+              ],
+              "extra_theme": "Eid oder Glaubensgrundsatz als Talent oder Erzählmotiv, nicht als dritte Klasse."
+            },
+            {
+              "name": "Zauberklinge",
+              "basis": [
+                "Kämpfer",
+                "Magier"
+              ]
+            },
+            {
+              "name": "Waldläufer",
+              "basis": [
+                "Kundschafter",
+                "Schütze"
+              ],
+              "extra_theme": "Naturkenntnis kann als Talent oder Beruf hinzukommen."
+            },
+            {
+              "name": "Bestienwächter",
+              "basis": [
+                "Wächter",
+                "Bindungsrufer"
+              ]
+            },
+            {
+              "name": "Monsterjäger",
+              "basis": [
+                "Kämpfer",
+                "Kundschafter"
+              ]
+            },
+            {
+              "name": "Kampfheiler",
+              "basis": [
+                "Heiler",
+                "Kämpfer oder Wächter"
+              ]
+            },
+            {
+              "name": "Runenwächter",
+              "basis": [
+                "Wächter",
+                "Magier"
+              ]
+            }
+          ]
+        },
+        "profession_separation": "Berufe bleiben unabhängig von Klassen und Klassenpfaden. Technikerin, Schmied, Köchin oder weltliche Heilerin sind Berufe, keine Klassen.",
+        "balance_principle": "Nur klar eigenständige Kombinationen erhalten einen eigenen Namen. Sonstige Mischungen entstehen durch einzelne Talente innerhalb eines Klassenpfads.",
+        "open_design": [
+          "genaue Zahl und endgültige Namen der Grundklassen",
+          "Freischaltzeitpunkt",
+          "Klassenanforderungen und Entwicklungskosten",
+          "konkrete Talente und Werte"
+        ],
+        "inspiration_source": {
+          "title": "Forgotten Realms Wiki – Kategorie:Charakterklassen",
+          "url": "https://forgotten-realms.fandom.com/de/wiki/Kategorie:Charakterklassen",
+          "classification": "Community-Wiki-Kategorieseite, eingeordnet unter Regeln der 4. Edition; 50 Einträge.",
+          "use": "Ideenpool für Begriffe und Rollen. Keine übernommenen Spielregeln und kein Kanon.",
+          "suggested_grouping": [
+            {
+              "our_base": "Kämpfer",
+              "source_examples": [
+                "Barbar",
+                "Berserker",
+                "Waffenmeister",
+                "Ritter",
+                "Mönch"
+              ],
+              "treatment": "Als Grundklasse oder spätere Kampfstile prüfen."
+            },
+            {
+              "our_base": "Wächter",
+              "source_examples": [
+                "Wächter",
+                "Schildwache",
+                "Protektor",
+                "Kavalier"
+              ],
+              "treatment": "Als Schutzrolle bündeln; einzelne Namen können Spezialisierungen werden."
+            },
+            {
+              "our_base": "Kundschafter und Schütze",
+              "source_examples": [
+                "Späher",
+                "Jäger",
+                "Waldläufer",
+                "Schurke",
+                "Dieb"
+              ],
+              "treatment": "Auf Erkundung, Fernkampf und Heimlichkeit verteilen; Waldläufer kann ein Hybridpfad sein."
+            },
+            {
+              "our_base": "Magier",
+              "source_examples": [
+                "Magier",
+                "Arkanist",
+                "Elementarist",
+                "Hexe",
+                "Hexer",
+                "Hexenmeister",
+                "Psioniker"
+              ],
+              "treatment": "Magische Zugänge oder Spezialisierungen, nicht automatisch getrennte Grundklassen."
+            },
+            {
+              "our_base": "Naturwirker",
+              "source_examples": [
+                "Druide",
+                "Schamane"
+              ],
+              "treatment": "Natur- und Geistermagie als ein Grundpfad mit späteren Spezialisierungen prüfen."
+            },
+            {
+              "our_base": "Inspirator",
+              "source_examples": [
+                "Barde",
+                "Skalde",
+                "Marschall",
+                "Agitator"
+              ],
+              "treatment": "Unterstützung durch Führung, Musik oder Einfluss als mögliche gemeinsame Grundlage."
+            },
+            {
+              "our_base": "Bindungsrufer",
+              "source_examples": [
+                "Binder",
+                "Anrufer"
+              ],
+              "treatment": "Als Grundlage für Bindungen und herbeigerufene Verbündete prüfen."
+            },
+            {
+              "our_base": "Mögliche Hybridpfade",
+              "source_examples": [
+                "Paladin",
+                "Kriegspriester",
+                "Runenpriester",
+                "Schwertmagier",
+                "Klingensänger",
+                "Hexenklinge",
+                "Templer"
+              ],
+              "treatment": "Als Beispiele für Kombinationen aus höchstens zwei Grundklassen prüfen."
+            },
+            {
+              "our_base": "Beruf versus Klasse",
+              "source_examples": [
+                "Werkmeister"
+              ],
+              "treatment": "Technik bleibt bei uns ein Beruf; nur besondere Abenteuerfähigkeiten würden einen eigenen Klassenpfad begründen."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "player_character": {
+    "name": "Johanna",
+    "ancestry": "Katzenmensch mit Raubkatzenmerkmalen",
+    "appearance": {
+      "hair": "rot, glatt, schulterlang",
+      "build": "Klein und zierlich mit deutlich ausgeprägter weiblicher Silhouette; sehr große Oberweite im überzeichneten Anime-Stil, schmale Taille und volle Hüften/Oberschenkel.",
+      "feline_form": "Geparden-Mischwesen",
+      "traits": "Gepardenartige Zeichnung kann sich als Muster in der Haut zeigen; Ausprägung und weitere körperliche Merkmale bleiben offen.",
+      "self_image": "schwankt zwischen Stolz und Unsicherheit",
+      "feline_traits": "Gepardenartige Hautzeichnung; Ohren und Schwanz als erwachsene Mischwesen-Merkmale sichtbar (Entwurf).",
+      "height": "noch offen",
+      "eyes": "katzenartig; in der ersten Bildreferenz bernsteinfarben (vorläufiger Vorschlag)",
+      "skin": "hell",
+      "ears": "menschliche Ohren und zusätzlich katzenartige Ohren",
+      "tail": "gefleckt, gepardenartig",
+      "markings": "feine Flecken; an Armen und Beinen stärker ausgeprägt",
+      "clothing": "Praktisch und spartanisch; die Kleidung ist auf ihre Figur angepasst und bleibt vollständig bedeckend.",
+      "first_impression": [
+        "liebenswürdig",
+        "wild",
+        "geheimnisvoll"
+      ],
+      "visual_style": "detaillierter Anime-Fantasy-Stil",
+      "visual_reference_latest": "Aktuelle Version: überzeichnete, deutlich größere Oberweite; vollständig bekleidete praktische Arbeitskleidung."
+    },
+    "age": 21,
+    "origin": "Bei der Schmiede ihres Vaters aufgewachsen; verfügt über gewisse Grundkenntnisse im Schmiedehandwerk.",
+    "personality": {
+      "first_impression": "eher vorsichtig",
+      "response_to_provocation": "protestiert sehr zurückhaltend",
+      "strengths": [
+        "Einfühlungsvermögen",
+        "Menschenkenntnis"
+      ],
+      "flaws": [
+        "konfliktscheu"
+      ],
+      "relationship_style": "wird passend zur Geschichte entwickelt"
+    },
+    "goals": [
+      "Abenteuer erleben",
+      "einen sicheren Ort haben, zu dem sie zurückkehren kann"
+    ],
+    "flaws": [
+      "Konfliktscheu",
+      "mögliche Schuldgefühle wegen des Todes ihrer Familie"
+    ],
+    "starting_ability": {
+      "concept": "Tiere und Monster beruhigen, Vertrauen aufbauen und ihre Bedürfnisse oder Gefühle wahrnehmen (genaue Gewichtung offen).",
+      "initial_scope": "Johanna versteht ihre Fähigkeit zu Beginn selbst noch nicht.",
+      "growth": "Durch Übung; spätere neue Anwendungen sind möglich.",
+      "limits": [
+        "Keine Gedankenkontrolle.",
+        "Hungrige Monster werden nicht dauerhaft besänftigt.",
+        "Anfangs wirkt die Fähigkeit nur bei harmlosen oder schwachen Wesen."
+      ],
+      "cost": "Zeit, Verständnis und bei stärkeren Wesen Erschöpfungs- oder Gefahrpotential.",
+      "public_knowledge": "Anfangs unerkannt; später vermutlich nur Vertrauten bekannt.",
+      "discovery": "Johanna versteht die Fähigkeit zunächst nicht; Entdeckung wird Teil des frühen Handlungsbogens.",
+      "initial_range": "Wenige Schritte; Wirkung nur in unmittelbarer Nähe.",
+      "initial_perception": "Johanna nimmt zunächst nur die allgemeine Stimmung des Wesens wahr, keine Gedanken oder konkreten Erinnerungen.",
+      "duration": "Beruhigung hält nur an, solange Johanna anwesend und nahe beim Wesen ist.",
+      "initial_manifestation": "Zeigt sich zuerst unbewusst; ein nahe Tier oder harmloses Monster kann in ihrer Gegenwart ruhiger werden.",
+      "conscious_use_cost": "Konzentration.",
+      "use_condition": "Gezielte Anwendung erfordert Konzentration; Ablenkung kann die Wirkung unterbrechen.",
+      "latent_ability": {
+        "name": "Ruf des Lebendigen (Arbeitstitel)",
+        "status": "unentdeckt",
+        "initial_effect": "unbewusstes Beruhigen eines nahen, harmlosen oder schwachen Tieres oder Monsters; Johanna spürt nur dessen allgemeine Stimmung.",
+        "initial_range": "Wenige Schritte; Wirkung nur in unmittelbarer Nähe.",
+        "duration": "nur solange Johanna anwesend und nahe ist",
+        "conscious_use_cost": "Konzentration",
+        "growth": "durch Übung und Verständnis",
+        "passive_resolution": "Unbewusste passende Beruhigung gelingt ohne Probe, wenn die Situation günstig ist.",
+        "conscious_resolution": "Gezielte Anwendung: 2W10 + passender Attributsbonus + Fertigkeitsrang gegen Zielwert."
+      },
+      "progression_stages": [
+        {
+          "stage": 1,
+          "name": "Unbewusster Gleichklang",
+          "description": "Nahe, harmlose oder schwache Wesen werden manchmal ruhiger; Johanna nimmt ihre allgemeine Stimmung wahr."
+        },
+        {
+          "stage": 2,
+          "name": "Bewusste Beruhigung",
+          "description": "Johanna kann sich auf ein einzelnes Wesen konzentrieren und versuchen, es zu beruhigen; Erfolg hängt von Lage, Verhalten und Wurf ab."
+        },
+        {
+          "stage": 3,
+          "name": "Bedürfnisse erkennen",
+          "description": "Durch Übung kann Johanna einfache Bedürfnisse und Absichten besser unterscheiden, ohne Gedanken zu lesen."
+        },
+        {
+          "stage": 4,
+          "name": "Freiwillige Weggefährten",
+          "description": "Mehrere Tiere oder Monster können sich aus eigenem Vertrauen Johanna anschließen. Solange sie in ihrer Nähe bleiben, greifen Gefährten einander nicht an, auch wenn sie normalerweise Räuber und Beute wären. Sie können Johanna gegen ihre Feinde verteidigen. Die Gefährten behalten ihre Bedürfnisse und Entscheidungsfreiheit und können jederzeit gehen."
+        }
+      ],
+      "agency_principle": "Begleiterwesen behalten eigene Bedürfnisse und Entscheidungsfreiheit. Vertrauen kann freiwillige Begleitung ermöglichen, aber keine Bindung erzwingen.",
+      "group_companions": {
+        "maximum": "Keine feste Zahl festgelegt; mehrere Gefährten möglich.",
+        "inter_species_rule": "Freiwillig gebundene Gefährten greifen einander nicht an, auch wenn sie sich normalerweise jagen würden, solange sie in Johannas Nähe bleiben.",
+        "defense": "Sie können gegen Feinde Johannas kämpfen; die Bindung erzwingt keine absolute Befehlsunterordnung.",
+        "agency": "Jeder Gefährte behält eigene Bedürfnisse und kann die Gruppe verlassen.",
+        "hunger": "Hunger wird nicht magisch gestillt; die Gruppe braucht passende Nahrung."
+      },
+      "passive_resolution": "Unbewusstes Beruhigen eines passenden schwachen oder harmlosen Wesens braucht keinen Würfelwurf, wenn die Szene dafür geeignet ist.",
+      "conscious_resolution": "Gezielte Anwendung wird mit 2W10 + passendem Attributsbonus + Fertigkeitsrang gegen den passenden Zielwert geprüft."
+    },
+    "ability_limits_and_growth": "Begrenzung wird passend zur Welt vorgeschlagen und bestätigt",
+    "skills_and_equipment": [
+      "Grundkenntnisse Schmiedehandwerk",
+      "Kochen",
+      "Sammeln",
+      "Jagen",
+      "Kräuterkunde",
+      "Erste Hilfe",
+      "Lesen und Schreiben",
+      "einfache Selbstverteidigung durch ihren Vater",
+      "Messer"
+    ],
+    "character_sheet": {
+      "attributes_scale": {
+        "range": "1 bis 10",
+        "baseline": "5–6 ist durchschnittlich",
+        "modifier_bands": {
+          "1–2": -2,
+          "3–4": -1,
+          "5–6": 0,
+          "7–8": 1,
+          "9–10": 2
+        }
+      },
+      "attributes": {
+        "Kraft": 5,
+        "Geschick": 6,
+        "Verstand": 6,
+        "Wahrnehmung": 8,
+        "Ausstrahlung": 8
+      },
+      "skills_scale": {
+        "range": "0 bis 5",
+        "ranks": {
+          "0": "ungeübt",
+          "1": "erste Erfahrung",
+          "2": "geübt",
+          "3": "ausgebildet",
+          "4": "erfahren",
+          "5": "meisterhaft"
+        },
+        "value_added_to_roll": "Fertigkeitsrang direkt als Bonus"
+      },
+      "skills": {
+        "Schmiedehandwerk": 1,
+        "Kochen": 1,
+        "Sammeln": 1,
+        "Jagen": 1,
+        "Kräuterkunde": 1,
+        "Erste Hilfe": 1,
+        "Lesen und Schreiben": 1,
+        "Rechnen": 1,
+        "Selbstverteidigung mit Messer": 1,
+        "Tierverständnis": 0
+      },
+      "health_points": 10,
+      "stamina_points": 8,
+      "equipment": [
+        "mittelalterliches Gebrauchsmesser im deutschen Raum, zwischen langem Messer und kurzem Sax; gerade Klinge",
+        "robuste Alltagskleidung",
+        "kleine Tasche mit persönlichen Dingen",
+        "Wasserflasche",
+        "Tragetasche mit repariertem und gepolstertem Riemen",
+        "Schürze",
+        "Zugbeutel oder Einschlagtuch",
+        "verbesserter Wollumhang",
+        "reparierte Schuhe"
+      ],
+      "armor": "Keine Rüstung zu Beginn; genaue Startausrüstung hängt von der noch geheimen Eröffnungsszene ab.",
+      "latent_ability": {
+        "name": "Ruf des Lebendigen (Arbeitstitel)",
+        "status": "unentdeckt",
+        "initial_effect": "unbewusstes Beruhigen kleiner oder harmloser Tiere und Monster; keine Gedankenkontrolle und kein dauerhafter Effekt gegen Hunger",
+        "growth": "durch Übung und Verständnis"
+      },
+      "derived_values": "Attributswerte sind keine Würfelboni; der Bonus wird aus der Attributstabelle abgeleitet.",
+      "roll_formula": "2W10 + Attributsbonus + Fertigkeitsrang",
+      "caps": {
+        "attributes": 10,
+        "skills": 5
+      },
+      "advancement": "2 points per level; skill rank +1 (1 point), talent/new ability application (2 points), or attribute +1 (2 points, at most every second level-up). Automatic +1 health and +1 stamina each level."
+    },
+    "family": "Johanna wuchs in der Auenwelt als Tochter eines Schmieds auf. Ihre gesamte Familie in diesem Leben ist inzwischen tot; Todeszeitpunkt und Ursache sind noch offen. Auch ihre Familie aus dem früheren Leben starb bei einem Überfall.",
+    "prior_life_memory": "Nur bruchstückhafte Erinnerungen",
+    "reincarnation": "Wiedergeburt als Baby nach dem Tod ihrer Familie im früheren Leben; ein Zusammenhang zwischen den Ereignissen ist nicht festgelegt.",
+    "prior_knowledge": "Etwas mehr als Alltagswissen; nur kleiner Vorsprung bei Lesen, Schreiben und Rechnen.",
+    "smithing": "Hilft gelegentlich, hat Grundkenntnisse und eine enge emotionale Bindung an die Schmiede und ihren Vater.",
+    "weapon_design": {
+      "confirmed_style": "Mittelalterlich-deutscher Eindruck; Form zwischen langem Messer und Sax; nicht übermäßig lang; recht gerade Klinge.",
+      "proposed_dimensions": "Etwa 38–42 cm Gesamtlänge, davon 25–28 cm Klinge.",
+      "proposed_blade": "Einfacher einschneidiger Stahl, gerader Rücken und gerader Schneidenverlauf mit leicht zulaufender Spitze.",
+      "proposed_hilt": "Dunkler Holzgriff mit Lederwicklung, feinen Metallbeschlägen und eingearbeiteten Zierlinien.",
+      "origin": "Geschenk von ihrem Vater zu dem Anlass, an dem ihre Gepardenmerkmale erstmals sichtbar wurden.",
+      "magic": "Keine magischen Eigenschaften.",
+      "status": "Visuelle Referenz vom Spieler als schick bestätigt; Form und sichtbare Details gelten als angenommener Entwurf.",
+      "confirmed_character": "Ein Geschenk zu einem besonderen Anlass; deshalb merklich kunstvoller und verzierter als ein gewöhnliches Gebrauchsmesser.",
+      "proposed_ornament": "Schlichte, sorgfältige Gravuren an Klinge oder Griff und die Schmiedemarke des Vaters; schmuckvoll, aber weiterhin als brauchbare Waffe gestaltet.",
+      "guard": "Noch nicht entschieden.",
+      "gift_occasion": "Das erste Sichtbarwerden ihrer Gepardenmerkmale.",
+      "confirmed_visual_details": [
+        "nahezu gerade einschneidige Klinge",
+        "mittelalterlich-deutsche Sax-/Langmesserform",
+        "feine Gravuren mit Gepardenflecken am Klingenansatz",
+        "dunkler lederumwickelter Griff mit Metallbeschlägen",
+        "kleine verzierte Parierstange",
+        "passende verzierte Lederscheide"
+      ]
+    },
+    "inventory_status": "Auf den neuesten Spielstand aktualisiert; vollständige historische Einzelbelege für ältere Gegenstände bleiben offen."
+  },
+  "companions": [
+    {
+      "id": "COMP-001",
+      "name": "Marta Eisenklang",
+      "age": 28,
+      "gender": "weiblich",
+      "ancestry": "Zwergin",
+      "role": "Bergungshelferin und Ersthelferin der Bergleute; kennt Silberklamms Stollen und Wege.",
+      "appearance": "Erwachsene Zwergin mit kompakter, kräftiger und deutlich kurviger Statur. Weiche Gesichtszüge, dunkles Haar zu einem kräftigen praktischen Zopf geflochten. Sie trägt körpernah geschnittene, vollständig bedeckende mittelalterliche Bergungs- und Arbeitskleidung mit verstärkten Nähten, Gürtel, Handschuhen und robusten Stiefeln. Ihre Ausrüstung umfasst einen größeren, kurzen Rettungshammer.",
+      "personality": [
+        "direkt",
+        "verlässlich",
+        "trocken humorvoll",
+        "mitfühlend, wenn jemand verletzt ist"
+      ],
+      "motivation": "Sie will verhindern, dass weitere Bergleute in den alten, aufgegebenen Stollen verschwinden.",
+      "relationship_to_johanna": "Erste unterstützende Begleiterin. Vertrauen entsteht langsam; mögliche Romantik bleibt offen und wird nicht vorausgesetzt.",
+      "combat_style": "Schützt Verbündete mit Hammer und einfacher Schutzkleidung; vermeidet unnötige Risiken.",
+      "canon_status": "Optik durch den Spieler am 2026-11-12 bestätigt; visuelle Referenz im Archiv verknüpft."
+    },
+    {
+      "id": "COMP-002",
+      "name": "Alva",
+      "age": 24,
+      "age_status": "24 Jahre; vom Spielleiter passend festgelegt innerhalb des Spielerrahmens 23–26.",
+      "gender": "weiblich",
+      "ancestry": "Goblin",
+      "role": "Technikerin und Tüftlerin; arbeitet mit mittelalterlichen Werkzeugen und mechanischen Bauteilen.",
+      "appearance": "Grüne Haut, lange spitze Ohren, bernsteinfarbene Augen und kräftig rotes Haar zu einem hohen praktischen Zopf gebunden. Deutlich feminine, kurvige Proportionen. Sie trägt körpernah geschnittene, handwerkstaugliche Kleidung in Pflaumen- und Dunkelgrün mit verstärkter Lederschürze und Werkzeugriemen. Sichtbare Ausrüstung: kleiner Hammer, Zange, Ahle, Messwerkzeuge, Werkzeugtaschen und ein kleines Uhrwerk-Bauteil. Der Ausschnitt ist deutlich, bleibt aber vollständig bekleidet.",
+      "visual_reference": "Goblin-Technikerin in der Uhrwerkstatt.png (Library-ID libfile_4eb32725e8088191920c67db17748be0); finale Bildreferenz am 2026-11-12 bestätigt.",
+      "canon_status": "Rolle und dargestellte Optik vom Spieler am 2026-11-12 bestätigt. Genaue Alterszahl, Persönlichkeit und Hintergrund bleiben offen.",
+      "profession": "Technikerin und Tüftlerin.",
+      "class_status": "Keine Klasse festgelegt; Beruf und Klasse werden getrennt behandelt."
+    }
+  ],
+  "relationship_tracker": [
+    {
+      "character_id": "COMP-001",
+      "trust": 0,
+      "affection": 0,
+      "romance_status": "noch nicht entwickelt",
+      "notes": "Beziehung beginnt bei der ersten Begegnung; keine vorweggenommene Zuneigung."
+    }
+  ],
+  "campaign": {
+    "starting_location": "Wird vom Spielleiter passend entworfen; Johanna beginnt unerwartet an einem passenden Ort.",
+    "starting_situation": "Noch nicht ausgespielt. Dramaturgischer Entwurf: alltäglicher, zunächst sicherer Moment nahe Silberklamm wird durch einen ungewöhnlichen Tier- oder Monsterzwischenfall gestört; Marta ist beteiligt. Johannas Fähigkeit zeigt sich zunächst unbewusst.",
+    "main_plot": "Vorläufig: Johanna entdeckt ihre seltene Bindung zu Tieren und Monstern, begleitet Abenteurer in Dungeons und entwickelt einen sicheren Rückzugsort. Wiedergeburt, Träume und göttlicher Bote bilden einen langfristigen Geheimnisfaden.",
+    "side_threads": [
+      "Alter Minenschacht nahe Silberklamm: möglicher Dungeon, noch als Schauplatz zu bestätigen.",
+      "Alter Minenschacht: Stollenwühler und Erschütterungen; Erkundung noch nicht begonnen."
+    ],
+    "session_log": [
+      {
+        "entry_id": "SESSION-PREF-001",
+        "date": "2026-11-10",
+        "type": "Spielstil und Übergabestand",
+        "summary": "Spieler wünscht längere Abschnitte und regelmäßige einfache, klare Auswahlmöglichkeiten. Die Kampagne ist bereits im Gang; Johanna und Marta kommen mit dem Stollenwühler aus der Mine zurück. Johanna erklärte der Wache, der Stollenwühler begleite sie. Sie wählte die Vorbereitungsoptionen 1, 2 und 3 vor dem nächsten Aufbruch.",
+        "certainty": "Nur die oben genannten Ereignisse sind überliefert; keine Details zu den Inhalten der ausgewählten Vorbereitungen ergänzt."
+      },
+      {
+        "entry_id": "SESSION-RULE-002",
+        "date": "2026-11-11",
+        "type": "Begleiterbindung und Namensregel",
+        "summary": "Spieler bestätigt Variante B: Ein Name ist ein freiwilliges Angebot. Erst wenn ein Tier oder Monster ihn annimmt, entsteht eine schwache Bindung. Späterer Austausch von Gefühlen und einfachen Eindrücken kann durch langes gegenseitiges Vertrauen wachsen; Gedanken- oder Willenskontrolle bleibt ausgeschlossen.",
+        "certainty": "Regel ist bestätigt. Kiesels Annahme des Namens ist noch nicht ausgespielt."
+      },
+      {
+        "entry_id": "SESSION-PREF-002",
+        "date": "2026-11-11",
+        "type": "Spielstil und Speicherstand",
+        "summary": "Spieler bestätigt: Die Geschichte soll in längeren Abschnitten mit vielen Handlungsmöglichkeiten laufen. Bei passenden Entscheidungspunkten gibt es klare Optionen, aber nur wichtige Weichenstellungen verlangen eine ausdrückliche Entscheidung. Änderungen am Spielfluss und an der Erzählstruktur werden im Archiv festgehalten.",
+        "certainty": "Verbindliche Spielstilpräferenz."
+      },
+      {
+        "entry_id": "SESSION-APPEARANCE-MARTA-001",
+        "date": "2026-11-12",
+        "type": "Visuelle Referenz bestätigt",
+        "summary": "Marta Eisenklangs Optik bestätigt: kompakt, kräftig und deutlich kurvig; weiche Gesichtszüge; dunkler praktischer Zopf; körpernah geschnittene, vollständig bedeckende Bergungs- und Arbeitskleidung; größerer kurzer Rettungshammer. Das Referenzbild ist im Archiv verknüpft.",
+        "certainty": "Vom Spieler ausdrücklich bestätigt."
+      },
+      {
+        "entry_id": "SESSION-APPEARANCE-ALVA-001",
+        "date": "2026-11-12",
+        "type": "Figur und visuelle Referenz bestätigt",
+        "summary": "Alva ist eine Technikerin. Der Spieler bestätigt die Goblin-Technikerinnen-Illustration mit Werkstattkleidung und Ausrüstung; anschließend wird das Dekolleté stärker ausgeprägt. Rolle und finale dargestellte Optik gelten als bestätigt. Genaue Alterszahl, Persönlichkeit und Hintergrund sind offen.",
+        "certainty": "Rolle und Bildrichtung ausdrücklich bestätigt; keine zusätzlichen biografischen Details festgelegt."
+      },
+      {
+        "entry_id": "SESSION-AGE-ALVA-001",
+        "date": "2026-11-12",
+        "type": "Alvas Alter festgelegt",
+        "summary": "Auf Spielervorgabe, Alvas Alter zwischen 23 und 26 zu wählen, legt die Spielleitung sie auf 24 Jahre fest. Ihre finale Bildreferenz ist mit dem Archiv verknüpft.",
+        "certainty": "Alter 24 und bestätigtes Bild sind festgelegt; weitere Biografiedetails bleiben offen."
+      },
+      {
+        "entry_id": "SESSION-RULE-CLASS-001",
+        "date": "2026-11-12",
+        "type": "Geplante Klassenentwicklung",
+        "summary": "Spieler wünscht für einen späteren Zeitpunkt echte Charakterklassen, darunter hybride Rollen wie Heiler/Verteidiger (Paladin-artig) und Magier/Schwertkämpfer. Vorschlag: Johanna beginnt klassenlos; spätere Klassenpfade werden passend zu ihrer Entwicklung freigeschaltet.",
+        "certainty": "Als gewünschte Entwicklungsrichtung festgehalten; genaue Regeln und Klassen sind noch offen."
+      },
+      {
+        "entry_id": "SESSION-RULE-CLASS-002",
+        "date": "2026-11-12",
+        "type": "Klasse und Beruf getrennt",
+        "summary": "Spieler bestätigt eine klare Trennung: Berufe beschreiben zivile Arbeit und praktische Ausbildung; Klassen beschreiben die Abenteuer- und Kampfspezialisierung. Beruf und Klasse legen einander nicht fest. Alvas Technikerinnenrolle ist ein Beruf, keine Klasse.",
+        "certainty": "Spieler ausdrücklich bestätigt."
+      },
+      {
+        "entry_id": "SESSION-RULE-CLASS-LIST-001",
+        "date": "2026-11-12",
+        "type": "Klassenliste als Entwurf",
+        "summary": "Erste Liste möglicher Grundklassen und Hybridklassen erstellt. Klassen sind Abenteuerrollen; Berufe bleiben getrennt. Nur klar eigenständige Mischrollen erhalten einen eigenen Namen. Die Liste ist ein Arbeitsentwurf und noch nicht bestätigt.",
+        "certainty": "Alle Einträge sind Vorschläge bis zur ausdrücklichen Bestätigung."
+      },
+      {
+        "entry_id": "SESSION-RULE-CLASS-STRUCTURE-001",
+        "date": "2026-11-12",
+        "type": "Klassenaufbau präzisiert",
+        "summary": "Spieler legt fest: Die Klassenliste beginnt mit einfachen Grundklassen. Mischformen entstehen aus diesen Grundlagen und werden als ein Klassenpfad geführt; Figuren sollen nicht mehrere, insbesondere nicht drei, Klassenbezeichnungen anhäufen. Ein benannter Hybrid verbindet höchstens zwei Grundklassen; weitere Themen werden über Talente, Eid, Herkunft oder Beruf ausgedrückt.",
+        "certainty": "Aufbauprinzip bestätigt; endgültige Grundklassenliste und konkrete Mechanik noch offen."
+      },
+      {
+        "entry_id": "SESSION-RULE-CLASS-SOURCE-001",
+        "date": "2026-11-12",
+        "type": "Klassen-Inspirationsquelle",
+        "summary": "Die vom Spieler verlinkte Forgotten Realms Wiki-Kategorie wird als Ideenfundus für Grundklassen und Spezialisierungen genutzt. Die dortigen Begriffe werden für das eigene System gebündelt; ihre Regeln und Einordnung werden nicht ungeprüft übernommen.",
+        "certainty": "Quelle und ihre Verwendung als Inspiration bestätigt; Zuordnungen im Klassenentwurf bleiben Vorschläge."
+      },
+      {
+        "entry_id": "SESSION-LEDGER-001",
+        "date": "2026-11-13",
+        "type": "Geld, Unterkunft und Ausrüstung nachgetragen",
+        "summary": "Aktueller belegter Stand: Johanna 16 Silber persönlich nach 4 Silber Verdienst beim Trockenhaus; 8 Silber Mietrücklage separat vermerkt, aber ungeklärt, ob im persönlichen Saldo enthalten. Gemeinsame Haushaltskasse: 12 Silber, freiwillige Beiträge ohne Schulden, für Nahrung und Vorräte. Hedda bot das Hinterhaus für 24 Silber pro Monat plus 12 Silber rückzahlbare Kaution an. Das Haus ist inzwischen bewohnt; eine tatsächliche Zahlung ist nicht sicher belegt. Jüngste Käufe: Wollumhang 8 Silber, Schuhreparatur 2 Silber, Riemenpolsterung kostenlos. Alvas früherer Verdienst: 3 Silber; ihr aktueller persönlicher Stand sowie Martas Geld sind unbekannt.",
+        "certainty": "Nur klar belegte Beträge eingetragen; unklare Rücklage und Mietzahlungen als offen markiert."
+      },
+      {
+        "entry_id": "SESSION-LEDGER-002",
+        "date": "2026-11-13",
+        "type": "Finanzstand präzisiert und Schätzwerte ergänzt",
+        "summary": "Spieler bestätigt, dass Johannas 8 Silber Mietrücklage separat zu ihren 16 Silber persönlichem Geld steht. Marta erhält für die aktuelle Buchführung eine ausdrücklich markierte Schätzung von 5 Silber, basierend auf ihrem letzten bekannten Auftragsanteil. Für Alva werden provisorisch 3 Silber frei verfügbar und 18 Silber als Wohnrücklage angesetzt; beides ist als Spielleiter-Schätzung gekennzeichnet, da Einnahmen, Ausgaben und Anfangssaldo nicht vollständig vorliegen. Haushaltskasse bleibt separat bei 12 Silber.",
+        "certainty": "Johannas getrennte Salden bestätigt; Marta/Alva-Beträge ausdrücklich geschätzt und jederzeit korrigierbar."
+      }
+    ],
+    "current_state": "Die Kampagne hat begonnen. Letzter bekannter Stand aus dem Spielverlauf: Johanna und Marta verließen den alten Minenschacht; der Stollenwühler reist seitdem mit ihnen. Johanna erklärte einer Wache, dass er sie seit dem Verlassen der Mine begleitet. Sie fragte nach weiteren Vorbereitungen, bevor sie weitergeht, und wählte die angebotenen Punkte 1, 2 und 3. Die genauen Inhalte dieser drei Vorbereitungen sind im aktuellen Archiv nicht ausgeschrieben.",
+    "open_questions": [],
+    "play_style_preferences": {
+      "scene_length": "Längere, zusammenhängende Abschnitte mit Atmosphäre, Handlung, Reaktionen und nachvollziehbaren Folgen; seltene Unterbrechungen.",
+      "choice_prompts": "Johanna kann häufig handeln und mehrere einfache Optionen erhalten. Nur wichtige Weichenstellungen erfordern eine ausdrückliche Spielerentscheidung; kleinere passende Handlungen und Übergänge darf die Spielleitung flüssig ausspielen.",
+      "player_agency": "Freie eigene Handlungen bleiben jederzeit möglich; Auswahloptionen sind Hilfen, keine Begrenzung. Johanna entscheidet selbst über wichtige persönliche, moralische und strategische Fragen.",
+      "continuity": "Entscheidungen und Folgen sichtbar fortführen.",
+      "pacing_changes": "Änderungen, die den Spielfluss, die Szenenlänge, Häufigkeit von Entscheidungen oder Erzählstruktur betreffen, werden als Spielstilregel im Archiv festgehalten."
+    },
+    "shared_finances": {
+      "last_updated": "2026-11-13",
+      "currency": "Silberstücke",
+      "johanna": {
+        "personal_balance": 16,
+        "balance_status": "Gesicherter persönlicher Kassenstand; frei verfügbar.",
+        "rent_reserve": 8,
+        "rent_reserve_status": "Vom Spieler ausdrücklich als separat bestätigt; zusätzlich zum persönlichen Saldo von 16 Silber.",
+        "latest_transactions": [
+          {
+            "item": "Verbesserter Wollumhang",
+            "amount": -8,
+            "unit": "Silberstücke"
+          },
+          {
+            "item": "Schuhreparatur",
+            "amount": -2,
+            "unit": "Silberstücke"
+          },
+          {
+            "item": "Riemenpolsterung an der Tragetasche",
+            "amount": 0,
+            "unit": "Silberstücke",
+            "note": "ohne Zusatzkosten"
+          },
+          {
+            "item": "Verdienst beim Trockenhaus",
+            "amount": 4,
+            "unit": "Silberstücke"
+          }
+        ],
+        "balance_sequence": "22 Silber vor den jüngsten Käufen; danach 12 Silber. Anschließend 4 Silber verdient; letzter persönlicher Stand 16 Silber.",
+        "total_cash_held_by_johanna": 24,
+        "total_cash_note": "16 Silber frei verfügbar + 8 Silber separat für Miete zurückgelegt."
+      },
+      "household_fund": {
+        "balance": 12,
+        "unit": "Silberstücke",
+        "policy": "Freiwillige Beiträge nach Möglichkeit; keine gleichen Einzahlungen und keine daraus entstehenden Schulden.",
+        "intended_uses": [
+          "gemeinsame Nahrung",
+          "Vorräte",
+          "Brennholz",
+          "Lampenöl",
+          "Seife"
+        ],
+        "animal_food_and_care": "Bis auf Weiteres Johannas persönliche Ausgabe."
+      },
+      "accommodation": {
+        "location": "Hinterhaus in Silberklamm",
+        "occupants": [
+          "Johanna",
+          "Marta Eisenklang",
+          "Alva"
+        ],
+        "occupancy_status": "Laut aktuellem Spielstand bewohnt.",
+        "known_terms": {
+          "monthly_rent_whole_house": 24,
+          "refundable_security_deposit": 12,
+          "unit": "Silberstücke"
+        },
+        "terms_source_status": "Hedda nannte diese Beträge bei ihrem Angebot.",
+        "paid_to_date": "Nicht sicher belegt. Das Angebot war zunächst noch nicht angenommen und damals war noch nichts gezahlt; späterer Einzug ist bekannt, aber die Zahlung wurde nicht eindeutig festgehalten.",
+        "rent_reserve_johanna": 8,
+        "rent_reserve_note": "Rücklage ist genannt, aber nicht als tatsächliche Miet- oder Kautionszahlung verbucht."
+      },
+      "companions": {
+        "Marta Eisenklang": {
+          "estimated_personal_balance": 5,
+          "unit": "Silberstücke",
+          "status": "Schätzung für den Spielstand, nicht exakt belegt.",
+          "basis": "Letzter bekannter Auftragsanteil: 5 Silber. Keine späteren persönlichen Ausgaben bekannt; frühere Ersparnisse bleiben offen."
+        },
+        "Alva": {
+          "estimated_spendable_balance": 3,
+          "estimated_housing_reserve": 18,
+          "unit": "Silberstücke",
+          "status": "Schätzung für den Spielstand, nicht exakt belegt.",
+          "basis": "Bisherige Erzählstände nennen 5 Silber Auftragsanteil, frühere 3 Silber Einnahme, 4 Silber Buße und 4 Silber Pumpenteile; außerdem wurde eine Wohnrücklage von 18 Silber erwähnt. Wegen fehlendem Anfangssaldo und unvollständiger Buchung wird ein kleiner freier Betrag von 3 Silber angenommen; die 18 Silber bleiben als vorläufige, separate Wohnrücklage markiert."
+        }
+      },
+      "reconciliation_notes": [
+        "Johannas 8-Silber-Mietrücklage ist separat und zusätzlich zu ihren 16 Silber frei verfügbarem Geld; zusammen hält Johanna 24 Silber, davon 8 zweckgebunden.",
+        "Die Haushaltskasse von 12 Silber ist ein eigener gemeinsamer Betrag und wird Marta oder Alva nicht persönlich zugerechnet.",
+        "Marta: 5 Silber ist eine vorsichtige Schätzung auf Basis ihres letzten bekannten Auftragsanteils; spätere Ausgaben sind nicht dokumentiert.",
+        "Alva: 3 Silber frei verfügbar plus geschätzte 18 Silber Wohnrücklage sind provisorische Spielleiterwerte, keine vollständig belegte Buchführung.",
+        "Die Unterkunft wird bewohnt; die tatsächliche Zahlung von Monatsmiete und Kaution ist weiterhin nicht eindeutig protokolliert."
+      ]
+    }
+  },
+  "reference_materials": {
+    "visual_style": "Detaillierter, farbkräftiger Anime-Fantasy-Stil mit ausdrucksstarken Gesichtern und deutlich femininen, kurvigen Proportionen. Die drei vom Spieler am 2026-11-12 bereitgestellten Fantasy-Frauenbilder dienen als Stil- und Proportionsreferenz. Hautfarbe, Volk, Ohren, Haare, Schmuck und Kleidung werden nicht automatisch übernommen; jede Figur behält ihre bestätigten individuellen Merkmale.",
+    "character_references": [
+      {
+        "character": "Johanna",
+        "source": "generierte Anime-Fantasy-Referenz aus dieser Unterhaltung",
+        "status": "Visueller Entwurf erstellt; Grundmerkmale nach Beschreibung, bernsteinfarbene Augen und konkrete Kleidung noch zur Bestätigung."
+      },
+      {
+        "character": "Johanna",
+        "source": "aktualisierte Bildgenerierung nach Wunsch des Spielers",
+        "status": "Aktuelle Referenz: deutlich weiblichere, kurvige Silhouette bei praktischer, bedeckender Kleidung. Augenfarbe Bernstein bleibt vorläufig."
+      },
+      {
+        "character": "Johanna",
+        "source": "aktualisierte Bildgenerierung, Anime-Silhouette mit deutlich vergrößerter Oberweite",
+        "status": "Aktuelle visuelle Referenz nach ausdrücklichem Spielerwunsch; praktische, vollständig bedeckende Kleidung."
+      },
+      {
+        "character": "Marta Eisenklang",
+        "source": "Zwergenretterin mit großem Rettungshammer.png",
+        "library_file_id": "libfile_2132cfe0b4b081918a14e03770200344",
+        "status": "Vom Spieler am 2026-11-12 als bestätigte visuelle Referenz angenommen."
+      },
+      {
+        "character": "Stilreferenz für weibliche Figuren, einschließlich Marta und Alva",
+        "source": "IMG_8729(1).jpeg",
+        "library_file_id": "libfile_063be972d6788191b16c26d996fc2c60",
+        "status": "Vom Spieler am 2026-11-12 als Richtung bestätigt; Stil und Proportionen, keine direkte Figuren- oder Kostümvorlage."
+      },
+      {
+        "character": "Stilreferenz für weibliche Figuren, einschließlich Marta und Alva",
+        "source": "IMG_8730(1).jpeg",
+        "library_file_id": "libfile_ba1e90fc47e48191b9057d2119cd77c7",
+        "status": "Vom Spieler am 2026-11-12 als Richtung bestätigt; Stil und Proportionen, keine direkte Figuren- oder Kostümvorlage."
+      },
+      {
+        "character": "Stilreferenz für weibliche Figuren, einschließlich Marta und Alva",
+        "source": "IMG_8731(1).jpeg",
+        "library_file_id": "libfile_ff9feaf06de08191a5b14e3c08539500",
+        "status": "Vom Spieler am 2026-11-12 als Richtung bestätigt; Stil und Proportionen, keine direkte Figuren- oder Kostümvorlage."
+      },
+      {
+        "character": "Alva",
+        "source": "Goblin-Technikerin in der Uhrwerkstatt.png",
+        "status": "Finale Bildreferenz vom Spieler am 2026-11-12 bestätigt; Alva ist 24 Jahre alt.",
+        "library_file_id": "libfile_4eb32725e8088191920c67db17748be0"
+      }
+    ],
+    "location_references": [],
+    "image_prompt_rules": [
+      "Dungeonkarten und Szenenbilder nutzen bestätigte Orte und Kreaturen; verborgene Bereiche nicht als bekannt darstellen.",
+      "Für weibliche Figuren sind deutlich feminine, animehaft kurvige Proportionen erwünscht und dürfen Johannas Silhouette ähneln; Aussehen und Körperform individuell variieren, Kleidung passend zur Figur und Szene gestalten.",
+      "Die drei am 2026-11-12 bereitgestellten Bilder (IMG_8729(1).jpeg, IMG_8730(1).jpeg, IMG_8731(1).jpeg) sind gemeinsame Stil- und Proportionsreferenzen für weibliche Figuren: detaillierter Anime-Fantasy-Look, ausdrucksstarke Gesichter, kräftige Farben und deutlich feminine, kurvige Silhouetten. Keine Hautfarbe, Rasse, Frisur oder Kleidung daraus übernehmen, außer der Spieler legt sie für eine Figur fest."
+    ],
+    "maps": [
+      {
+        "name": "Eichenmark – Entwurf 01",
+        "file": "eichenmark_karte_entwurf_01.svg",
+        "status": "Vom Spieler als guter Entwurf angenommen; Ortsdetails bleiben vorläufig."
+      },
+      {
+        "name": "Silberklamm – Stadtplan Entwurf 01",
+        "file": "silberklamm_stadtplan_entwurf_01.png",
+        "status": "Vom Spieler angenommen; Stadtmauer, Viertel und dargestellte Einrichtungen gelten als kanonische Grundlage. Lage und einzelne Ergänzungen bleiben veränderbar."
+      },
+      {
+        "name": "Umgebung Silberklamm – Entwurf 01",
+        "file": "silberklamm_umgebung_entwurf_01.png",
+        "status": "Vom Spieler angenommen; Grundzüge der Umgebung gelten als Kanon, Maßstab und kleinere Details bleiben schematisch."
+      },
+      {
+        "name": "Alter Minenschacht – Entwurf 01",
+        "file": "alter_minenschacht_entwurf_01.png",
+        "status": "Vorbereitungsplan; interne Informationen und Gefahren sind Spielleiterreferenz."
+      }
+    ]
+  },
+  "change_log": [
+    {
+      "date": "2026-11-10",
+      "change": "Erste Spielerantworten als bestätigten Kanon eingetragen. Persönlichkeit und genaue Ausgestaltung der Wiedergeburt bleiben offen."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Johannas Persönlichkeit, Bindung an Schmiede und Familie, Wiedergeburtsform sowie Erinnerungsgrad ergänzt. Überfall-Timeline und Mischwesen-Art bleiben offen."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Bestätigt: Johannas Familie starb im früheren Leben; Wiedergeburt als Baby. Neue Abstammung: Katzenmensch mit Raubkatzenmerkmalen."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Weltmaßstab, Magie, Völkerbeziehungen, Dungeonarten und -motive, Monsterbedrohung, Fähigkeitseffekte und -grenzen sowie geheime göttliche Beteiligung ergänzt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Johannas Aussehen, Geparden-Mischwesen-Entwicklung, Fähigkeiten, Messer, Selbstverteidigung, Regelsystem- und Erzählpräferenzen sowie Namensstil ergänzt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Hautzeichnung, späterer Hof, unterstützender Begleiter, Überraschungsstart, zunächst unerkannte Fähigkeit und Reihenfolge der drei Karten festgehalten."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Weltname Auenwelt und Kontinentname Eichenmark bestätigt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Eichenmarks Landschaft und Politik, Völkerverhältnisse, Wegesicherheit, Gilden, historische Bergbaustadt, sichere Startregion, Traum-Erinnerungen und göttlicher Bote ergänzt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Nachbarländer, Pergamentkartenstil, deutsch-altdeutsche Namen und Eisen/Kohle festgelegt; erste vorläufige Regionalnamen eingetragen."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Kontinentkartenentwurf als geeignete Grundlage bestätigt; ersten Stadtplan für Silberklamm als PNG erstellt. Stadtteile bleiben Vorschläge."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Stadtplan Silberklamm vom Spieler als passend angenommen und als kanonische Grundlage markiert."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Umgebung von Silberklamm nach Vorgaben entworfen; PNG-Karte zeigt Tal, Bergnähe, Wald, Fluss, Dorf und alten Minenschacht."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Umgebungskarte Silberklamm vom Spieler angenommen; Kernorte und Geografie als Kanon markiert."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Regelpräferenzen ergänzt: Spielleiter verteilt Startwerte, offene Entwicklung, langsamer Fortschritt, Gesundheit plus schwere Wunden, Rüstung passend zur Szene. 2W6-System als unbestätigter Vorschlag notiert."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "2W10-System bestätigt: Attributs- und Fertigkeitsboni gegen Zielwert 11/14/17/20; Teilerfolg 1–3 Punkte unter Zielwert, Fehlschlag ab 4 Punkten darunter."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "2W10-Regel konkretisiert und erster Startbogen für Johanna sowie erster Begleiter Marta Eisenklang entworfen. Startszene bleibt ungespielt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Attributssystem und Fertigkeitsstufen bestätigt und im Startbogen umgesetzt: Attribute 1–10 mit abgeleiteten Modifikatoren; Fertigkeiten 0–5 mit sechs Rängen."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Stufenaufstieg bestätigt: Attributmaximum 10, Fertigkeitsmaximum 5, zwei Entwicklungspunkte pro Stufe, automatische +1 Gesundheit/Ausdauer."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Erstes Völkergerüst sowie schlanke Regeln für Monsterverhalten, Zutaten, Kochen und Mahlzeiteneffekte ergänzt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Ersten Dungeon Der Alte Minenschacht mit acht Bereichen, Gefahren, Kreaturen, Zutaten und interner Karte vorbereitet; noch keine Szene ausgespielt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Johannas visuelles Erscheinungsbild festgelegt: helle Haut, rote schulterlange glatte Haare, katzenartige Augen und Ohren zusätzlich zu menschlichen Ohren, gefleckter Schwanz, feine Gepardenzeichnung, zierlicher Körperbau und praktische Kleidung."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Erste visuelle Anime-Fantasy-Referenz für Johanna generiert; bernsteinfarbene Augen und konkrete Kleidungsdetails als Vorschläge gekennzeichnet."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Bildreferenz auf Wunsch des Spielers überarbeitet: Johannas weibliche Rundungen deutlich stärker ausgeprägt; praktische, bedeckende Kleidung erhalten."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Johannas Bildreferenz erneut angepasst: Oberweite deutlich vergrößert und im Anime-Stil überzeichnet; Kleidung bleibt praktisch und bedeckend."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Stilpräferenz ergänzt: Weibliche Figuren dürfen Johannas deutlich feminine Anime-Proportionen teilen, sollen aber individuelle Merkmale behalten."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Waffenform für Johanna festgelegt: mittelalterlich-deutsch, zwischen langem Messer und Sax, recht gerade und nicht sehr lang. Maße bleiben Vorschlag."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Messer als schmuckvolleres Geschenk des Vaters zu einem besonderen Anlass festgelegt; konkrete Gravuren, Parierstange und Anlass bleiben offen."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Der besondere Anlass des Messergeschenks ist festgelegt: Johanna erhielt es von ihrem Vater, als ihre Gepardenmerkmale erstmals sichtbar wurden."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Der Spieler hat die visuelle Waffenreferenz als schick bestätigt; sichtbare Gestaltung als angenommener Entwurf vermerkt."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Anfangsausprägung von Johannas Fähigkeit festgelegt: unmittelbare Nähe, allgemeine Stimmung statt Gedanken, Wirkung nur solange Johanna nah anwesend ist, zunächst unbewusste Manifestation und Konzentration bei gezielter Anwendung."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Fähigkeitsentwicklung ergänzt: Endstufe kann freiwillige tierische/monsterhafte Weggefährten hervorbringen; Wesen behalten vollständige Entscheidungsfreiheit."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Späte Fähigkeit kann eine freiwillige Gruppe mehrerer Arten ermöglichen; Räuber und Beute greifen einander in Johannas Nähe nicht an und verteidigen sie gegen Feinde, behalten jedoch eigene Bedürfnisse und Freiheit."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Bestätigt: Auch Johannas gesamte Familie in der Auenwelt ist tot; Zeitpunkt und Ursache offen. Fähigkeit wirkt unbewusst ohne Wurf, wenn passend; bewusste Anwendung nutzt 2W10 + Attribut + Fertigkeit und reicht anfangs wenige Schritte."
+    },
+    {
+      "date": "2026-11-10",
+      "change": "Kampagne als laufend markiert; Erzählpräferenz für längere Abschnitte und klare einfache Wahlmöglichkeiten ergänzt."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Martas visuelle Referenz durch den Spieler bestätigt und mit dem Charaktereintrag sowie dem Bild „Zwergenretterin mit großem Rettungshammer.png“ verknüpft."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Drei vom Spieler bereitgestellte Bilder als Anime-Fantasy-Stil- und Proportionsreferenzen für weibliche Figuren ergänzt; individuelle Hautfarbe, Volk, Haare und Kleidung bleiben figurenbezogen."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Alva als Technikerin und ihre finale dargestellte Goblin-Optik mit Werkstattausrüstung und angepasst offenem Dekolleté bestätigt; offene Biografiedetails nicht ergänzt."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Alvas Alter auf 24 Jahre festgelegt und finale Bildreferenz „Goblin-Technikerin in der Uhrwerkstatt.png“ im Archiv verknüpft."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Geplante spätere Klassenentwicklung mit hybriden Klassenpfaden ergänzt; Klassenliste und Mechanik bleiben offen."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Klasse und Beruf als getrennte Entwicklungssysteme festgelegt; Alvas Technikerinnenrolle ausdrücklich als Beruf eingeordnet."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Klassenentwurf vereinfacht: wenige Grundklassen, daraus entwickelte Hybridpfade mit höchstens zwei Klassenursprüngen und nur einer aktuellen Klassenidentität auf dem Bogen."
+    },
+    {
+      "date": "2026-11-12",
+      "change": "Forgotten Realms Wiki-Kategorie:Charakterklassen als Inspirationsquelle für gebündelte Grundklassen und spätere Spezialisierungen ergänzt."
+    },
+    {
+      "date": "2026-11-13",
+      "change": "Gemeinschaftsfinanzen, Hinterhausmiete/Kaution, Johannas aktuellen Saldo und jüngste Ausrüstung im Spielstand ergänzt; nicht belegte Zahlungen als offen markiert."
+    },
+    {
+      "date": "2026-11-13",
+      "change": "Johannas 8-Silber-Mietrücklage als zusätzlich zum freien Saldo von 16 Silber bestätigt; vorsichtige, klar markierte persönliche Kassen-Schätzungen für Marta und Alva eingetragen."
+    }
+  ]
+}
