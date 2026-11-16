@@ -1,7 +1,7 @@
 {
   "archive_meta": {
     "title": "Dungeons & Dragons – Welt- und Kampagnenarchiv",
-    "version": "0.1.0",
+    "version": "0.2.2",
     "status": "Vorbereitung",
     "created": "2026-11-10",
     "language": "de",
@@ -61,7 +61,7 @@
       "romance": {
         "structure": "mehrere Figuren entwickeln Gefühle für Johanna",
         "depiction": "deutlich romantisch, nicht explizit",
-        "romantic_character_age_range": "18 bis 30"
+        "romantic_character_age_range": "Erwachsene Figuren ab 18; die frühere Obergrenze von 30 ist durch die ausdrücklich bestätigte Rika im Alter von 31 erweitert."
       },
       "companion_species": "übliche und exotische Fantasy-Rassen erwünscht",
       "conflicts": "verschiedene Konfliktarten erwünscht",
@@ -246,7 +246,7 @@
         "derived_values": "Attributswerte sind keine Würfelboni; der Bonus wird aus der Attributstabelle abgeleitet.",
         "roll_formula": "2W10 + Attributsbonus + Fertigkeitsrang"
       },
-      "first_companion": "Marta Eisenklang, 28-jährige Zwergin und Bergungshelferin/Ersthelferin, als erster Entwurf. Beziehung und mögliche Romantik entwickeln sich langsam.",
+      "first_companion": "Marta Eisenklang ist die etablierte erste Begleiterin; Alva gehört ebenfalls zum gemeinsamen Haushalt und zur Gruppe.",
       "attribute_model": "Fünf Attributswerte von 1 bis 10; 5–6 durchschnittlich. Boni: 1–2 −2, 3–4 −1, 5–6 +0, 7–8 +1, 9–10 +2.",
       "skill_model": "Fertigkeitsränge 0–5: ungeübt, erste Erfahrung, geübt, ausgebildet, erfahren, meisterhaft. Rang wird direkt als Bonus addiert.",
       "level_up_system": {
@@ -274,29 +274,30 @@
       },
       "species_framework": "Völkerentwurf durch den Spielleiter: Menschen, Zwerge, Waldalben, Tierblütige, Drachenblütige, Goblins und Orks. Status und Fähigkeiten wirken regional und geben keine pauschalen Attributsboni.",
       "monster_cooking_rules": "Monster besitzen Bedürfnisse und Verhalten; Zutaten werden gefunden, bestimmt, zubereitet und genutzt. Mahlzeiten geben bei Bedarf begrenzte, nicht stapelbare Vorteile; Vorräte werden abstrakt verwaltet.",
-      "first_dungeon_concept": "Verlassene Eisenmine nahe Silberklamm mit instabilen Stollen, Wasser, essbaren Leuchtpilzen und einem verletzten territorialen Stollenwühler.",
+      "first_dungeon_concept": "Verlassene Eisenmine nahe Silberklamm mit instabilen Stollen, Wasser, essbaren Leuchtpilzen und einer verletzten territorialen großen Katze (Kiesel).",
       "johanna_visual_design": {
         "hair": "rot, glatt, schulterlang",
-        "build": "eher klein und zierlich, mit weiblichen Rundungen",
+        "build": "Deutlich weibliche, kurvige Silhouette; durch regelmäßiges Lauftraining wird ihre Hüft- und Beckenpartie allmählich sportlicher und kräftiger, ohne ihre Grundsilhouette zu verlieren.",
         "feline_form": "Geparden-Mischwesen",
         "traits": "Gepardenartige Zeichnung kann sich als Muster in der Haut zeigen; Ausprägung und weitere körperliche Merkmale bleiben offen.",
         "self_image": "schwankt zwischen Stolz und Unsicherheit",
         "feline_traits": "Gepardenartige Hautzeichnung; Ohren und Schwanz als erwachsene Mischwesen-Merkmale sichtbar (Entwurf).",
-        "height": "noch offen",
+        "height": "175 cm; vom Spieler anhand des gemeinsamen Größenbildes bestätigt.",
         "eyes": "katzenartig; Irisfarbe noch nicht einzeln festgelegt",
         "skin": "hell",
         "ears": "menschliche Ohren und zusätzlich katzenartige Ohren",
         "tail": "gefleckt, gepardenartig",
         "markings": "feine Flecken; an Armen und Beinen stärker ausgeprägt",
-        "clothing": "praktisch und spartanisch",
+        "clothing": "Praktische, spartanische Kleidung; dazu ein langer grauer Wollreiseumhang, den Johanna gekauft hat. Es ist ein Umhang, kein Mantel.",
         "first_impression": [
           "liebenswürdig",
           "wild",
           "geheimnisvoll"
         ],
-        "visual_style": "detaillierter Anime-Fantasy-Stil"
+        "visual_style": "detaillierter Anime-Fantasy-Stil",
+        "visual_reference_latest": "Bestätigte Ganzkörperreferenz mit langem grauem Reiseumhang; Größe 175 cm."
       },
-      "johanna_body_shape": "Kleine, zierliche Statur mit deutlich weiblicher kurviger Silhouette, sehr großer Anime-typisch überzeichneter Oberweite, schmaler Taille sowie vollen Hüften und Oberschenkeln.",
+      "johanna_body_shape": "175 cm groß; deutlich weibliche, kurvige Silhouette mit sehr großer Oberweite und schmaler Taille. Durch das Lauftraining entwickeln Hüfte und Becken allmählich eine sportlichere, kräftigere Form; die Veränderung bleibt glaubwürdig und erhält ihre Grundsilhouette.",
       "female_character_visual_style": "Weibliche Figuren dürfen ähnlich ausgeprägte, animehaft feminine Proportionen haben; individuelle Variation bleibt erwünscht.",
       "weapon_style": "Mittelalterlich-deutscher Eindruck, zwischen langem Messer und Sax; nicht sehr lang und mit recht gerader Klinge.",
       "weapon_origin_and_importance": "Das Messer ist ein Geschenk ihres Vaters zu einem besonderen Anlass und daher schmuckvoller und verzierter als ein schlichtes Gebrauchsmesser.",
@@ -334,7 +335,9 @@
       "family_in_auenwelt": "Johannas gesamte Familie in der Auenwelt ist tot. Sie wuchs als Tochter eines Schmieds auf; Zeitpunkt und Ursache des Todes der Familie bleiben offen.",
       "ability_exact_range": "Wenige Schritte, nur in unmittelbarer Nähe.",
       "ability_resolution": "Unbewusste, passende Beruhigung eines nahen harmlosen oder schwachen Wesens braucht keinen Wurf. Bewusste Anwendung nutzt 2W10 + passendes Attribut + Fertigkeitsrang gegen Zielwert.",
-      "companion_naming_pact": "Variante B: Ein Name ist ein freiwilliges Angebot. Erst wenn der Gefährte ihn annimmt, entsteht eine schwache Bindung; Gedanken- oder Willenskontrolle ist ausgeschlossen. Gedanken- und Gefühlsaustausch kann erst aus langem gegenseitigem Vertrauen wachsen."
+      "companion_naming_pact": "Variante B: Ein Name ist ein freiwilliges Angebot. Erst wenn der Gefährte ihn annimmt, entsteht eine schwache Bindung; Gedanken- oder Willenskontrolle ist ausgeschlossen. Gedanken- und Gefühlsaustausch kann erst aus langem gegenseitigem Vertrauen wachsen.",
+      "johanna_training_update": "Vier Wochen regelmäßiges Lauftraining wurden bereits absolviert. Im aktuellen Alltag sollen Arbeit, Tierpflege, Training und gemeinsame Zeit ausgewogen bleiben. Ein kurzes Lauftraining am Nachmittag soll den Abend freihalten. Zusätzlich hat Johanna gemeinsames Kampftraining angeregt, mit Schwerpunkt Schnelligkeit und Messerführung, um sich langfristig auf lukrative Dungeon-Aufträge vorzubereiten. Die zuletzt gewählten Optionen 1, 2 und 3 sind vermerkt; konkrete Wirkungen oder Fertigkeitsränge werden erst nach der entsprechenden Szene festgelegt.",
+      "johanna_visual_reference": "Der Spieler bestätigte die Größenillustration: Johanna 175 cm, Marta 140 cm, Alva 110 cm. Johanna trägt den gekauften langen grauen Reiseumhang."
     },
     "open": {
       "Johannas Persönlichkeit und Werte": "offen",
@@ -368,7 +371,7 @@
       "species_and_social_roles": "Entwurf zu erstellen",
       "silberklamm_city_layout": "Entwurf mit Stadtmauer, Marktplatz, Schmiedeviertel, Gildenhaus, Burg, Schmelzhütten, Minenstollen, Flussmühle und Heiligtum zur Prüfung.",
       "silberklamm_exact_geographic_placement": "Noch festzulegen; derzeit im östlichen Gebirge verortet.",
-      "Marta Eisenklang details": "Erster Entwurf; Aussehen/Rolle können bei Bedarf angepasst werden.",
+      "Marta Eisenklang details": "Aussehen und Größe (140 cm) bestätigt; weitere persönliche Biografie kann sich in der Handlung entwickeln.",
       "Johannas exact health/stamina balance": "Startentwurf: 10 Gesundheit, 8 Ausdauer.",
       "exact start scene": "Vorbereitet, nicht ausgespielt.",
       "feline_visual_details": "Gepardenzeichnung sowie sichtbare Ohren und Schwanz als Entwurf; Augen- und Haarlänge offen.",
@@ -383,7 +386,14 @@
       "weapon_dimensions": "Ca. 36 cm Gesamtlänge und 24 cm Klinge sind bisher nur Maßvorschlag.",
       "ability_advancement_pacing": "Stufenfolge steht; konkrete Auslöser und Tempo entwickeln sich im Spiel.",
       "animal_group_effect_radius": "Die Regel gilt in Johannas Nähe; genaue Reichweite bleibt festzulegen.",
-      "family_death_in_auenwelt": "Todeszeitpunkt und Ursache der Auenwelt-Familie bleiben offen."
+      "family_death_in_auenwelt": "Todeszeitpunkt und Ursache der Auenwelt-Familie bleiben offen.",
+      "Johannas genaue Optik": "Grundzüge bestätigt: 175 cm, rotes schulterlanges Haar, helle Haut, Gepardenmerkmale, weibliche kurvige Silhouette, sportlichere Hüft-/Beckenpartie durch Lauftraining, langer grauer Reiseumhang. Einzelne Details wie Irisfarbe bleiben offen.",
+      "Johannas Alltagsoutfit": "Langer grauer Reiseumhang ist bestätigt; übrige Kleidungsdetails können sich je nach Szene entwickeln.",
+      "Alva details": "Aussehen, Alter 24, Goblin-Volk, Technikerinnenberuf und Größe (110 cm) bestätigt; genauere Persönlichkeit und Biografie bleiben offen.",
+      "Wenke background": "Kernprofil bestätigt; ihr persönlicher Hintergrund und Geheimnis werden später passend zur Handlung enthüllt.",
+      "Rika background": "Kernprofil bestätigt; Geschichte der Narbe und eigene Ziele bleiben als spätere Handlung enthüllt.",
+      "farm_purchase_status": "Hofstelle bei Falkenried ist ein langfristiges Sparziel und noch nicht gekauft; 110 Silber waren vor Wenke zurückgelegt.",
+      "current_financial_balances": "Nach späteren Aufträgen, 34 Silber für die Hofkasse und nicht bezifferten Futter-/Haushaltszuweisungen ist der aktuelle Kassenstand nicht vollständig rekonstruierbar."
     },
     "rejected": {}
   },
@@ -549,7 +559,7 @@
             {
               "id": 8,
               "name": "Tiefnest",
-              "features": "Verborgener Hohlraum als Rückzugsort eines territorialen Stollenwühlers.",
+              "features": "Verborgener Hohlraum als Rückzugsort von Kiesel, einer territorialen großen Stollenkatze.",
               "encounter": "Das Wesen ist verletzt und verteidigt sein Nest; es ist nicht böse. Beruhigung oder Futter kann helfen, ist aber nicht garantiert."
             }
           ],
@@ -567,10 +577,12 @@
               "ingredient": "Der Panzer enthält salzige Mineralstoffe; vor Verzehr vollständig garen."
             },
             {
-              "name": "Stollenwühler",
+              "name": "Kiesel (sehr große Stollenkatze)",
               "threat": "gefährlich, besonders auf engem Raum",
-              "behavior": "blind, ortet Erschütterungen; verteidigt Nest und Jungtier",
-              "ingredient": "Würziges Fleisch; Zubereitung braucht Kräuter gegen Bitterkeit."
+              "behavior": "Territorial, ortet Bewegungen und Erschütterungen in den Stollen; verteidigt ihr Versteck und reagiert je nach Vertrauen auf Johanna.",
+              "ingredient": "Würziges Fleisch; Zubereitung braucht Kräuter gegen Bitterkeit.",
+              "appearance": "Sehr große, kraftvolle Katze; dies ersetzt die frühere dachsartige Darstellung dieser konkreten Kreatur.",
+              "canon_note": "Korrektur vom Spieler am 2026-11-14: Kiesel soll eine sehr große Katze sein. Der Begriff Stollenwühler bleibt kein Kanon für Kiesels Körperform."
             }
           ],
           "resolution_notes": "Nicht jede Begegnung muss bekämpft werden. Lärm, Licht, Nahrung, Rückzug und Johannas Fähigkeit bieten Alternativen. Die Fähigkeit ist beim ersten Kontakt noch nicht als solche erkannt.",
@@ -755,7 +767,7 @@
         "Keine vollständigen Gespräche, Erinnerungen oder heimliches Gedankenlesen.",
         "Der Gefährte behält Bedürfnisse, Instinkte und Entscheidungsfreiheit und kann die Bindung ablehnen oder verlassen."
       ],
-      "kiesel_status": "Der Name Kiesel ist vorgeschlagen; seine freiwillige Annahme ist noch nicht ausgespielt."
+      "kiesel_status": "Kiesel wird im Spiel unter diesem Namen geführt und als sehr große Katze dargestellt. Ob Kiesel den Namen im Sinne des freiwilligen Paktes ausdrücklich angenommen hat, ist in der Archivspur nicht zweifelsfrei dokumentiert."
     },
     "future_class_system": {
       "status": "Geplante Ausbaustufe; Grundrichtung vom Spieler gewünscht, konkrete Umsetzung noch offen.",
@@ -990,25 +1002,26 @@
     "ancestry": "Katzenmensch mit Raubkatzenmerkmalen",
     "appearance": {
       "hair": "rot, glatt, schulterlang",
-      "build": "Klein und zierlich mit deutlich ausgeprägter weiblicher Silhouette; sehr große Oberweite im überzeichneten Anime-Stil, schmale Taille und volle Hüften/Oberschenkel.",
+      "build": "175 cm groß; deutlich weibliche, kurvige Silhouette mit sehr großer Oberweite und schmaler Taille. Durch das Lauftraining entwickeln Hüfte und Becken allmählich eine sportlichere, kräftigere Form; die Veränderung bleibt glaubwürdig und erhält ihre Grundsilhouette.",
       "feline_form": "Geparden-Mischwesen",
       "traits": "Gepardenartige Zeichnung kann sich als Muster in der Haut zeigen; Ausprägung und weitere körperliche Merkmale bleiben offen.",
       "self_image": "schwankt zwischen Stolz und Unsicherheit",
       "feline_traits": "Gepardenartige Hautzeichnung; Ohren und Schwanz als erwachsene Mischwesen-Merkmale sichtbar (Entwurf).",
-      "height": "noch offen",
+      "height": "175 cm",
       "eyes": "katzenartig; in der ersten Bildreferenz bernsteinfarben (vorläufiger Vorschlag)",
       "skin": "hell",
       "ears": "menschliche Ohren und zusätzlich katzenartige Ohren",
       "tail": "gefleckt, gepardenartig",
       "markings": "feine Flecken; an Armen und Beinen stärker ausgeprägt",
-      "clothing": "Praktisch und spartanisch; die Kleidung ist auf ihre Figur angepasst und bleibt vollständig bedeckend.",
+      "clothing": "Praktische, spartanische Kleidung plus gekaufter langer grauer Wollreiseumhang (Umhang, kein Mantel).",
       "first_impression": [
         "liebenswürdig",
         "wild",
         "geheimnisvoll"
       ],
       "visual_style": "detaillierter Anime-Fantasy-Stil",
-      "visual_reference_latest": "Aktuelle Version: überzeichnete, deutlich größere Oberweite; vollständig bekleidete praktische Arbeitskleidung."
+      "visual_reference_latest": "Bestätigte Größen- und Gruppenreferenz; Johanna 175 cm und langer grauer Reiseumhang.",
+      "athletic_change": "Vier Wochen Lauftraining; Hüfte und Becken entwickeln sich allmählich sportlicher und kräftiger."
     },
     "age": 21,
     "origin": "Bei der Schmiede ihres Vaters aufgewachsen; verfügt über gewisse Grundkenntnisse im Schmiedehandwerk.",
@@ -1203,7 +1216,9 @@
         "passende verzierte Lederscheide"
       ]
     },
-    "inventory_status": "Auf den neuesten Spielstand aktualisiert; vollständige historische Einzelbelege für ältere Gegenstände bleiben offen."
+    "inventory_status": "Auf den neuesten Spielstand aktualisiert; vollständige historische Einzelbelege für ältere Gegenstände bleiben offen.",
+    "training_status": "Vier Wochen regelmäßiges Lauftraining wurden bereits absolviert. Im aktuellen Alltag sollen Arbeit, Tierpflege, Training und gemeinsame Zeit ausgewogen bleiben. Ein kurzes Lauftraining am Nachmittag soll den Abend freihalten. Zusätzlich hat Johanna gemeinsames Kampftraining angeregt, mit Schwerpunkt Schnelligkeit und Messerführung, um sich langfristig auf lukrative Dungeon-Aufträge vorzubereiten. Die zuletzt gewählten Optionen 1, 2 und 3 sind vermerkt; konkrete Wirkungen oder Fertigkeitsränge werden erst nach der entsprechenden Szene festgelegt.",
+    "visual_reference_latest": "Johanna im grauen Reiseumhang; Library-ID libfile_87fecf407c608191b20e58fee0d00099."
   },
   "companions": [
     {
@@ -1221,9 +1236,11 @@
         "mitfühlend, wenn jemand verletzt ist"
       ],
       "motivation": "Sie will verhindern, dass weitere Bergleute in den alten, aufgegebenen Stollen verschwinden.",
-      "relationship_to_johanna": "Erste unterstützende Begleiterin. Vertrauen entsteht langsam; mögliche Romantik bleibt offen und wird nicht vorausgesetzt.",
+      "relationship_to_johanna": "Etablierte, enge Begleiterin und Teil des gemeinsamen Haushalts; mögliche Romantik entwickelt sich organisch und ohne Vorannahme. Johanna und die anwesenden erwachsenen Gefährtinnen bestätigten in einer gemeinsamen Szene gegenseitige Liebe und verbrachten die Nacht zusammen. Am Morgen bereitete Johanna Frühstück für alle. Das gilt als erzählter Beziehungsstand; einzelne Paarbindungen, Wohnentscheidungen und genaue Beziehungswerte werden nicht hinzuerfunden.",
       "combat_style": "Schützt Verbündete mit Hammer und einfacher Schutzkleidung; vermeidet unnötige Risiken.",
-      "canon_status": "Optik durch den Spieler am 2026-11-12 bestätigt; visuelle Referenz im Archiv verknüpft."
+      "canon_status": "Optik und Größe (140 cm) vom Spieler bestätigt; visuelle Referenz im Archiv verknüpft.",
+      "height": "etwa 140 cm; vom Spieler anhand des gemeinsamen Größenbildes bestätigt.",
+      "visual_reference": "Zwergenhandwerkerin mit Rettungshammer an der Tür.png; Library-ID libfile_0ecd596c18a48191ad18125587205c82. Größenbild: Library-ID libfile_9163fce591d08191b88ab73a99a147e1."
     },
     {
       "id": "COMP-002",
@@ -1234,19 +1251,96 @@
       "ancestry": "Goblin",
       "role": "Technikerin und Tüftlerin; arbeitet mit mittelalterlichen Werkzeugen und mechanischen Bauteilen.",
       "appearance": "Grüne Haut, lange spitze Ohren, bernsteinfarbene Augen und kräftig rotes Haar zu einem hohen praktischen Zopf gebunden. Deutlich feminine, kurvige Proportionen. Sie trägt körpernah geschnittene, handwerkstaugliche Kleidung in Pflaumen- und Dunkelgrün mit verstärkter Lederschürze und Werkzeugriemen. Sichtbare Ausrüstung: kleiner Hammer, Zange, Ahle, Messwerkzeuge, Werkzeugtaschen und ein kleines Uhrwerk-Bauteil. Der Ausschnitt ist deutlich, bleibt aber vollständig bekleidet.",
-      "visual_reference": "Goblin-Technikerin in der Uhrwerkstatt.png (Library-ID libfile_4eb32725e8088191920c67db17748be0); finale Bildreferenz am 2026-11-12 bestätigt.",
-      "canon_status": "Rolle und dargestellte Optik vom Spieler am 2026-11-12 bestätigt. Genaue Alterszahl, Persönlichkeit und Hintergrund bleiben offen.",
+      "visual_reference": "Finale Goblin-Technikerinnen-Referenz, Library-ID libfile_4eb32725e8088191920c67db17748be0. Größenbild: Library-ID libfile_9163fce591d08191b88ab73a99a147e1.",
+      "canon_status": "Rolle, Alter 24, dargestellte Optik und Größe (110 cm) vom Spieler bestätigt.",
       "profession": "Technikerin und Tüftlerin.",
-      "class_status": "Keine Klasse festgelegt; Beruf und Klasse werden getrennt behandelt."
+      "class_status": "Keine Klasse festgelegt; Beruf und Klasse werden getrennt behandelt.",
+      "height": "etwa 110 cm; vom Spieler anhand des gemeinsamen Größenbildes bestätigt.",
+      "relationship_to_johanna": "Etablierte Begleiterin und Teil des gemeinsamen Haushalts; mögliche Romantik entwickelt sich organisch und ohne Vorannahme. Johanna und die anwesenden erwachsenen Gefährtinnen bestätigten in einer gemeinsamen Szene gegenseitige Liebe und verbrachten die Nacht zusammen. Am Morgen bereitete Johanna Frühstück für alle. Das gilt als erzählter Beziehungsstand; einzelne Paarbindungen, Wohnentscheidungen und genaue Beziehungswerte werden nicht hinzuerfunden."
+    },
+    {
+      "id": "COMP-003",
+      "name": "Kiesel",
+      "age": null,
+      "gender": "unbekannt",
+      "ancestry": "Sehr große Katze / große Raubkatze; ersetzt Kiesels frühere dachsartige Darstellung.",
+      "role": "Tierischer Begleiter, den Johanna und ihre Gefährtinnen auf dem Weg aus dem alten Minenschacht kennenlernten.",
+      "appearance": "Sehr große, kraftvolle Katze. Fellzeichnung, genaue Maße und Unterart noch nicht festgelegt.",
+      "personality": [
+        "eigenständig",
+        "aufmerksam"
+      ],
+      "relationship_to_johanna": "Begleiter; Namensbindung entwickelt sich nur, wenn Kiesel den Namen freiwillig annimmt.",
+      "canon_status": "Katzenartige Gestalt am 2026-11-14 vom Spieler ausdrücklich gewünscht und bestätigt; frühere dachsartige Darstellung für Kiesel ist überholt."
+    },
+    {
+      "id": "COMP-004",
+      "name": "Wenke",
+      "age": 27,
+      "gender": "weiblich",
+      "ancestry": "Steinberührte; seltene, kräftige und hochgewachsene steinverwandte Volksart, kein Zwerg.",
+      "height": "etwa 190 cm",
+      "profession": "Steinmetzin",
+      "role": "Neue Auftraggeberin; kann sich langfristig als wertvolles Gruppenmitglied entwickeln.",
+      "appearance": "Sehr hochgewachsen, schlank und ausgesprochen sportlich; steingraues Haar, bernsteinfarbene Augen und dezente mineralische Zeichnung in der Haut. Ärmelloses, handwerkstaugliches Oberteil mit tiefem, vollständig bedeckendem Ausschnitt, große Oberweite und schmale Hüfte; Lederschürze, Werkzeugriemen, Hammer und Meißel. Die bestätigte Bildreferenz zeigt außerdem einen Bogen.",
+      "personality": [
+        "offen",
+        "geheimnisvoll"
+      ],
+      "combat_style": "Möglicher Fernkampfhintergrund; die Bildreferenz zeigt einen Jagdbogen. Genaue Ausbildung bleibt offen.",
+      "relationship_to_johanna": "Als Auftraggeberin neu kennengelernt; kann später der Gruppe beitreten. Eine romantische Entwicklung ist ausdrücklich möglich, aber nicht vorweggenommen. Johanna und die anwesenden erwachsenen Gefährtinnen bestätigten in einer gemeinsamen Szene gegenseitige Liebe und verbrachten die Nacht zusammen. Am Morgen bereitete Johanna Frühstück für alle. Das gilt als erzählter Beziehungsstand; einzelne Paarbindungen, Wohnentscheidungen und genaue Beziehungswerte werden nicht hinzuerfunden.",
+      "motivation": "Ein persönlicher Hintergrund und ein später wichtiger Geheimnisfaden werden passend zur Handlung entwickelt; noch nicht aufgedeckt.",
+      "canon_status": "Alter, Volk, Beruf, Grundpersönlichkeit, Rolle und Optik durch Spielerwünsche bestätigt; Aussehen im Bild als perfekt angenommen."
+    },
+    {
+      "id": "COMP-005",
+      "name": "Rika",
+      "age": 31,
+      "gender": "weiblich",
+      "ancestry": "Mensch",
+      "profession": "Schwertkämpferin",
+      "role": "Erfahrene Trainingspartnerin; gehört bereits fast zur Gruppe und soll noch überzeugt werden, sich der Gemeinschaft und dem Hof anzuschließen.",
+      "appearance": "Hübsche erwachsene Frau mit goldenblondem Longbob knapp über dem Kinn und einer senkrechten Narbe über einem Auge. Warmherziger, stolzer Ausdruck.",
+      "combat_appearance": "Dunkle, elegante Stahlrüstung mit betontem Brustpanzer und tieferem Ausschnitt; Schulterplatten, Armschutz und Bauchplatte bleiben erhalten. Kettenrock schützt Hüften und obere Oberschenkel. Führt ein Schwert.",
+      "everyday_appearance": "Weinrote Bluse, dunkle Weste und Hose, robuste Stiefel sowie ein heller, locker getragener Umhang; schlichte persönliche Details. Keine Rüstung oder Waffe im normalen Alltag.",
+      "personality": [
+        "warmherzig",
+        "stolz"
+      ],
+      "combat_style": "Sehr gut ausgebildete Schwertkämpferin.",
+      "relationship_to_johanna": "Durch das gemeinsame Training vertraut; fast Teil des engen Kreises. Beitritt zur Gemeinschaft und zum Hof ist noch nicht entschieden. Romantische Entwicklung ist ausdrücklich möglich, aber nicht vorweggenommen. Johanna und die anwesenden erwachsenen Gefährtinnen bestätigten in einer gemeinsamen Szene gegenseitige Liebe und verbrachten die Nacht zusammen. Am Morgen bereitete Johanna Frühstück für alle. Das gilt als erzählter Beziehungsstand; einzelne Paarbindungen, Wohnentscheidungen und genaue Beziehungswerte werden nicht hinzuerfunden.",
+      "motivation": "Eigenständige Ziele und die Geschichte hinter der Narbe werden passend zur Handlung entwickelt; noch nicht aufgedeckt.",
+      "canon_status": "Alter, Volk, Rolle, Persönlichkeit, Narbe, Frisur und beide Outfit-Referenzen vom Spieler bestätigt."
     }
   ],
   "relationship_tracker": [
     {
       "character_id": "COMP-001",
-      "trust": 0,
-      "affection": 0,
-      "romance_status": "noch nicht entwickelt",
-      "notes": "Beziehung beginnt bei der ersten Begegnung; keine vorweggenommene Zuneigung."
+      "trust": null,
+      "affection": null,
+      "romance_status": "gegenseitige Liebe und gemeinsame Intimität in einer Gruppenszene bestätigt; genaue Paarbindungen und Zahlenwerte nicht einzeln festgelegt.",
+      "notes": "Qualitative Beschreibung statt numerischer Werte; Gefühle und Entscheidungen bleiben individuell und freiwillig."
+    },
+    {
+      "character_id": "COMP-002",
+      "trust": null,
+      "affection": null,
+      "romance_status": "gegenseitige Liebe und gemeinsame Intimität in einer Gruppenszene bestätigt; genaue Paarbindungen und Zahlenwerte nicht einzeln festgelegt.",
+      "notes": "Qualitative Beschreibung statt numerischer Werte; Gefühle und Entscheidungen bleiben individuell und freiwillig."
+    },
+    {
+      "character_id": "COMP-004",
+      "trust": null,
+      "affection": null,
+      "romance_status": "gegenseitige Liebe und gemeinsame Intimität in einer Gruppenszene bestätigt; genaue Paarbindungen und Zahlenwerte nicht einzeln festgelegt.",
+      "notes": "Qualitative Beschreibung statt numerischer Werte; Gefühle und Entscheidungen bleiben individuell und freiwillig."
+    },
+    {
+      "character_id": "COMP-005",
+      "trust": null,
+      "affection": null,
+      "romance_status": "gegenseitige Liebe und gemeinsame Intimität in einer Gruppenszene bestätigt; genaue Paarbindungen und Zahlenwerte nicht einzeln festgelegt.",
+      "notes": "Qualitative Beschreibung statt numerischer Werte; Gefühle und Entscheidungen bleiben individuell und freiwillig."
     }
   ],
   "campaign": {
@@ -1254,8 +1348,11 @@
     "starting_situation": "Noch nicht ausgespielt. Dramaturgischer Entwurf: alltäglicher, zunächst sicherer Moment nahe Silberklamm wird durch einen ungewöhnlichen Tier- oder Monsterzwischenfall gestört; Marta ist beteiligt. Johannas Fähigkeit zeigt sich zunächst unbewusst.",
     "main_plot": "Vorläufig: Johanna entdeckt ihre seltene Bindung zu Tieren und Monstern, begleitet Abenteurer in Dungeons und entwickelt einen sicheren Rückzugsort. Wiedergeburt, Träume und göttlicher Bote bilden einen langfristigen Geheimnisfaden.",
     "side_threads": [
-      "Alter Minenschacht nahe Silberklamm: möglicher Dungeon, noch als Schauplatz zu bestätigen.",
-      "Alter Minenschacht: Stollenwühler und Erschütterungen; Erkundung noch nicht begonnen."
+      "Falkenrieder Hofstelle: gemeinsames langfristiges Ziel; noch nicht erworben. Die Gruppe spart weiter und möchte die Substanz prüfen, bevor sie sich bindet.",
+      "Sternenwartenauftrag: nächster konkret geplanter größerer Auftrag.",
+      "Wenke: neue steinberührte Steinmetzin und Auftraggeberin; möglicher späterer Gruppenbeitritt, Hintergrund geheimnisvoll.",
+      "Rika: erfahrene Schwertkämpferin und Trainingspartnerin; fast Teil der Gemeinschaft, Beitritt zum gemeinsamen Hof noch offen.",
+      "Kiesel: sehr große Katze und tierischer Begleiter; freiwillige Namensbindung bleibt ohne klar dokumentierte Annahme offen."
     ],
     "session_log": [
       {
@@ -1348,28 +1445,123 @@
         "type": "Finanzstand präzisiert und Schätzwerte ergänzt",
         "summary": "Spieler bestätigt, dass Johannas 8 Silber Mietrücklage separat zu ihren 16 Silber persönlichem Geld steht. Marta erhält für die aktuelle Buchführung eine ausdrücklich markierte Schätzung von 5 Silber, basierend auf ihrem letzten bekannten Auftragsanteil. Für Alva werden provisorisch 3 Silber frei verfügbar und 18 Silber als Wohnrücklage angesetzt; beides ist als Spielleiter-Schätzung gekennzeichnet, da Einnahmen, Ausgaben und Anfangssaldo nicht vollständig vorliegen. Haushaltskasse bleibt separat bei 12 Silber.",
         "certainty": "Johannas getrennte Salden bestätigt; Marta/Alva-Beträge ausdrücklich geschätzt und jederzeit korrigierbar."
+      },
+      {
+        "entry_id": "SESSION-CAST-APPEARANCE-003",
+        "date": "2026-11-14",
+        "type": "Bestätigte Größen, Johanna-Outfit und Lauftraining",
+        "summary": "Gemeinsame Größenreferenz bestätigt: Johanna 175 cm, Marta 140 cm, Alva 110 cm. Johanna trägt einen gekauften langen grauen Reiseumhang (kein Mantel). Nach vier Wochen regelmäßigen Lauftrainings wirkt ihre Hüft- und Beckenpartie allmählich sportlicher; keine neue Fertigkeitsstufe wurde festgelegt.",
+        "certainty": "Spieler ausdrücklich bestätigt."
+      },
+      {
+        "entry_id": "SESSION-WENKE-001",
+        "date": "2026-11-14",
+        "type": "Wenke als neue Auftraggeberin und mögliche Begleiterin",
+        "summary": "Wenke ist 27, steinberührt, etwa 190 cm groß und Steinmetzin. Sie ist offen und geheimnisvoll; ein Fernkampfhintergrund mit Bogen bleibt als Bild-/Hintergrundvorschlag. Sie ist neu kennengelernt, Auftraggeberin und kann später wertvolles Gruppenmitglied werden. Romantik ist möglich, aber nicht vorweggenommen. Bild mit steingrauem Haar und sportlicher Arbeitskleidung vom Spieler als perfekt bestätigt.",
+        "certainty": "Kernangaben und Bild vom Spieler bestätigt; persönlicher Geheimnisfaden noch nicht enthüllt."
+      },
+      {
+        "entry_id": "SESSION-RIKA-001",
+        "date": "2026-11-14",
+        "type": "Rika als Trainingspartnerin und mögliche Hofgefährtin",
+        "summary": "Rika ist 31, menschlich, warmherzig und stolz, eine hübsche sehr gut ausgebildete Schwertkämpferin mit senkrechter Narbe über dem Auge und blondem Longbob knapp über dem Kinn. Sie gehört beinahe zur Gemeinschaft; sie soll noch überzeugt werden, sich ihr und dem künftigen Hof anzuschließen. Der Spieler bestätigt Kampf- und Alltagsoutfit sowie eine mögliche romantische Entwicklung.",
+        "certainty": "Kernangaben und beide Bildreferenzen bestätigt; Beitritt, Gefühle und Narbengeschichte bleiben Handlung."
+      },
+      {
+        "entry_id": "SESSION-KIESEL-RETCON-001",
+        "date": "2026-11-14",
+        "type": "Kiesels Erscheinung korrigiert",
+        "summary": "Die frühere dachsartige Darstellung von Kiesel wird ersetzt: Kiesel ist eine sehr große Katze. Der eigenständige Begriff Stollenwühler wird für Kiesels Körperform nicht mehr verwendet.",
+        "certainty": "Spielerentscheidung; neuester Kanon."
+      },
+      {
+        "entry_id": "SESSION-FINANCE-003",
+        "date": "2026-11-14",
+        "type": "Hofkauf- und Gemeinschaftskassen abgeglichen",
+        "summary": "Spieler korrigiert: Vor der Begegnung mit Wenke waren bereits 110 Silber für den Hofkauf zurückgelegt; die frühere Zahl von 80 war falsch. Später schenkte Johanna 34 Silber der Hofkasse und legte einen nicht bezifferten Rest für Futter und Haushaltskasse zurück. Die 34 Silber werden nicht von der 110-Silber-Rücklage abgezogen, solange die Herkunft nicht geklärt ist. Aktuelle Gesamtsalden von Johanna, Marta, Alva und den Kassen bleiben teilweise offen.",
+        "certainty": "110-Silber-Ausgangsstand und 34-Silber-Zuwendung bestätigt; Restbetrag und aktuelle Gesamtsalden nicht beziffert."
+      },
+      {
+        "entry_id": "SESSION-ROUTINE-001",
+        "date": "2026-11-14",
+        "type": "Ausgewogener Gruppenalltag",
+        "summary": "Johanna möchte Arbeit, Tierpflege, Training und Liebe ausgewogen verteilen. Für einen freien Tag sollen die anstehenden Arbeiten erledigt und ein kurzes Lauftraining am Nachmittag eingeplant werden, damit der Abend der gemeinsamen Zeit bleibt. Am Morgen nach einer gemeinsamen Liebesnacht bereitete Johanna Frühstück für alle.",
+        "certainty": "Vom Spieler ausdrücklich beschrieben; keine zusätzlichen Tagesabläufe ergänzt."
+      },
+      {
+        "entry_id": "SESSION-TRAINING-001",
+        "date": "2026-11-14",
+        "type": "Kampftraining für spätere Dungeon-Aufträge",
+        "summary": "Johanna regte gemeinsames Kampftraining an, um sich langfristig für lukrative Dungeon-Aufträge vorzubereiten. Schwerpunkt: Schnelligkeit und Messerkampf. Danach wurden die angebotenen Optionen 1, 2 und 3 gewählt; ihre konkreten Folgen sind nicht in dieser Übergabe enthalten und werden nicht erfunden.",
+        "certainty": "Trainingsziel und gewählte Schwerpunkte bestätigt; mechanische Fertigkeitssteigerung noch nicht festgehalten."
+      },
+      {
+        "entry_id": "SESSION-RELATIONSHIP-001",
+        "date": "2026-11-14",
+        "type": "Gemeinsame Beziehungsszene",
+        "summary": "Johanna beschrieb gegenseitige Liebe mit allen anwesenden Gefährtinnen bis tief in die Nacht. Am nächsten Morgen machte sie Frühstück für alle. Dies bestätigt eine gemeinsame intime Szene, ohne individuelle Paarbindungen oder Wohnzusagen festzulegen.",
+        "certainty": "Vom Spieler ausdrücklich beschrieben; alle dargestellten Figuren sind erwachsen."
+      },
+      {
+        "entry_id": "PLOT-ARC-DEMONKING-001",
+        "date": "2026-11-14",
+        "type": "Bestätigter, noch nicht ausgespielter düsterer Handlungsbogen",
+        "summary": "Der Dämonenkönig beginnt seine Expansion in einem anderen Königreich und verzaubert dort Menschen. Überfälle auf kleinere Orte häufen sich, während die fünf Gefährtinnen zunächst nichts davon erfahren und die Gefahr ihre Heimat noch nicht erreicht. Später überfällt eine etwa 20–30 Mann starke, aus dem eroberten Nachbarreich vertriebene Grenzsöldner-/Deserteurgruppe den Hof. Vorräte und ein Stützpunkt sind ihr unmittelbares Ziel; sexualisierte Gewalt wird von Tätern als Unterwerfungsmittel verübt, nicht durch Dämonenkontrolle verursacht. Alle fünf Frauen überleben, wehren sich und töten einige Angreifer; einige tragen schwere Verletzungen davon. Der Hof bleibt Zuhause. Erholung und Rache werden zum Wendepunkt; Kampftraining und Dungeons dienen später auch der Vorbereitung auf den Dämonenkönig.",
+        "certainty": "Grundrichtung und Plausibilitätsmodell vom Spieler angenommen; genaue Szenen, Foreshadowing und zeitliche Ausgestaltung noch offen. Noch kein Ereignis des laufenden Spielstands."
+      },
+      {
+        "entry_id": "PLOT-ARC-TRAUMA-BOUNDARY-001",
+        "date": "2026-11-14",
+        "type": "Erzählgrenze und Umgang mit Traumafolgen",
+        "summary": "Der Spieler bestätigt, dass konkrete Details des Überfalls und der Misshandlungen nicht erzählt werden müssen. Die Traumafolgen der einzelnen Frauen sollen über Gespräche, Wut und eine neu entstehende Form des Zusammenhalts in die Geschichte eingehen. Reaktionen bleiben individuell; Nähe und Heilung werden nicht erzwungen oder beschleunigt.",
+        "certainty": "Ausdrückliche Spielerpräferenz; verbindliche Darstellungsweise für den geplanten Handlungsbogen."
+      },
+      {
+        "entry_id": "SESSION-CALENDAR-001",
+        "date": "2026-11-14",
+        "type": "Hintergrundkalender und Plotfahrplan",
+        "summary": "Ein 365-Tage-Kalender mit zwölf 30-Tage-Monaten, Siebentagewoche und fünf Jahreswendetagen wurde ergänzt. Die Kampagnenzeit startet relativ bei Tag 0 an der nächsten ausgespielten Szene, da kein sicherer absoluter Spieltag überliefert ist. Der Dämonenkönig-Plot erhielt sechs flexible Hintergrundphasen; der Hofüberfall ist frühestens nach ungefähr 14 Kampagnenmonaten geplant und an erzählerische Voraussetzungen gebunden.",
+        "certainty": "Kalendersystem und Zeitleiste sind Spielleiter-Hintergrundregeln; der Plot ist bestätigt, aber noch nicht ausgespielt."
+      },
+      {
+        "entry_id": "SESSION-CALENDAR-002",
+        "date": "2026-11-14",
+        "type": "Kalenderrevision",
+        "summary": "Der Kalender wird auf 13 Monate mit je 28 Tagen und vier Wochen pro Monat umgestellt. Der sechste Monat ist die aktuelle Kampagnenzeit und liegt im vorläufigen Entwurf in der fünf Monate langen Sonnenzeit. Vorgeschlagen sind drei Monate Blütenzeit, fünf Sonnenzeit, drei Erntezeit und zwei Ruhezeit sowie ein zusätzlicher Jahreswendetag außerhalb der Monate. Monatsnamen und Jahreszeitenverteilung bleiben Entwurf zur gemeinsamen Abstimmung.",
+        "certainty": "13 Monate, 28 Tage je Monat und aktueller sechster Monat sind vom Spieler festgelegt. Jahreswendetag, Saisonverteilung und Namen sind Entwurf."
+      },
+      {
+        "entry_id": "SESSION-CALENDAR-003",
+        "date": "2026-11-14",
+        "type": "Kalendernamen bestätigt",
+        "summary": "Der Spieler bestätigt die 13 Monatsnamen: Knospenmond, Blütenmond, Maienmond, Sonnenmond, Lichtmond, Hochsonnenmond, Heumond, Glutmond, Fruchtmond, Erntemond, Nebelmond, Reifmond und Frostmond. Der einzige Tag außerhalb der Monate heißt Neujahr und wird im ganzen Land gefeiert. Der aktuelle sechste Monat ist der Hochsonnenmond.",
+        "certainty": "Vom Spieler ausdrücklich bestätigt."
       }
     ],
-    "current_state": "Die Kampagne hat begonnen. Letzter bekannter Stand aus dem Spielverlauf: Johanna und Marta verließen den alten Minenschacht; der Stollenwühler reist seitdem mit ihnen. Johanna erklärte einer Wache, dass er sie seit dem Verlassen der Mine begleitet. Sie fragte nach weiteren Vorbereitungen, bevor sie weitergeht, und wählte die angebotenen Punkte 1, 2 und 3. Die genauen Inhalte dieser drei Vorbereitungen sind im aktuellen Archiv nicht ausgeschrieben.",
-    "open_questions": [],
+    "current_state": "Nach mehreren Wochen gemeinsamer Alltagsabläufe und vier Wochen Lauftraining setzt Johanna auf einen ausgewogenen Rhythmus aus Arbeit, Tierpflege, Training und gemeinsamer Zeit. Eine gegenseitige Liebes- und Gruppenszene mit den anwesenden erwachsenen Gefährtinnen ist erzählt; Johanna bereitete danach Frühstück für alle. Für kommende freie Zeit ist ein kurzes Lauftraining am Nachmittag vorgesehen. Johanna hat außerdem gemeinsames Kampftraining mit Schwerpunkt Schnelligkeit und Messerführung angeregt, als Vorbereitung auf spätere lukrative Dungeon-Aufträge. Die zuletzt gewählten Optionen 1, 2 und 3 sind im Spielverlauf gesetzt, ihre konkreten Folgen sind in der vorliegenden Übergabe nicht ausgeschrieben. Wenke ist neue Auftraggeberin und möglicher späterer Gruppenbeitritt; Rika ist Trainingspartnerin und gehört fast zum engen Kreis. Die Falkenrieder Hofstelle bleibt als Eigentums-/Kaufstatus zu prüfen: jüngste Szenen spielen am Falkenrieder Bauernhaus, aber der genaue Abschluss des Erwerbs ist in der vorliegenden Übergabe nicht eindeutig protokolliert.",
+    "open_questions": [
+      "Falkenrieder Bauernhaus: Kauf, Miete oder vorübergehender Aufenthalt und genaue Besitzverhältnisse klären.",
+      "Dunkler Kampagnenbogen ist als Plan bestätigt, aber noch nicht ausgespielt; Foreshadowing, genaue Tätergruppe und konkrete Folgen der Hofattacke bleiben zu entwerfen."
+    ],
     "play_style_preferences": {
       "scene_length": "Längere, zusammenhängende Abschnitte mit Atmosphäre, Handlung, Reaktionen und nachvollziehbaren Folgen; seltene Unterbrechungen.",
       "choice_prompts": "Johanna kann häufig handeln und mehrere einfache Optionen erhalten. Nur wichtige Weichenstellungen erfordern eine ausdrückliche Spielerentscheidung; kleinere passende Handlungen und Übergänge darf die Spielleitung flüssig ausspielen.",
       "player_agency": "Freie eigene Handlungen bleiben jederzeit möglich; Auswahloptionen sind Hilfen, keine Begrenzung. Johanna entscheidet selbst über wichtige persönliche, moralische und strategische Fragen.",
       "continuity": "Entscheidungen und Folgen sichtbar fortführen.",
-      "pacing_changes": "Änderungen, die den Spielfluss, die Szenenlänge, Häufigkeit von Entscheidungen oder Erzählstruktur betreffen, werden als Spielstilregel im Archiv festgehalten."
+      "pacing_changes": "Änderungen, die den Spielfluss, die Szenenlänge, Häufigkeit von Entscheidungen oder Erzählstruktur betreffen, werden als Spielstilregel im Archiv festgehalten.",
+      "sexual_violence_boundary": "Sexualisierte Gewalt darf als nicht-grafischer Handlungshintergrund vorkommen. Keine detaillierte Darstellung des Übergriffs oder der Misshandlung; Trauma und Wut werden individuell, respektvoll und über spätere Gespräche sowie freiwillige Nähe erzählt."
     },
     "shared_finances": {
-      "last_updated": "2026-11-13",
+      "last_updated": "2026-11-14",
       "currency": "Silberstücke",
       "johanna": {
-        "personal_balance": 16,
-        "balance_status": "Gesicherter persönlicher Kassenstand; frei verfügbar.",
-        "rent_reserve": 8,
-        "rent_reserve_status": "Vom Spieler ausdrücklich als separat bestätigt; zusätzlich zum persönlichen Saldo von 16 Silber.",
+        "personal_balance": null,
+        "balance_status": "Aktueller freier Saldo unbekannt; letzter belegter Stand am 2026-11-13: 16 Silber.",
+        "rent_reserve": null,
+        "rent_reserve_status": "Aktuelle Mietrücklage unbekannt; letzter belegter Stand am 2026-11-13: 8 Silber, separat.",
         "latest_transactions": [
           {
-            "item": "Verbesserter Wollumhang",
+            "item": "Grauer Wollreiseumhang (gekauft; langer Umhang, kein Mantel)",
             "amount": -8,
             "unit": "Silberstücke"
           },
@@ -1391,11 +1583,16 @@
           }
         ],
         "balance_sequence": "22 Silber vor den jüngsten Käufen; danach 12 Silber. Anschließend 4 Silber verdient; letzter persönlicher Stand 16 Silber.",
-        "total_cash_held_by_johanna": 24,
-        "total_cash_note": "16 Silber frei verfügbar + 8 Silber separat für Miete zurückgelegt."
+        "total_cash_held_by_johanna": null,
+        "total_cash_note": "Aktueller Gesamtbestand nach späteren Aufträgen und Zuweisungen nicht gesichert; letzter belegter Snapshot vom 2026-11-13: 16 Silber frei + 8 Silber Mietrücklage.",
+        "last_confirmed_date": "2026-11-13",
+        "last_confirmed_personal_balance": 16,
+        "last_confirmed_rent_reserve": 8,
+        "personal_balance_status": "16 Silber war der letzte genau belegte Stand am 2026-11-13; nach späteren Aufträgen und Zuweisungen ist der aktuelle freie Saldo nicht exakt berechenbar.",
+        "current_personal_balance": "unbekannt; seit dem letzten belegten Stand nicht vollständig gebucht"
       },
       "household_fund": {
-        "balance": 12,
+        "balance": null,
         "unit": "Silberstücke",
         "policy": "Freiwillige Beiträge nach Möglichkeit; keine gleichen Einzahlungen und keine daraus entstehenden Schulden.",
         "intended_uses": [
@@ -1405,7 +1602,11 @@
           "Lampenöl",
           "Seife"
         ],
-        "animal_food_and_care": "Bis auf Weiteres Johannas persönliche Ausgabe."
+        "animal_food_and_care": "Johanna legte später einen nicht bezifferten Rest für Futter zurück; Quelle und Höhe sind noch zu klären.",
+        "last_confirmed_balance": 12,
+        "last_confirmed_date": "2026-11-13",
+        "balance_status": "12 Silber waren am 2026-11-13 der letzte belegte Stand. Johanna stellte später einen nicht bezifferten Rest für Futter und Haushaltskasse zurück; aktueller Bestand offen.",
+        "current_balance": "unbekannt; späterer nicht bezifferter Zufluss und Ausgaben nicht vollständig verbucht"
       },
       "accommodation": {
         "location": "Hinterhaus in Silberklamm",
@@ -1423,21 +1624,30 @@
         "terms_source_status": "Hedda nannte diese Beträge bei ihrem Angebot.",
         "paid_to_date": "Nicht sicher belegt. Das Angebot war zunächst noch nicht angenommen und damals war noch nichts gezahlt; späterer Einzug ist bekannt, aber die Zahlung wurde nicht eindeutig festgehalten.",
         "rent_reserve_johanna": 8,
-        "rent_reserve_note": "Rücklage ist genannt, aber nicht als tatsächliche Miet- oder Kautionszahlung verbucht."
+        "rent_reserve_note": "Rücklage ist genannt, aber nicht als tatsächliche Miet- oder Kautionszahlung verbucht.",
+        "historical_status_note": "Der letzte detaillierte Mietdatensatz betrifft das Hinterhaus in Silberklamm. Jüngere Szenen nennen das Falkenrieder Bauernhaus; ob die Hofstelle gekauft, gemietet oder vorübergehend genutzt wird, ist in der verfügbaren Übergabe nicht eindeutig belegt.",
+        "ownership_or_tenure_current": "offen; nicht aus Bildtiteln allein ableiten"
       },
       "companions": {
         "Marta Eisenklang": {
-          "estimated_personal_balance": 5,
+          "estimated_personal_balance": null,
           "unit": "Silberstücke",
-          "status": "Schätzung für den Spielstand, nicht exakt belegt.",
-          "basis": "Letzter bekannter Auftragsanteil: 5 Silber. Keine späteren persönlichen Ausgaben bekannt; frühere Ersparnisse bleiben offen."
+          "status": "Ältere Spielleiter-Schätzung vom 2026-11-13; nach späteren Aufträgen und Ausgaben nicht mehr als aktueller Stand verwendbar. Aktueller Betrag unbekannt.",
+          "basis": "Letzter bekannter Auftragsanteil: 5 Silber. Keine späteren persönlichen Ausgaben bekannt; frühere Ersparnisse bleiben offen.",
+          "last_estimate_date": "2026-11-13",
+          "last_estimated_personal_balance": 5,
+          "current_balance": "unbekannt nach neueren Aufträgen/Ausgaben"
         },
         "Alva": {
-          "estimated_spendable_balance": 3,
-          "estimated_housing_reserve": 18,
+          "estimated_spendable_balance": null,
+          "estimated_housing_reserve": null,
           "unit": "Silberstücke",
-          "status": "Schätzung für den Spielstand, nicht exakt belegt.",
-          "basis": "Bisherige Erzählstände nennen 5 Silber Auftragsanteil, frühere 3 Silber Einnahme, 4 Silber Buße und 4 Silber Pumpenteile; außerdem wurde eine Wohnrücklage von 18 Silber erwähnt. Wegen fehlendem Anfangssaldo und unvollständiger Buchung wird ein kleiner freier Betrag von 3 Silber angenommen; die 18 Silber bleiben als vorläufige, separate Wohnrücklage markiert."
+          "status": "Ältere Spielleiter-Schätzung vom 2026-11-13; nach späteren Aufträgen und Ausgaben nicht mehr als aktueller Stand verwendbar. Aktueller Betrag unbekannt.",
+          "basis": "Bisherige Erzählstände nennen 5 Silber Auftragsanteil, frühere 3 Silber Einnahme, 4 Silber Buße und 4 Silber Pumpenteile; außerdem wurde eine Wohnrücklage von 18 Silber erwähnt. Wegen fehlendem Anfangssaldo und unvollständiger Buchung wird ein kleiner freier Betrag von 3 Silber angenommen; die 18 Silber bleiben als vorläufige, separate Wohnrücklage markiert.",
+          "last_estimate_date": "2026-11-13",
+          "last_estimated_spendable_balance": 3,
+          "last_estimated_housing_reserve": 18,
+          "current_balance": "unbekannt nach neueren Aufträgen/Ausgaben"
         }
       },
       "reconciliation_notes": [
@@ -1445,8 +1655,305 @@
         "Die Haushaltskasse von 12 Silber ist ein eigener gemeinsamer Betrag und wird Marta oder Alva nicht persönlich zugerechnet.",
         "Marta: 5 Silber ist eine vorsichtige Schätzung auf Basis ihres letzten bekannten Auftragsanteils; spätere Ausgaben sind nicht dokumentiert.",
         "Alva: 3 Silber frei verfügbar plus geschätzte 18 Silber Wohnrücklage sind provisorische Spielleiterwerte, keine vollständig belegte Buchführung.",
-        "Die Unterkunft wird bewohnt; die tatsächliche Zahlung von Monatsmiete und Kaution ist weiterhin nicht eindeutig protokolliert."
-      ]
+        "Die Unterkunft wird bewohnt; die tatsächliche Zahlung von Monatsmiete und Kaution ist weiterhin nicht eindeutig protokolliert.",
+        "Hofkauf-Rücklage: 110 Silber waren vor der Begegnung mit Wenke vorhanden; die frühere Angabe von 80 Silber war falsch.",
+        "Johannas spätere Zuweisung von 34 Silber an die Hofkasse ist als eigener Vorgang erfasst. Sie wird nicht von den 110 Silber Hofkauf-Rücklage abgezogen, weil die Herkunft der 34 Silber nicht feststeht.",
+        "Der genaue Restbetrag für Futter und Haushaltskasse wurde nicht genannt. Deshalb sind deren aktuelle Salden offen; der frühere Haushaltskassenstand von 12 Silber bleibt nur ein historischer Stand.",
+        "Johannas, Martas und Alvas persönliche aktuelle Salden sind nach späteren Aufträgen nicht vollständig belegbar. Frühere Stände/Schätzungen bleiben als historische Referenz erhalten, nicht als aktueller Kontostand."
+      ],
+      "farm_purchase_reserve": {
+        "last_confirmed_balance_before_wenke": 110,
+        "unit": "Silberstücke",
+        "status": "Vom Spieler ausdrücklich korrigiert: Vor der Begegnung mit Wenke waren 110 Silber für den Hofkauf zurückgelegt. Dieser Stand ersetzt die zuvor fälschlich angesetzten 80 Silber.",
+        "later_transactions": "Keine bestätigte Abbuchung aus dieser Rücklage ist dokumentiert. Johannas spätere 34-Silber-Zuweisung an die Hofkasse wird nicht davon abgezogen, da die Quelle der 34 Silber nicht eindeutig benannt wurde.",
+        "current_balance": null,
+        "current_balance_status": "Letzter bestätigter Betrag vor Wenke: 110 Silber; spätere Bewegungen nicht vollständig erfasst."
+      },
+      "hof_fund": {
+        "recorded_contribution": 34,
+        "unit": "Silberstücke",
+        "status": "Johanna schenkte der Hofkasse 34 Silber. Der vorherige Kassenstand und spätere Bewegungen sind nicht vollständig dokumentiert; deshalb wird kein Gesamtbestand errechnet.",
+        "intended_uses": [
+          "Hofunterhalt",
+          "Reparaturen",
+          "Neuanschaffungen",
+          "spätere faire Beteiligung weiterer Bewohnerinnen"
+        ],
+        "withdrawal_policy": "Als gemeinsamer Hof-Fonds gedacht; spätere Beteiligungs- und Auszahlungsregeln sind noch nicht vollständig festgelegt."
+      }
+    },
+    "relationship_state": "Johanna und die anwesenden erwachsenen Gefährtinnen bestätigten in einer gemeinsamen Szene gegenseitige Liebe und verbrachten die Nacht zusammen. Am Morgen bereitete Johanna Frühstück für alle. Das gilt als erzählter Beziehungsstand; einzelne Paarbindungen, Wohnentscheidungen und genaue Beziehungswerte werden nicht hinzuerfunden.",
+    "planned_dark_arc": {
+      "status": "Vom Spieler bestätigter Kampagnenplan; noch nicht ausgespielt und keine Figur vorgewarnt.",
+      "demon_king": {
+        "location": "Ein anderes Königreich, fern von Silberklamm und Falkenried.",
+        "goal": "Eroberung weiterer Länder.",
+        "methods": "Im bereits angegriffenen Land unterwirft und verzaubert er Menschen; die genaue Magie und ihre Grenzen bleiben als GM-Entwurf offen.",
+        "early_signs": "Nach einiger Zeit werden kleinere Orte und Städte im betroffenen Land überfallen. Die fünf Gefährtinnen erfahren davon zunächst nichts; die Bedrohung erreicht ihre Heimat noch nicht."
+      },
+      "farm_attack": {
+        "timing": "Nach einer längeren Phase des gemeinsamen Alltags; der Angriff ist ein drastischer Wendepunkt, kein unmittelbar bevorstehendes Ereignis.",
+        "attackers": "Eine mobile Bande von ungefähr 20 bis 30 ehemaligen Grenzsöldnern und Deserteuren aus dem vom Dämonenkönig eroberten Nachbarreich; Arbeitszahl 26, bis die Szene ausgearbeitet wird.",
+        "immediate_motive": "Sie suchen Vorräte, Beute und einen geschützten Stützpunkt. Der Anführer lässt Einschüchterung und sexualisierte Gewalt als Mittel der Unterwerfung zu. Einige Täter begehen den Übergriff, andere sichern Zugänge, plündern oder unterstützen wissentlich.",
+        "culpability": "Die Täter handeln nicht unter Gedankenkontrolle des Dämonenkönigs. Flucht, Vertreibung und Krieg erklären ihre Anwesenheit, entschuldigen ihre Entscheidungen und Verbrechen aber nicht.",
+        "victims": "Johanna, Marta, Alva, Wenke und Rika werden überfallen und sexualisierter Gewalt ausgesetzt. Alle fünf überleben; einige erleiden schwere Verletzungen. Sie wehren sich und töten einen Teil der Angreifer. Einige Verantwortliche können entkommen oder werden später verfolgt.",
+        "home": "Der Hof bleibt vergleichsweise wenig beschädigt und bleibt das Zuhause der fünf.",
+        "dramatic_function": "Ein harter Bruch des sicheren Alltags. Die Gruppe schwört, die Verantwortlichen zur Rechenschaft zu ziehen und nie wieder unvorbereitet zu sein. Der Angriff wird nicht als Beweis dargestellt, dass die Frauen zu schwach waren.",
+        "aftermath": "Erholung, Trauma und unterschiedliche Reaktionen werden ernst genommen und dauern an. Kampftraining und Dungeon-Aufträge geben den Frauen Handlungsmacht und Entwicklung, sind aber keine automatische Heilung und garantieren keine absolute Sicherheit.",
+        "demon_connection": "Indirekt: Die Söldnerbande wurde durch den Eroberungskrieg vertrieben. Die fünf verstehen den Zusammenhang zum Dämonenkönig nicht sofort; Hinweise und Erkenntnisse kommen viel später.",
+        "depiction": "Der Überfall und die Misshandlungen werden nicht detailliert oder grafisch erzählt. Die Geschichte springt über die Tat hinweg und richtet den Blick auf Überleben, Gegenwehr, unmittelbare Versorgung und die Folgen.",
+        "trauma_and_recovery": "Die Traumafolgen der fünf Frauen zeigen sich individuell und über Zeit: in Gesprächen, Wut, Rückzug, Unsicherheit, Nähe und selbst gewählten Schritten zurück in den Alltag. Sie müssen nicht gleich reagieren und werden nicht durch Training oder Rache automatisch geheilt.",
+        "solidarity": "Der gemeinsame Umgang mit dem Erlebten kann eine neue, bewusst aufgebaute Form des Zusammenhalts schaffen. Nähe wird nicht erzwungen; die Frauen bestimmen selbst, wann und wie sie darüber sprechen."
+      },
+      "campaign_shift": "Nach diesem Wendepunkt werden Dungeon-Missionen zunehmend auch als praktische Vorbereitung genutzt. Die Gruppe entwickelt sich Schritt für Schritt, bis sie sich dem Dämonenkönig entgegenstellen kann.",
+      "foreshadowing": "Noch offen: Hinweise dosieren, Tätergruppe/Überlebende festlegen und die genaue Verbindung zwischen Grenzkrieg, lokaler Unsicherheit und späterem Feldzug planen.",
+      "calendar_plan": {
+        "status": "Hintergrundfahrplan, noch nicht ausgespielt. Zeitfenster sind Orientierung, keine unverrückbaren Termine. Ereignisse benötigen passende Ursachen und dürfen sich durch die Kampagne verschieben.",
+        "phase_order": [
+          "Aufstieg und Festigung des Dämonenkönigs in einem entfernten Königreich",
+          "Eroberung und erste lokale Überfälle dort",
+          "Grenzunruhe und Flüchtlingsbewegungen in Nachbargebieten",
+          "Versprengte Söldner- und Deserteurgruppen ziehen durch weitere Länder",
+          "Sicherheitslage und Gerüchte erreichen allmählich die Gegend um Silberklamm",
+          "Die Bande greift den Hof an; erst danach wird die persönliche Rachegeschichte zum offenen Kampagnenfaden"
+        ],
+        "phases": [
+          {
+            "id": "DK-1",
+            "name": "Der ferne Umsturz",
+            "relative_window_days": [
+              0,
+              90
+            ],
+            "background": "Der Dämonenkönig gewinnt im entfernten Reich Einfluss, unterwirft wichtige Personen und sichert erste Machtzentren.",
+            "local_effect": "Keiner. Johanna und die Gefährtinnen wissen nichts davon."
+          },
+          {
+            "id": "DK-2",
+            "name": "Eroberung im Nachbarreich",
+            "relative_window_days": [
+              60,
+              180
+            ],
+            "background": "Verzauberte oder eingeschüchterte Amtsträger erleichtern die Machtübernahme. Kleinere Orte werden angegriffen; Verwaltung, Versorgung und Straßen geraten unter Druck.",
+            "local_effect": "Höchstens weit entfernte Gerüchte, wenn die Handlung ausdrücklich einen Informationsweg dorthin führt."
+          },
+          {
+            "id": "DK-3",
+            "name": "Unruhe an den Grenzen",
+            "relative_window_days": [
+              120,
+              270
+            ],
+            "background": "Benachbarte Herrschaften verstärken Wachen, kontrollieren Übergänge und nehmen Flüchtlinge auf. Handel wird unzuverlässiger; politische Schuldzuweisungen beginnen.",
+            "local_effect": "Noch keine direkte Gefahr am Hof. Erste indirekte Folgen können Preise, Aufträge oder Erzählungen von Reisenden betreffen."
+          },
+          {
+            "id": "DK-4",
+            "name": "Versprengte Banden",
+            "relative_window_days": [
+              210,
+              390
+            ],
+            "background": "Rückzüge, Auflösungen und Überläufe zerstreuen bewaffnete Gruppen. Manche suchen Arbeit oder Heimkehr; andere plündern. Die spätere Täterbande formiert sich aus ehemaligen Grenzsöldnern und Deserteuren.",
+            "local_effect": "Vereinzelte, zunächst nicht eindeutig zuordenbare Berichte in weiter entfernten Orten."
+          },
+          {
+            "id": "DK-5",
+            "name": "Die Krise wird spürbar",
+            "relative_window_days": [
+              330,
+              510
+            ],
+            "background": "Die Folgen erreichen Handelswege und kleinere Siedlungen der weiteren Region. Wachen und Gilden reagieren; unterschiedliche Gerüchte widersprechen einander.",
+            "local_effect": "Die Gruppe kann allgemeine Unsicherheit bemerken, erhält aber noch keine sichere Kenntnis vom Dämonenkönig oder dessen Urheberschaft."
+          },
+          {
+            "id": "DK-6",
+            "name": "Angriff auf den Hof",
+            "relative_window_days": [
+              420,
+              660
+            ],
+            "background": "Die mobile Bande von etwa 26 Tätern erreicht den Hof nach einer nachvollziehbaren Flucht- und Versorgungskette. Der Zeitpunkt wird erst gewählt, wenn genügend Alltag, Beziehungen und erzählerische Vorzeichen ausgespielt wurden.",
+            "local_effect": "Der geplante Wendepunkt. Nicht vor Ablauf von ungefähr 14 Kampagnenmonaten, außer der Spieler ändert den Plan ausdrücklich. Keine Vorwarnung durch den Kalender an die Figuren."
+          }
+        ],
+        "trigger_conditions_before_farm_attack": [
+          "Die Gruppe hat bereits eine längere sichere Alltagsphase erlebt.",
+          "Beziehungen und Eigenständigkeit aller fünf Gefährtinnen sind etabliert.",
+          "Es gab mehrere abgestufte, nicht zwingend miteinander verknüpfte Hinweise auf wachsende Unsicherheit.",
+          "Die Bande hat eine plausible Route und unmittelbaren Anlass, am Hof nach Vorräten oder Schutz zu suchen.",
+          "Der Angriff wird außerhalb der Szene abgeblendet; die Erzählung kehrt bei Überleben, Versorgung und selbstbestimmter Reaktion zurück."
+        ],
+        "gm_clock_rules": [
+          "Zeitfenster dürfen sich durch Spielerentscheidungen, Reisen, Aufträge und politische Entwicklungen verschieben.",
+          "Kein Ereignis tritt nur ein, weil ein Datum erreicht wurde; Ursachen und Informationswege müssen stimmen.",
+          "Die fünf Gefährtinnen erfahren zunächst nichts vom Dämonenkönig. Wissen verbreitet sich über konkrete Boten, Reisende, Briefe oder offizielle Maßnahmen.",
+          "Der Hof bleibt ihr Zuhause und vergleichsweise wenig beschädigt.",
+          "Eine Verschiebung nach hinten ist jederzeit möglich; der Angriff wird nicht als überraschende Pflichtszene erzwungen."
+        ]
+      }
+    },
+    "calendar": {
+      "name": "Kalender der Auenwelt",
+      "system": {
+        "year_length_days": 365,
+        "months_per_year": 13,
+        "days_per_month": 28,
+        "days_per_week": 7,
+        "weeks_per_month": 4,
+        "intercalary_days": 1,
+        "intercalary_rule": "Der einzige Tag außerhalb der 13 Monate ist Neujahr. Er wird im ganzen Land gefeiert. Das Jahr umfasst 364 Monatstage und Neujahr.",
+        "weekdays": [
+          "Erster Tag",
+          "Zweiter Tag",
+          "Dritter Tag",
+          "Vierter Tag",
+          "Fünfter Tag",
+          "Sechster Tag",
+          "Ruhetag"
+        ],
+        "seasons": {
+          "Blütenzeit": {
+            "months": [
+              1,
+              2,
+              3
+            ],
+            "count": 3
+          },
+          "Sonnenzeit": {
+            "months": [
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "count": 5
+          },
+          "Erntezeit": {
+            "months": [
+              9,
+              10,
+              11
+            ],
+            "count": 3
+          },
+          "Ruhezeit": {
+            "months": [
+              12,
+              13
+            ],
+            "count": 2
+          }
+        },
+        "months": [
+          {
+            "number": 1,
+            "season": "Blütenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Knospenmond"
+          },
+          {
+            "number": 2,
+            "season": "Blütenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Blütenmond"
+          },
+          {
+            "number": 3,
+            "season": "Blütenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Maienmond"
+          },
+          {
+            "number": 4,
+            "season": "Sonnenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Sonnenmond"
+          },
+          {
+            "number": 5,
+            "season": "Sonnenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Lichtmond"
+          },
+          {
+            "number": 6,
+            "season": "Sonnenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Hochsonnenmond"
+          },
+          {
+            "number": 7,
+            "season": "Sonnenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Heumond"
+          },
+          {
+            "number": 8,
+            "season": "Sonnenzeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Glutmond"
+          },
+          {
+            "number": 9,
+            "season": "Erntezeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Fruchtmond"
+          },
+          {
+            "number": 10,
+            "season": "Erntezeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Erntemond"
+          },
+          {
+            "number": 11,
+            "season": "Erntezeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Nebelmond"
+          },
+          {
+            "number": 12,
+            "season": "Ruhezeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Reifmond"
+          },
+          {
+            "number": 13,
+            "season": "Ruhezeit",
+            "name_status": "Vom Spieler bestätigt",
+            "name": "Frostmond"
+          }
+        ],
+        "year_end_day_name": "Neujahr",
+        "naming_status": "Die vier Jahreszeiten (Blütenzeit, Sonnenzeit, Erntezeit, Ruhezeit), ihre Verteilung und alle 13 Monatsnamen sind vom Spieler bestätigt.",
+        "year_end_festival": {
+          "name": "Neujahr",
+          "duration_days": 1,
+          "observance": "Wird im ganzen Land gefeiert.",
+          "week_counting": "Außerhalb der normalen Wochenzählung."
+        }
+      },
+      "tracking_policy": "Der Kalender läuft im Hintergrund. Im normalen Erzähltext erscheint das Datum nur, wenn es Orientierung gibt oder der Spieler danach fragt. Reisetage, Trainingswochen, Fristen, Jahreszeiten, Vorräte und parallele Ereignisse werden konsistent fortgeschrieben.",
+      "anchor": {
+        "absolute_date": "Noch nicht festgelegt.",
+        "relative_day": 0,
+        "description": "Die laufende Kampagne befindet sich im sechsten Monat, Hochsonnenmond. Der Monatstag und das Jahr sind noch unbekannt. Die Tageszählung ab dem nächsten tatsächlich ausgespielten Szenentag läuft relativ weiter; frühere Ereignisse werden nicht rückwirkend datiert."
+      },
+      "current_clock": {
+        "campaign_day": 0,
+        "weekday_index": null,
+        "month_index": 6,
+        "month_day": null,
+        "year": null,
+        "season": "Sonnenzeit",
+        "note": "Bekannt ist der sechste Monat (Hochsonnenmond); Monatstag und Jahr sind noch unbekannt. Neujahr liegt außerhalb der Monats- und Wochenzählung.",
+        "month_name": "Hochsonnenmond"
+      }
     }
   },
   "reference_materials": {
@@ -1496,6 +2003,42 @@
         "source": "Goblin-Technikerin in der Uhrwerkstatt.png",
         "status": "Finale Bildreferenz vom Spieler am 2026-11-12 bestätigt; Alva ist 24 Jahre alt.",
         "library_file_id": "libfile_4eb32725e8088191920c67db17748be0"
+      },
+      {
+        "character": "Johanna",
+        "source": "Johannas grauer Reiseumhang im Innenhof.png",
+        "library_file_id": "libfile_87fecf407c608191b20e58fee0d00099",
+        "status": "Vom Spieler bestätigt: gekaufter langer grauer Umhang, kein Mantel; Referenz für Outfit und Größe 175 cm."
+      },
+      {
+        "character": "Johanna, Marta Eisenklang und Alva",
+        "source": "Drei Fantasy-Gefährtinnen im Größenvergleich.png",
+        "library_file_id": "libfile_9163fce591d08191b88ab73a99a147e1",
+        "status": "Vom Spieler bestätigt: Johanna 175 cm, Marta 140 cm, Alva 110 cm."
+      },
+      {
+        "character": "Marta Eisenklang",
+        "source": "Zwergenhandwerkerin mit Rettungshammer an der Tür.png",
+        "library_file_id": "libfile_0ecd596c18a48191ad18125587205c82",
+        "status": "Bestätigte Optik und Größenbezug (140 cm)."
+      },
+      {
+        "character": "Wenke",
+        "source": "Steinmetzin mit grauem Zopf.png",
+        "library_file_id": "libfile_8729ca13074081919a20d649475c5b63",
+        "status": "Vom Spieler als perfekt bestätigt; Bildreferenz für steingraues Haar, 190 cm, sportliche Statur und Steinmetzausrüstung."
+      },
+      {
+        "character": "Rika",
+        "source": "Rika, Schwertkämpferin im dunklen Plattenharnisch.png",
+        "library_file_id": "libfile_83d65ab459c88191aa1ac675946d01ab",
+        "status": "Vom Spieler bestätigt; finale Kampfoptik mit dunkler Rüstung, Schulter-/Bauchschutz, Brustpanzer und Kettenrock."
+      },
+      {
+        "character": "Rika",
+        "source": "Rika im warmen Hoflicht.png",
+        "library_file_id": "libfile_febd58af90b081919b27337d16bbf2ce",
+        "status": "Vom Spieler bestätigt; Alltagskleidung und Referenz für blonde Frisur und Narbe."
       }
     ],
     "location_references": [],
@@ -1703,6 +2246,41 @@
     {
       "date": "2026-11-13",
       "change": "Johannas 8-Silber-Mietrücklage als zusätzlich zum freien Saldo von 16 Silber bestätigt; vorsichtige, klar markierte persönliche Kassen-Schätzungen für Marta und Alva eingetragen."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Kiesel korrigiert: Seine frühere dachsartige Darstellung wird durch die bestätigte Gestalt einer sehr großen Katze ersetzt. Frühere Annahme, ein eigener Dungeon-Stollenwühler bleibe unberührt, wurde mit der späteren konkreten Kreaturenkorrektur überholt."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "2026-11-14: Johanna/Marta/Alva-Größen, Johannas gekaufter grauer Reiseumhang und Lauftraining ergänzt; Wenke und Rika als bestätigte Figuren mit Bildreferenzen ergänzt; Kiesels dachsartige Darstellung zu sehr großer Katze korrigiert; 110-Silber-Hofkaufrücklage und 34-Silber-Hofkassenbeitrag getrennt verbucht; nicht belegte aktuelle Geldstände ausdrücklich offen markiert."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "2026-11-14: Aktuelle Tagesroutine (Arbeit, Tierpflege, Training, gemeinsame Zeit), kurzes Lauftraining, Kampftraining mit Fokus Schnelligkeit/Messer und gemeinsame Liebesszene mit Frühstück ergänzt. Folgen nicht überlieferter Menüoptionen bleiben offen; Besitzstatus des Falkenrieder Bauernhauses zur Klärung markiert."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Düsterer Handlungsbogen als noch nicht ausgespielter Plan ergänzt: Dämonenkönig in fernem Königreich; vertriebene Söldner/Deserteure als indirekte Folge; späterer Hofüberfall; Überleben, Gegenwehr, schwere Verletzungen, Rache und langsame Dungeon-/Kampfentwicklung."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Erzählgrenze zum geplanten Überfall ergänzt: keine grafischen Details; individuelle Traumafolgen über Gespräche, Wut, freiwillige Nähe und neu entstehenden Zusammenhalt."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Kalendersystem und flexiblen Phasenfahrplan des Dämonenkönig-Plotbogens ergänzt. Relative Zeitanker statt erfundener absoluter Datierung; Hofüberfall frühestens nach etwa 14 Kampagnenmonaten und triggerbasiert.",
+      "reason": "Zeitliche Kontinuität und nachvollziehbare Entwicklung der Königreiche im Hintergrund sichern."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Hintergrundkalender auf 13 Monate zu je 28 Tagen aktualisiert und laufenden Monat auf Monat 6 gesetzt.",
+      "reason": "Neue Kalenderpräferenz des Spielers; die fünfmonatige Sonnenzeit wird berücksichtigt."
+    },
+    {
+      "date": "2026-11-14",
+      "change": "Alle 13 Monatsnamen als bestätigt markiert; Jahreswendetag auf Neujahr umbenannt und landesweite Feier eingetragen.",
+      "reason": "Ausdrückliche Festlegung des Spielers."
     }
   ]
 }
