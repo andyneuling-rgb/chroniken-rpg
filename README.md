@@ -24,7 +24,7 @@ Die vier eingebetteten Karten sind ältere **Entwürfe**. Es liegt keine aktuell
 ## Spielen und Sicherung
 Die App speichert Spielzüge nur lokal im Browser. Regelmäßig unter **Sichern** ein JSON-Backup exportieren. Wenn du den Cache löschst oder das Gerät wechselst, gehen lokale Daten sonst möglicherweise verloren.
 
-Die KI ist noch **nicht automatisch angebunden**. Du kannst den erweiterten Kontext aus der App nach ChatGPT oder Gemini kopieren, die Erzählung dort als JSON generieren lassen und in die App zurück übernehmen. Niemals einen geheimen API-Schlüssel direkt in `index.html` speichern.
+**Die automatische KI-Anbindung ist im Code vorbereitet, aber noch nicht freigeschaltet.** Unter **Sichern → KI-Spielleiter direkt in der App** kannst du nach einmaliger Cloudflare-Worker-Einrichtung eine direkte Gemini-Verbindung prüfen. Anleitung: [`server/ANLEITUNG.md`](server/ANLEITUNG.md); Proxy: [`server/cloudflare-worker.js`](server/cloudflare-worker.js). Bis dahin kannst du den erweiterten Kontext nach ChatGPT oder Gemini kopieren und die Erzählung als JSON übernehmen. Niemals einen geheimen Gemini-API-Schlüssel in `index.html` speichern.
 
 ## Veröffentlichung
 Für GitHub Pages unter **Settings → Pages** als Quelle **Deploy from a branch**, `main`, `/(root)` einstellen. Erwartete URL: `https://andyneuling-rgb.github.io/chroniken-rpg/`.
